@@ -3,18 +3,85 @@ import ollama
 from tqdm import tqdm
 import os
 import re 
-
+from concurrent.futures import ThreadPoolExecutor, as_completed
 # --- 配置 ---
 INPUT_FILE = 'Sample_Set/NatS_20250407.json' #自然语料库，可以改成人工的
 OUTPUT_FILE = 'predictions.json'
 OLLAMA_MODEL = 'qwen2:7b'
-
+NUM_WORKERS = 4  # 并行线程数
+NUM_SAMPLES = 5  # 每次生成的样本数量
 # 获取脚本所在的目录
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_FILE_PATH = os.path.join(SCRIPT_DIR, INPUT_FILE)
 OUTPUT_FILE_PATH = os.path.join(SCRIPT_DIR, OUTPUT_FILE)
+def process_item(item):
+    NUM_SAMPLES = 5  # 每次生成的样本数量
+    d_id = item.get('d_id')
+    text = item.get('text')
+    hypothesis = item.get('hypothesis')
 
+    if d_id is None or text is None or hypothesis is None:
+        print(f"警告：跳过缺少 'd_id', 'text', 或 'hypothesis' 的记录: {item}")
+        return None
 
+    prompt = PROMPT_TEMPLATE.format(text=text, hypothesis=hypothesis)
+
+    predicted_answer = 'Error'  # 默认值以防 API 调用失败
+    sample_results = []  # 存储每次生成的结果
+    try:
+        for _ in range(NUM_SAMPLES):
+            # 调用模型生成单个结果
+            response = client.chat(model=OLLAMA_MODEL, messages=[
+                {'role': 'user', 'content': prompt}
+            ])
+            answer_raw = response['message']['content'].strip()
+
+            # --- 答案解析逻辑 ---
+            if answer_raw in ['T', 'F', 'U', 'R']:
+                answer = answer_raw
+            else:
+                match = re.search(r"^[TFUR]\b|\b[TFUR]$", answer_raw, re.IGNORECASE)
+                if match:
+                    answer = match.group(0).upper()
+                else:
+                    answer = 'Invalid'
+
+            # 自我批判机制
+            critique_prompt = f"""
+            以下是模型对当前任务生成的结果：
+            背景句：{text}
+            结论句：{hypothesis}
+            生成的结果：{answer}
+
+            请结合文本推理的步骤分析该结果是否合理，并给出最终的判断（只能是 T、F 或 U）。如果结果不合理，请说明原因并选择最合理的答案。
+            """
+            critique_response = client.chat(model=OLLAMA_MODEL, messages=[
+                {'role': 'user', 'content': critique_prompt}
+            ])
+            final_answer_raw = critique_response['message']['content'].strip()
+
+            # 解析最终答案
+            if final_answer_raw in ['T', 'F', 'U']:
+                predicted_answer = final_answer_raw
+            else:
+                match = re.search(r"^[TFU]\b|\b[TFU]$", final_answer_raw, re.IGNORECASE)
+                if match:
+                    predicted_answer = match.group(0).upper()
+                else:
+                    predicted_answer = 'Invalid'
+
+            # 保存每次批判后的结果
+            sample_results.append(answer)
+    except Exception as e:
+        print(f"错误：调用 Ollama API 时出错 (d_id: {d_id}): {e}")
+        predicted_answer = 'Error' # 标记 API 调用错误
+    votes = {'T': 0, 'F': 0, 'U': 0, 'Invalid': 0, 'Error': 0}
+    for result in sample_results:
+        if result in votes:
+            votes[result] += 1
+      # 选择出现最多的答案作为最终答案
+    final_answer = max(votes, key=votes.get)
+    return {'d_id': d_id, 'answer': final_answer}
 # --- 导数据 ---
 try:
     with open(INPUT_FILE_PATH, 'r', encoding='utf-8') as f:
@@ -203,82 +270,94 @@ PROMPT_TEMPLATE = """
 # --- 预测 ---
 results = []
 original_answers = {} 
-print(f"使用模型 '{OLLAMA_MODEL}' 处理 {len(data)} 条记录...")
 
-# --- 配置 ---
-NUM_SAMPLES = 5  # 每次生成的样本数量
+
+results = []
+with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
+    futures = {executor.submit(process_item, item): item for item in data}
+    print(f"使用模型 '{OLLAMA_MODEL}' 处理 {len(data)} 条记录...")
+    for future in tqdm(as_completed(futures), total=len(data), desc="Processing"):
+        try:
+            result = future.result()
+            if result:
+                results.append(result)
+        except Exception as e:
+            print(f"处理记录时出错: {e}")
 
 # --- 修改预测逻辑 ---
 for item in tqdm(data, desc="Predicting"):
-    d_id = item.get('d_id')
-    text = item.get('text')
-    hypothesis = item.get('hypothesis')
+    process_item(item)
+    # d_id = item.get('d_id')
+    # text = item.get('text')
+    # hypothesis = item.get('hypothesis')
 
-    if d_id is None or text is None or hypothesis is None:
-        print(f"警告：跳过缺少 'd_id', 'text', 或 'hypothesis' 的记录: {item}")
-        continue
+    # if d_id is None or text is None or hypothesis is None:
+    #     print(f"警告：跳过缺少 'd_id', 'text', 或 'hypothesis' 的记录: {item}")
+    #     continue
 
-    prompt = PROMPT_TEMPLATE.format(text=text, hypothesis=hypothesis)
+    # prompt = PROMPT_TEMPLATE.format(text=text, hypothesis=hypothesis)
 
-    predicted_answer = 'Error'  # 默认值以防 API 调用失败
-    sample_results = []  # 存储每次生成的结果
-    try:
-        for _ in range(NUM_SAMPLES):
-            # 调用模型生成单个结果
-            response = client.chat(model=OLLAMA_MODEL, messages=[
-                {'role': 'user', 'content': prompt}
-            ])
-            answer_raw = response['message']['content'].strip()
+    # predicted_answer = 'Error'  # 默认值以防 API 调用失败
+    # sample_results = []  # 存储每次生成的结果
+    # try:
+    #     for _ in range(NUM_SAMPLES):
+    #         # 调用模型生成单个结果
+    #         response = client.chat(model=OLLAMA_MODEL, messages=[
+    #             {'role': 'user', 'content': prompt}
+    #         ])
+    #         answer_raw = response['message']['content'].strip()
 
-            # --- 答案解析逻辑 ---
-            if answer_raw in ['T', 'F', 'U', 'R']:
-                answer = answer_raw
-            else:
-                match = re.search(r"^[TFUR]\b|\b[TFUR]$", answer_raw, re.IGNORECASE)
-                if match:
-                    answer = match.group(0).upper()
-                else:
-                    answer = 'Invalid'
+    #         # --- 答案解析逻辑 ---
+    #         if answer_raw in ['T', 'F', 'U', 'R']:
+    #             answer = answer_raw
+    #         else:
+    #             match = re.search(r"^[TFUR]\b|\b[TFUR]$", answer_raw, re.IGNORECASE)
+    #             if match:
+    #                 answer = match.group(0).upper()
+    #             else:
+    #                 answer = 'Invalid'
 
-            # 自我批判机制
-            critique_prompt = f"""
-            以下是模型对当前任务生成的结果：
-            背景句：{text}
-            结论句：{hypothesis}
-            生成的结果：{answer}
+    #         # 自我批判机制
+    #         critique_prompt = f"""
+    #         以下是模型对当前任务生成的结果：
+    #         背景句：{text}
+    #         结论句：{hypothesis}
+    #         生成的结果：{answer}
 
-            请分析该结果是否合理，并给出最终的判断（只能是 T、F 或 U）。如果结果不合理，请说明原因并选择最合理的答案。
-            """
-            critique_response = client.chat(model=OLLAMA_MODEL, messages=[
-                {'role': 'user', 'content': critique_prompt}
-            ])
-            final_answer_raw = critique_response['message']['content'].strip()
+    #         请结合文本推理的步骤分析该结果是否合理，并给出最终的判断（只能是 T、F 或 U）。如果结果不合理，请说明原因并选择最合理的答案。
+    #         """
+    #         critique_response = client.chat(model=OLLAMA_MODEL, messages=[
+    #             {'role': 'user', 'content': critique_prompt}
+    #         ])
+    #         final_answer_raw = critique_response['message']['content'].strip()
 
-            # 解析最终答案
-            if final_answer_raw in ['T', 'F', 'U']:
-                predicted_answer = final_answer_raw
-            else:
-                match = re.search(r"^[TFU]\b|\b[TFU]$", final_answer_raw, re.IGNORECASE)
-                if match:
-                    predicted_answer = match.group(0).upper()
-                else:
-                    predicted_answer = 'Invalid'
+    #         # 解析最终答案
+    #         if final_answer_raw in ['T', 'F', 'U']:
+    #             predicted_answer = final_answer_raw
+    #         else:
+    #             match = re.search(r"^[TFU]\b|\b[TFU]$", final_answer_raw, re.IGNORECASE)
+    #             if match:
+    #                 predicted_answer = match.group(0).upper()
+    #             else:
+    #                 predicted_answer = 'Invalid'
 
-            # 保存每次批判后的结果
-            sample_results.append(answer)
-    except Exception as e:
-        print(f"错误：调用 Ollama API 时出错 (d_id: {d_id}): {e}")
-        predicted_answer = 'Error' # 标记 API 调用错误
-    votes = {'T': 0, 'F': 0, 'U': 0, 'Invalid': 0, 'Error': 0}
-    for result in sample_results:
-        if result in votes:
-            votes[result] += 1
-      # 选择出现最多的答案作为最终答案
-    final_answer = max(votes, key=votes.get)
-    
-    results.append({'d_id': d_id, 'answer': predicted_answer})
+    #         # 保存每次批判后的结果
+    #         sample_results.append(answer)
+    # except Exception as e:
+    #     print(f"错误：调用 Ollama API 时出错 (d_id: {d_id}): {e}")
+    #     predicted_answer = 'Error' # 标记 API 调用错误
+    # votes = {'T': 0, 'F': 0, 'U': 0, 'Invalid': 0, 'Error': 0}
+    # for result in sample_results:
+    #     if result in votes:
+    #         votes[result] += 1
+    #   # 选择出现最多的答案作为最终答案
+    # final_answer = max(votes, key=votes.get)
+
+    # # 处理最终答案
+    # results.append({'d_id': d_id, 'answer': predicted_answer})
 
 # --- 计算准确率 ---
+
 correct_count = 0
 t_f_u_prediction_count = 0 # 分母：模型做出了T/F/U预测的数量
 r_prediction_count = 0     # 模型预测为 R 的数量
