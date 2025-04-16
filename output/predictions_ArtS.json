@@ -97,7 +97,7 @@
     },
     {
         "d_id": "ArtS_025",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_026",
@@ -133,7 +133,7 @@
     },
     {
         "d_id": "ArtS_034",
-        "answer": "T"
+        "answer": "U"
     },
     {
         "d_id": "ArtS_035",
@@ -193,11 +193,11 @@
     },
     {
         "d_id": "ArtS_049",
-        "answer": "U"
+        "answer": "T"
     },
     {
         "d_id": "ArtS_050",
-        "answer": "T"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_051",
@@ -273,7 +273,7 @@
     },
     {
         "d_id": "ArtS_069",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_070",
@@ -313,7 +313,7 @@
     },
     {
         "d_id": "ArtS_079",
-        "answer": "F"
+        "answer": "T"
     },
     {
         "d_id": "ArtS_080",
@@ -329,7 +329,7 @@
     },
     {
         "d_id": "ArtS_083",
-        "answer": "T"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_084",
@@ -345,7 +345,7 @@
     },
     {
         "d_id": "ArtS_087",
-        "answer": "T"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_088",
@@ -393,7 +393,7 @@
     },
     {
         "d_id": "ArtS_099",
-        "answer": "T"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_100",
@@ -417,15 +417,15 @@
     },
     {
         "d_id": "ArtS_105",
-        "answer": "F"
+        "answer": "T"
     },
     {
         "d_id": "ArtS_106",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_107",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_108",
@@ -469,7 +469,7 @@
     },
     {
         "d_id": "ArtS_118",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_119",
@@ -497,7 +497,7 @@
     },
     {
         "d_id": "ArtS_125",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_126",
@@ -557,11 +557,11 @@
     },
     {
         "d_id": "ArtS_140",
-        "answer": "F"
+        "answer": "T"
     },
     {
         "d_id": "ArtS_141",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_142",
@@ -589,7 +589,7 @@
     },
     {
         "d_id": "ArtS_148",
-        "answer": "U"
+        "answer": "T"
     },
     {
         "d_id": "ArtS_149",
@@ -765,7 +765,7 @@
     },
     {
         "d_id": "ArtS_192",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_193",
@@ -789,7 +789,7 @@
     },
     {
         "d_id": "ArtS_198",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_199",
@@ -813,7 +813,7 @@
     },
     {
         "d_id": "ArtS_204",
-        "answer": "T"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_205",
@@ -905,7 +905,7 @@
     },
     {
         "d_id": "ArtS_227",
-        "answer": "T"
+        "answer": "U"
     },
     {
         "d_id": "ArtS_228",
@@ -993,7 +993,7 @@
     },
     {
         "d_id": "ArtS_249",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_250",
@@ -1069,7 +1069,7 @@
     },
     {
         "d_id": "ArtS_268",
-        "answer": "F"
+        "answer": "T"
     },
     {
         "d_id": "ArtS_269",
@@ -1077,7 +1077,7 @@
     },
     {
         "d_id": "ArtS_270",
-        "answer": "T"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_271",
@@ -1097,7 +1097,7 @@
     },
     {
         "d_id": "ArtS_275",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_276",
@@ -1141,7 +1141,7 @@
     },
     {
         "d_id": "ArtS_286",
-        "answer": "U"
+        "answer": "T"
     },
     {
         "d_id": "ArtS_287",
@@ -1157,7 +1157,7 @@
     },
     {
         "d_id": "ArtS_290",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_291",
@@ -1165,7 +1165,7 @@
     },
     {
         "d_id": "ArtS_292",
-        "answer": "T"
+        "answer": "F"
     },
     {
         "d_id": "ArtS_293",
