@@ -1,0 +1,27 @@
+Requirement already satisfied: transformers in d:\anaconda\envs\ccl25\lib\site-packages (4.50.0)
+Collecting transformers
+  Using cached transformers-4.51.3-py3-none-any.whl.metadata (38 kB)
+Requirement already satisfied: filelock in d:\anaconda\envs\ccl25\lib\site-packages (from transformers) (3.18.0)
+Requirement already satisfied: huggingface-hub<1.0,>=0.30.0 in d:\anaconda\envs\ccl25\lib\site-packages (from transformers) (0.30.2)
+Requirement already satisfied: numpy>=1.17 in d:\anaconda\envs\ccl25\lib\site-packages (from transformers) (1.26.4)
+Requirement already satisfied: packaging>=20.0 in d:\anaconda\envs\ccl25\lib\site-packages (from transformers) (24.2)
+Requirement already satisfied: pyyaml>=5.1 in d:\anaconda\envs\ccl25\lib\site-packages (from transformers) (6.0.2)
+Requirement already satisfied: regex!=2019.12.17 in d:\anaconda\envs\ccl25\lib\site-packages (from transformers) (2024.11.6)
+Requirement already satisfied: requests in d:\anaconda\envs\ccl25\lib\site-packages (from transformers) (2.32.3)
+Requirement already satisfied: tokenizers<0.22,>=0.21 in d:\anaconda\envs\ccl25\lib\site-packages (from transformers) (0.21.0)
+Requirement already satisfied: safetensors>=0.4.3 in d:\anaconda\envs\ccl25\lib\site-packages (from transformers) (0.5.3)
+Requirement already satisfied: tqdm>=4.27 in d:\anaconda\envs\ccl25\lib\site-packages (from transformers) (4.67.1)
+Requirement already satisfied: fsspec>=2023.5.0 in d:\anaconda\envs\ccl25\lib\site-packages (from huggingface-hub<1.0,>=0.30.0->transformers) (2024.12.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in d:\anaconda\envs\ccl25\lib\site-packages (from huggingface-hub<1.0,>=0.30.0->transformers) (4.13.2)
+Requirement already satisfied: colorama in d:\anaconda\envs\ccl25\lib\site-packages (from tqdm>=4.27->transformers) (0.4.6)
+Requirement already satisfied: charset-normalizer<4,>=2 in d:\anaconda\envs\ccl25\lib\site-packages (from requests->transformers) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in d:\anaconda\envs\ccl25\lib\site-packages (from requests->transformers) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in d:\anaconda\envs\ccl25\lib\site-packages (from requests->transformers) (2.4.0)
+Requirement already satisfied: certifi>=2017.4.17 in d:\anaconda\envs\ccl25\lib\site-packages (from requests->transformers) (2025.1.31)
+Using cached transformers-4.51.3-py3-none-any.whl (10.4 MB)
+Installing collected packages: transformers
+  Attempting uninstall: transformers
+    Found existing installation: transformers 4.50.0
+    Uninstalling transformers-4.50.0:
+      Successfully uninstalled transformers-4.50.0
+Successfully installed transformers-4.51.3
