@@ -29,7 +29,7 @@
     },
     {
         "d_id": "NatS_008",
-        "answer": "F"
+        "answer": "T"
     },
     {
         "d_id": "NatS_009",
@@ -41,7 +41,7 @@
     },
     {
         "d_id": "NatS_011",
-        "answer": "U"
+        "answer": "T"
     },
     {
         "d_id": "NatS_012",
@@ -205,7 +205,7 @@
     },
     {
         "d_id": "NatS_052",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "NatS_053",
@@ -545,7 +545,7 @@
     },
     {
         "d_id": "NatS_137",
-        "answer": "F"
+        "answer": "U"
     },
     {
         "d_id": "NatS_138",
@@ -589,7 +589,7 @@
     },
     {
         "d_id": "NatS_148",
-        "answer": "T"
+        "answer": "U"
     },
     {
         "d_id": "NatS_149",
@@ -741,7 +741,7 @@
     },
     {
         "d_id": "NatS_186",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "NatS_187",
@@ -773,7 +773,7 @@
     },
     {
         "d_id": "NatS_194",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "NatS_195",
@@ -797,7 +797,7 @@
     },
     {
         "d_id": "NatS_200",
-        "answer": "T"
+        "answer": "F"
     },
     {
         "d_id": "NatS_201",
@@ -857,7 +857,7 @@
     },
     {
         "d_id": "NatS_215",
-        "answer": "F"
+        "answer": "T"
     },
     {
         "d_id": "NatS_216",
@@ -877,7 +877,7 @@
     },
     {
         "d_id": "NatS_220",
-        "answer": "T"
+        "answer": "F"
     },
     {
         "d_id": "NatS_221",
@@ -1057,7 +1057,7 @@
     },
     {
         "d_id": "NatS_265",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "NatS_266",
@@ -1237,7 +1237,7 @@
     },
     {
         "d_id": "NatS_310",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "NatS_311",
@@ -1301,7 +1301,7 @@
     },
     {
         "d_id": "NatS_326",
-        "answer": "F"
+        "answer": "U"
     },
     {
         "d_id": "NatS_327",
@@ -1345,7 +1345,7 @@
     },
     {
         "d_id": "NatS_337",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "NatS_338",
@@ -1493,7 +1493,7 @@
     },
     {
         "d_id": "NatS_374",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "NatS_375",
@@ -1529,7 +1529,7 @@
     },
     {
         "d_id": "NatS_383",
-        "answer": "T"
+        "answer": "F"
     },
     {
         "d_id": "NatS_384",
@@ -1557,7 +1557,7 @@
     },
     {
         "d_id": "Nat_2800",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "NatS_391",
@@ -2245,7 +2245,7 @@
     },
     {
         "d_id": "NatS_562",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "NatS_563",
@@ -2253,7 +2253,7 @@
     },
     {
         "d_id": "NatS_564",
-        "answer": "F"
+        "answer": "T"
     },
     {
         "d_id": "NatS_565",
@@ -2313,7 +2313,7 @@
     },
     {
         "d_id": "NatS_579",
-        "answer": "U"
+        "answer": "T"
     },
     {
         "d_id": "NatS_580",
@@ -2345,7 +2345,7 @@
     },
     {
         "d_id": "NatS_587",
-        "answer": "T"
+        "answer": "F"
     },
     {
         "d_id": "NatS_588",
@@ -2365,7 +2365,7 @@
     },
     {
         "d_id": "NatS_592",
-        "answer": "F"
+        "answer": "T"
     },
     {
         "d_id": "NatS_593",
@@ -2417,7 +2417,7 @@
     },
     {
         "d_id": "NatS_605",
-        "answer": "U"
+        "answer": "T"
     },
     {
         "d_id": "NatS_606",
@@ -2429,7 +2429,7 @@
     },
     {
         "d_id": "NatS_608",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "NatS_609",
@@ -2461,7 +2461,7 @@
     },
     {
         "d_id": "NatS_616",
-        "answer": "U"
+        "answer": "F"
     },
     {
         "d_id": "NatS_617",
@@ -2489,11 +2489,11 @@
     },
     {
         "d_id": "NatS_623",
-        "answer": "T"
+        "answer": "F"
     },
     {
         "d_id": "NatS_624",
-        "answer": "F"
+        "answer": "T"
     },
     {
         "d_id": "NatS_625",
@@ -2533,7 +2533,7 @@
     },
     {
         "d_id": "NatS_634",
-        "answer": "F"
+        "answer": "U"
     },
     {
         "d_id": "NatS_635",
@@ -2657,7 +2657,7 @@
     },
     {
         "d_id": "NatS_665",
-        "answer": "T"
+        "answer": "F"
     },
     {
         "d_id": "NatS_666",

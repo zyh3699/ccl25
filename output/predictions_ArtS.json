@@ -1,0 +1,3208 @@
+[
+    {
+        "d_id": "NatS_001",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_002",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_003",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_004",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_005",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_006",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_007",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_008",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_009",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_010",
+        "answer": "T"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_011",
+        "answer": "U"
+=======
+        "d_id": "ArtS_012",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_013",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_014",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_015",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_016",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_017",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_018",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_019",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_020",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_021",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_022",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_023",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_024",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_025",
+        "answer": "F"
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+    },
+    {
+        "d_id": "NatS_012",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_013",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_014",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_015",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_016",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_017",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_018",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_019",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_020",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_021",
+        "answer": "F"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_022",
+=======
+        "d_id": "ArtS_033",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_034",
+        "answer": "U"
+    },
+    {
+        "d_id": "ArtS_035",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_036",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_037",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_038",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_039",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_040",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_041",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_042",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_043",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_044",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_045",
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+        "answer": "U"
+    },
+    {
+        "d_id": "NatS_023",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_024",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_025",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_026",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_027",
+        "answer": "F"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_028",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_029",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_030",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_031",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_032",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_033",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_034",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_035",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_036",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_037",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_038",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_039",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_040",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_041",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_042",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_043",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_044",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_045",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_046",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_047",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_048",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_049",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_050",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_051",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_052",
+        "answer": "U"
+    },
+    {
+        "d_id": "NatS_053",
+=======
+        "d_id": "ArtS_049",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_050",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_051",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_052",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_053",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_054",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_055",
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_054",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_055",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_056",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_057",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_058",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_059",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_060",
+        "answer": "F"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_061",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_062",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_063",
+        "answer": "U"
+    },
+    {
+        "d_id": "NatS_064",
+=======
+        "d_id": "ArtS_069",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_070",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_071",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_072",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_073",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_074",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_075",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_076",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_077",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_078",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_079",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_080",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_081",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_082",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_083",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_084",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_085",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_086",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_087",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_088",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_089",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_090",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_091",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_092",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_093",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_094",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_095",
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+        "answer": "U"
+    },
+    {
+        "d_id": "NatS_065",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_066",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_067",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_068",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_069",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_070",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_071",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_072",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_073",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_074",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_075",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_076",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_077",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_078",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_079",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_080",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_081",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_082",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_083",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_084",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_085",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_086",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_087",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_088",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_089",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_090",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_091",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_092",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_093",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_094",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_095",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_096",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_097",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_098",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_099",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_100",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_101",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_102",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_103",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_104",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_105",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_106",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_107",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_108",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_109",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_110",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_111",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_112",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_113",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_114",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_115",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_116",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_117",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_118",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_119",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_120",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_121",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_122",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_123",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_124",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_125",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_126",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_127",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_128",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_129",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_130",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_131",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_132",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_133",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_134",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_135",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_136",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_137",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_138",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_139",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_140",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_141",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_142",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_143",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_144",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_145",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_146",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_147",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_148",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_149",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_150",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_151",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_152",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_153",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_154",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_155",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_156",
+        "answer": "U"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_157",
+        "answer": "T"
+=======
+        "d_id": "ArtS_097",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_098",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_099",
+        "answer": "F"
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+    },
+    {
+        "d_id": "NatS_158",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_159",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_160",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_161",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_162",
+        "answer": "F"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_163",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_164",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_165",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_166",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_167",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_168",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_169",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_170",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_171",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_172",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_173",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_174",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_175",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_176",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_177",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_178",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_179",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_180",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_181",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_182",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_183",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_184",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_185",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_186",
+        "answer": "U"
+    },
+    {
+        "d_id": "NatS_187",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_188",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_189",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_190",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_191",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_192",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_193",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_194",
+        "answer": "U"
+=======
+        "d_id": "ArtS_105",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_106",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_107",
+        "answer": "F"
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+    },
+    {
+        "d_id": "NatS_195",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_196",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_197",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_198",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_199",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_200",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_201",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_202",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_203",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_204",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_205",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_206",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_207",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_208",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_209",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_210",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_211",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_212",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_213",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_214",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_215",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_216",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_217",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_218",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_219",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_220",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_221",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_222",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_223",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_224",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_225",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_226",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_227",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_228",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_229",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_230",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_231",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_232",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_233",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_234",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_235",
+        "answer": "U"
+    },
+    {
+        "d_id": "NatS_236",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_237",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_238",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_239",
+        "answer": "F"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_240",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_241",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_242",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_243",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_244",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_245",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_246",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_247",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_248",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_249",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_250",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_251",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_252",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_253",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_254",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_255",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_256",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_257",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_258",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_259",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_260",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_261",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_262",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_263",
+        "answer": "U"
+=======
+        "d_id": "ArtS_118",
+        "answer": "F"
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+    },
+    {
+        "d_id": "NatS_264",
+        "answer": "T"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_265",
+        "answer": "U"
+=======
+        "d_id": "ArtS_122",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_123",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_124",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_125",
+        "answer": "F"
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+    },
+    {
+        "d_id": "NatS_266",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_267",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_268",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_269",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_270",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_271",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_272",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_273",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_274",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_275",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_276",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_277",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_278",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_279",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_280",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_281",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_282",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_283",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_284",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_285",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_286",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_287",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_288",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_289",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_290",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_291",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_292",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_293",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_294",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_295",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_296",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_297",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_298",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_299",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_300",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_301",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_302",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_303",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_304",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_305",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_306",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_307",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_308",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_309",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_310",
+        "answer": "U"
+    },
+    {
+        "d_id": "NatS_311",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_312",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_313",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_314",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_315",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_316",
+        "answer": "T"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_317",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_318",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_319",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_320",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_321",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_322",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_323",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_324",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_325",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_326",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_327",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_328",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_329",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_330",
+        "answer": "U"
+=======
+        "d_id": "ArtS_140",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_141",
+        "answer": "F"
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+    },
+    {
+        "d_id": "NatS_331",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_332",
+        "answer": "U"
+    },
+    {
+        "d_id": "NatS_333",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_334",
+        "answer": "F"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_335",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_336",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_337",
+        "answer": "U"
+=======
+        "d_id": "ArtS_148",
+        "answer": "T"
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+    },
+    {
+        "d_id": "NatS_338",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_339",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_340",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_341",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_342",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_343",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_344",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_345",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_346",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_347",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_348",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_349",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_350",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_351",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_352",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_353",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_354",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_355",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_356",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_357",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_358",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_359",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_360",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_361",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_362",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_363",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_364",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_365",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_366",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_367",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_368",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_369",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_370",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_371",
+        "answer": "T"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_372",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_373",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_374",
+        "answer": "U"
+=======
+        "d_id": "ArtS_192",
+        "answer": "F"
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+    },
+    {
+        "d_id": "NatS_375",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_376",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_377",
+        "answer": "T"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_378",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_379",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_380",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_381",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_382",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_383",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_384",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_385",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_386",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_387",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_388",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_2799",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_2800",
+        "answer": "U"
+=======
+        "d_id": "ArtS_198",
+        "answer": "F"
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+    },
+    {
+        "d_id": "NatS_391",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_392",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_393",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_394",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_395",
+        "answer": "F"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_396",
+        "answer": "T"
+=======
+        "d_id": "ArtS_204",
+        "answer": "F"
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+    },
+    {
+        "d_id": "NatS_397",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_398",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_399",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_400",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_401",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_402",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_403",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_404",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_405",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_406",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_407",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_408",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_409",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_410",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_411",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_412",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_413",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_414",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_415",
+        "answer": "T"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_416",
+=======
+        "d_id": "ArtS_226",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_227",
+        "answer": "U"
+    },
+    {
+        "d_id": "ArtS_228",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_229",
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_417",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_418",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_419",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_420",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_421",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_422",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_423",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_424",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_425",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_426",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_427",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_428",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_429",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_430",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_431",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_432",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_433",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_434",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_435",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_436",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_437",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_438",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_439",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_440",
+        "answer": "F"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_441",
+        "answer": "U"
+=======
+        "d_id": "ArtS_248",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_249",
+        "answer": "F"
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+    },
+    {
+        "d_id": "NatS_442",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_443",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_444",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_445",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_446",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_447",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_448",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_449",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_450",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_451",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_452",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_453",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_454",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_455",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_456",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_457",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_458",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_459",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_460",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_461",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_462",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_463",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_464",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_465",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_466",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_467",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_468",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_469",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_470",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_471",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_472",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_473",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_474",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_475",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_476",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_477",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_478",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_479",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_480",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_481",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_482",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_483",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_484",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_485",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_486",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_487",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_488",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_489",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_490",
+        "answer": "U"
+    },
+    {
+        "d_id": "NatS_491",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_492",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_493",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_494",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_495",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_496",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_497",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_498",
+        "answer": "F"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_499",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_500",
+=======
+        "d_id": "ArtS_267",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_268",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_269",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_270",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_271",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_272",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_273",
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_501",
+        "answer": "T"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_502",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_503",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_504",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_505",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_506",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_507",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_508",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_509",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_510",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_511",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_512",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_513",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_514",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_515",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_516",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_517",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_518",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_519",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_520",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_521",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_522",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_523",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_524",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_525",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_526",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_527",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_528",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_529",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_530",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_531",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_532",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_533",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_534",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_535",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_536",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_537",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_538",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_539",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_540",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_541",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_542",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_543",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_544",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_545",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_546",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_547",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_548",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_549",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_550",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_551",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_552",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_553",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_554",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_555",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_556",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_557",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_558",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_559",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_560",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_561",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_562",
+        "answer": "U"
+=======
+        "d_id": "ArtS_275",
+        "answer": "F"
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+    },
+    {
+        "d_id": "NatS_563",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_564",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_565",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_566",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_567",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_568",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_569",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_570",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_571",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_572",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_573",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_574",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_575",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_576",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_577",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_578",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_579",
+        "answer": "U"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_580",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_581",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_582",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_583",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_584",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_585",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_586",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_587",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_588",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_589",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_590",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_591",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_592",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_593",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_594",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_595",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_596",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_597",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_598",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_599",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_600",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_601",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_602",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_603",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_604",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_605",
+        "answer": "U"
+=======
+        "d_id": "ArtS_286",
+        "answer": "T"
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+    },
+    {
+        "d_id": "NatS_606",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_607",
+        "answer": "T"
+    },
+    {
+<<<<<<< HEAD:predictions.json
+        "d_id": "NatS_608",
+        "answer": "U"
+    },
+    {
+        "d_id": "NatS_609",
+        "answer": "T"
+=======
+        "d_id": "ArtS_288",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_289",
+        "answer": "T"
+    },
+    {
+        "d_id": "ArtS_290",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_291",
+        "answer": "F"
+    },
+    {
+        "d_id": "ArtS_292",
+        "answer": "F"
+>>>>>>> c2a0c972e443852cc6ff8e008472c0f34ef00dad:output/predictions_ArtS.json
+    },
+    {
+        "d_id": "NatS_610",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_611",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_612",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_613",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_614",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_615",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_616",
+        "answer": "U"
+    },
+    {
+        "d_id": "NatS_617",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_618",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_619",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_620",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_621",
+        "answer": "U"
+    },
+    {
+        "d_id": "NatS_622",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_623",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_624",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_625",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_626",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_627",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_628",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_629",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_630",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_631",
+        "answer": "U"
+    },
+    {
+        "d_id": "NatS_632",
+        "answer": "U"
+    },
+    {
+        "d_id": "NatS_633",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_634",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_635",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_636",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_637",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_638",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_639",
+        "answer": "U"
+    },
+    {
+        "d_id": "NatS_640",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_641",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_642",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_643",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_644",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_645",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_646",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_647",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_648",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_649",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_650",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_651",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_652",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_653",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_654",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_655",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_656",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_657",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_658",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_659",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_660",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_661",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_662",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_663",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_664",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_665",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_666",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_667",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_668",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_669",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_670",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_671",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_672",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_673",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_674",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_675",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_676",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_677",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_678",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_679",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_680",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_681",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_682",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_683",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_684",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_685",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_686",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_687",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_688",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_689",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_690",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_691",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_692",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_693",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_694",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_695",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_696",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_697",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_698",
+        "answer": "F"
+    },
+    {
+        "d_id": "NatS_699",
+        "answer": "T"
+    },
+    {
+        "d_id": "NatS_700",
+        "answer": "F"
+    }
+]
