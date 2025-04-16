@@ -50,12 +50,42 @@ PROMPT_TEMPLATE = """
 **你的唯一任务是判断“结论句”的真实性，并且必须从 'T', 'F', 'U' 三个选项中给出一个。**
 **严格依据“背景句”进行判断。**
 
+**示例执行过程**
+1. 背景句："小张假装小李已经离开了，但实际上小李还在房间里。"
+2. 结论句："小李已经离开了。"
+3.  思维链推理过程：1. 背景句中的谓词是“假装”，表示小张的行为并不反映事实，而是虚假的表现。
+2. 背景句进一步明确说明“小李还在房间里”，这是一个直接的事实陈述。
+3. 结论句假设“小李已经离开了”，这与背景句中明确的事实“小李还在房间里”相矛盾。
+4. 因此，根据背景句的内容，结论句为假。
+
+## 一、核心推理步骤
+1. **关键谓词定位**  
+   - 提取背景句中表达认知/行为的核心谓词（动词/形容词）
+
+2. **谓词语义分类**  
+   ```mermaid
+   graph TD
+   A[谓词类型] --> B[真性谓词]
+   A --> C[假性谓词] 
+   A --> D[中性谓词]
+   B -->|典型词| E[知道, 承认, 证实...]
+   C -->|典型词| F[诬陷, 假装, 谎称...]
+   D -->|典型词| G[认为, 声称, 怀疑...]
+   if 存在直接事实陈述（如"实际上..."）:
+    return 事实对应的T/F
+elif 谓词类型 == 真性谓词:
+    return T（除非有明确反驳）
+elif 谓词类型 == 假性谓词:
+    return F（除非有明确证实）
+else:
+    if 背景句有支持/反驳线索:
+        return 对应T/F
+    else:
+        return 语境倾向判断
+
 **判断原则：**
-1.  分析背景句中的关键谓词（动词/形容词）。
-2.  **优先考虑谓词的典型含义：**
-    *   如果谓词通常表示其后的内容为 **真** (如“知道”、“后悔”)，并且背景句 **没有明确反驳**，判断为 **T**。
-    *   如果谓词通常表示其后的内容为 **假** (如“谎称”、“假装”)，并且背景句 **没有明确反驳**，判断为 **F**。
-    *   如果谓词含义不确定（如“认为”、“说”），检查背景句是否有 **任何** 支持或反对结论句的线索。
+1.  仿照核心推理步骤，进行思维链推理，判断结论句的真实性。
+2.  分析背景句中的关键谓词（动词/形容词）。
 3.  **尽可能做出 T 或 F 的判断：** 即使线索不完全充分，也要根据谓词的典型含义或背景句中最可能的暗示做出 T 或 F 的判断。
 4.  **极少使用 U: ** **只有当背景句信息完全缺失或存在直接矛盾，导致在逻辑上绝对无法做出任何倾向性判断时，才允许使用 'U'。** 否则，必须选择 T 或 F。
 5.  **不要输出 R 或其他任何文字。** 你的回答 **只能是 T, F, 或 U 中的一个字母**。
@@ -130,7 +160,7 @@ r_prediction_count = 0     # 模型预测为 R 的数量
 invalid_prediction_count = 0 # 模型回答无效的数量
 error_count = 0            # API调用错误数量
 missing_ground_truth = 0   # 缺少原始答案无法比对的数量
-
+errors_context = []
 if original_answers: # 只有当 original_answers 非空时（即处理的是样例集）才计算准确率
     print("\n正在计算准确率（基于样例集）...")
     for result in results:
@@ -160,6 +190,26 @@ if original_answers: # 只有当 original_answers 非空时（即处理的是样
              t_f_u_prediction_count += 1
              if predicted_answer == ground_truth:
                  correct_count += 1
+             else:
+                # 记录预测错误的上下文
+                errors_context.append({
+                    "d_id": d_id,
+                    "text": next((item['text'] for item in data if item['d_id'] == d_id), "N/A"),
+                    "hypothesis": next((item['hypothesis'] for item in data if item['d_id'] == d_id), "N/A"),
+                    "predicted_answer": predicted_answer,
+                    "ground_truth": ground_truth
+                })
+
+    if errors_context:
+        print("\n--- 预测错误的上下文 ---")
+        for error in errors_context:
+            print(f"d_id: {error['d_id']}")
+            print(f"背景句: {error['text']}")
+            print(f"结论句: {error['hypothesis']}")
+            print(f"模型预测: {error['predicted_answer']}")
+            print(f"真实答案: {error['ground_truth']}")
+            print("-" * 50)
+           
 
     # 计算准确率（分母为 T/F/U 的预测总数）
     accuracy = (correct_count / t_f_u_prediction_count) * 100 if t_f_u_prediction_count > 0 else 0
