@@ -5,8 +5,8 @@ import os
 import re 
 from concurrent.futures import ThreadPoolExecutor, as_completed
 # --- 配置 ---
-INPUT_FILE = 'Sample_Set/NatS_20250407.json' #自然语料库，可以改成人工的
-OUTPUT_FILE = 'predictions.json'
+INPUT_FILE = '../Sample_Set/NatS_20250407.json' #自然语料库，可以改成人工的
+OUTPUT_FILE = '../output/predictions_critic_vote.json'
 OLLAMA_MODEL = 'qwen2:7b'
 NUM_WORKERS = 4  # 并行线程数
 NUM_SAMPLES = 5  # 每次生成的样本数量
