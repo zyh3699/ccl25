@@ -205,6 +205,10 @@ results = []
 original_answers = {} 
 print(f"使用模型 '{OLLAMA_MODEL}' 处理 {len(data)} 条记录...")
 
+# --- 配置 ---
+NUM_SAMPLES = 5  # 每次生成的样本数量
+
+# --- 修改预测逻辑 ---
 for item in tqdm(data, desc="Predicting"):
     d_id = item.get('d_id')
     text = item.get('text')
@@ -219,89 +223,49 @@ for item in tqdm(data, desc="Predicting"):
 
     # 存储原始答案
     if ground_truth is not None:
-         original_answers[d_id] = ground_truth
-
-    # 可以选择性地在这里包含 predicate 和 type (如果需要)
-    # predicate = item.get('predicate')
-    # factivity_type = item.get('type')
-    # prompt = PROMPT_TEMPLATE.format(text=text, hypothesis=hypothesis, predicate=predicate, type=factivity_type) # 如果模板包含这些字段
+        original_answers[d_id] = ground_truth
 
     prompt = PROMPT_TEMPLATE.format(text=text, hypothesis=hypothesis)
 
-    predicted_answer = 'Error' # 默认值以防 API 调用失败
-    try:
-        response = client.chat(model=OLLAMA_MODEL, messages=[
-            {'role': 'user', 'content': prompt}
-        ])
-        answer_raw = response['message']['content'].strip()
+    # 多数投票逻辑
+    votes = {'T': 0, 'F': 0, 'U': 0}
+    predicted_answer = 'Error'  # 默认值以防 API 调用失败
 
-        # --- 更鲁棒的答案解析逻辑 ---
-        # 1. 尝试直接匹配单个大写字母 T/F/U/R
-        if answer_raw in ['T', 'F', 'U', 'R']:
-            predicted_answer = answer_raw
-        else:
-            # 2. 尝试在回答的开头或结尾查找 T/F/U/R (忽略大小写)
-            #    使用正则表达式查找，优先匹配句首或句尾的单个字母
-            match = re.search(r"^[TFUR]\b|\b[TFUR]$", answer_raw, re.IGNORECASE)
-            if match:
-                 predicted_answer = match.group(0).upper()
+    try:
+        for _ in range(NUM_SAMPLES):
+            response = client.chat(model=OLLAMA_MODEL, messages=[
+                {'role': 'user', 'content': prompt}
+            ])
+            answer_raw = response['message']['content'].strip()
+
+            # --- 答案解析逻辑 ---
+            # 1. 尝试直接匹配单个大写字母 T/F/U/R
+            if answer_raw in ['T', 'F', 'U', 'R']:
+                answer = answer_raw
             else:
-                # 3. 如果上面都找不到，可能模型没有按要求回答
-                print(f"警告：无法从模型响应中明确解析出 T/F/U/R (d_id: {d_id}): '{answer_raw}'. 标记为 Invalid。")
-                predicted_answer = 'Invalid' # 标记为无效回答
+                # 2. 尝试在回答的开头或结尾查找 T/F/U/R (忽略大小写)
+                match = re.search(r"^[TFUR]\b|\b[TFUR]$", answer_raw, re.IGNORECASE)
+                if match:
+                    answer = match.group(0).upper()
+                else:
+                    # 3. 如果无法解析出答案，标记为 Invalid
+                    print(f"警告：无法从模型响应中明确解析出 T/F/U/R (d_id: {d_id}): '{answer_raw}'. 标记为 Invalid。")
+                    answer = 'Invalid'
+
+            # 统计有效投票
+            if answer in votes:
+                votes[answer] += 1
+
+        # 根据投票结果确定最终答案
+        predicted_answer = max(votes, key=votes.get)  # 选择票数最多的选项
+        if votes[predicted_answer] == 0:
+            predicted_answer = 'Invalid'  # 如果没有有效投票，标记为无效
 
     except Exception as e:
         print(f"错误：调用 Ollama API 时出错 (d_id: {d_id}): {e}")
-        predicted_answer = 'Error' # 标记 API 调用错误
+        predicted_answer = 'Error'  # 标记 API 调用错误
 
-    results.append({'d_id': d_id, 'answer': predicted_answer, 'text':text, 'hypothesis':hypothesis})
-
-critical_analysis_results = []
-for item in tqdm(results, desc="verifying"):
-    d_id = item.get('d_id')
-    text = item.get('text')
-    hypothesis = item.get('hypothesis')
-    generated_answer = item.get('answer')
-
-    # 构造批判性分析提示词
-    critical_prompt = f"""
-    以下是模型对当前任务生成的结果：
-    背景句：{text}
-    结论句：{hypothesis}
-    生成的结果：{generated_answer}
-    
-    请结合文本推理的步骤分析该结果是否合理，并给出最终的判断（只能是 T、F 或 U）。除非有明显的事实不符和推理矛盾，其余情况尽量不要更改答案。请尽可能做出 T 或 F 的判断：即使线索不完全充分，也要根据谓词的典型含义或背景句中最可能的暗示做出 T 或 F 的判断。如果结果不合理，请说明原因并选择最合理的答案。
-    最后一行做出你的回答，只能输出一个字母 ：只能是 T, F, 或 U 中的一个字母。
-    """
-
-    try:
-        # 调用大模型进行批判性分析
-        response = client.chat(model=OLLAMA_MODEL, messages=[
-            {'role': 'user', 'content': critical_prompt}
-        ])
-        answer_raw = response['message']['content'].strip()
-
-        # --- 更鲁棒的答案解析逻辑 ---
-        # 1. 尝试直接匹配单个大写字母 T/F/U/R
-        if answer_raw in ['T', 'F', 'U', 'R']:
-            predicted_answer = answer_raw
-        else:
-            # 2. 尝试在回答的开头或结尾查找 T/F/U/R (忽略大小写)
-            #    使用正则表达式查找，优先匹配句首或句尾的单个字母
-            match = re.search(r"^[TFUR]\b|\b[TFUR]$", answer_raw, re.IGNORECASE)
-            if match:
-                 predicted_answer = match.group(0).upper()
-            else:
-                # 3. 如果上面都找不到，可能模型没有按要求回答
-                print(f"警告：无法从模型响应中明确解析出 T/F/U/R (d_id: {d_id}): '{answer_raw}'. 标记为 Invalid。")
-                predicted_answer = 'Invalid' # 标记为无效回答
-
-    except Exception as e:
-        print(f"错误：调用 Ollama API 时出错 (d_id: {d_id}): {e}")
-        predicted_answer = 'Error' # 标记 API 调用错误
-    critical_analysis_results.append({
-        'd_id': d_id, 'answer': predicted_answer})
-
+    results.append({'d_id': d_id, 'answer': predicted_answer})
 # --- 计算准确率 ---
 correct_count = 0
 t_f_u_prediction_count = 0 # 分母：模型做出了T/F/U预测的数量
@@ -312,7 +276,7 @@ missing_ground_truth = 0   # 缺少原始答案无法比对的数量
 errors_context = []
 if original_answers: # 只有当 original_answers 非空时（即处理的是样例集）才计算准确率
     print("\n正在计算准确率（基于样例集）...")
-    for result in critical_analysis_results:
+    for result in results:
         d_id = result['d_id']
         predicted_answer = result['answer']
         ground_truth = original_answers.get(d_id)
