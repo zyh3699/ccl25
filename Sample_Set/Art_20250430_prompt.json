@@ -1,0 +1,3908 @@
+[
+    {
+        "d_id": "Art_0001_prompt",
+        "type": "正叙实",
+        "predicate": "哀叹",
+        "text": "小张哀叹经济发展已经停滞。",
+        "hypothesis": "经济发展没有停滞。"
+    },
+    {
+        "d_id": "Art_0002_prompt",
+        "type": "正叙实",
+        "predicate": "哀叹",
+        "text": "小张哀叹幸福不会从天上掉下来。",
+        "hypothesis": "幸福会从天上掉下来。"
+    },
+    {
+        "d_id": "Art_0003_prompt",
+        "type": "正叙实",
+        "predicate": "哀叹",
+        "text": "小张哀叹自己的运气不好。",
+        "hypothesis": "自己的运气好。"
+    },
+    {
+        "d_id": "Art_0004_prompt",
+        "type": "正叙实",
+        "predicate": "哀叹",
+        "text": "小张没有哀叹经济发展将会停滞。",
+        "hypothesis": "经济发展不会停滞。"
+    },
+    {
+        "d_id": "Art_0005_prompt",
+        "type": "正叙实",
+        "predicate": "哀叹",
+        "text": "小张没有哀叹经济发展将会停滞。",
+        "hypothesis": "经济发展将会停滞。"
+    },
+    {
+        "d_id": "Art_0006_prompt",
+        "type": "正叙实",
+        "predicate": "哀叹",
+        "text": "小张没有哀叹经济发展已经停滞。",
+        "hypothesis": "经济发展没有停滞。"
+    },
+    {
+        "d_id": "Art_0007_prompt",
+        "type": "正叙实",
+        "predicate": "哀叹",
+        "text": "小张没有哀叹幸福不会从天上掉下来。",
+        "hypothesis": "幸福不会从天上掉下来。"
+    },
+    {
+        "d_id": "Art_0008_prompt",
+        "type": "正叙实",
+        "predicate": "哀叹",
+        "text": "小张没有哀叹自己的运气不好。",
+        "hypothesis": "自己的运气不好。"
+    },
+    {
+        "d_id": "Art_0009_prompt",
+        "type": "正叙实",
+        "predicate": "哀叹",
+        "text": "小张没有哀叹自己的运气不好。",
+        "hypothesis": "自己的运气好。"
+    },
+    {
+        "d_id": "Art_0010_prompt",
+        "type": "正叙实",
+        "predicate": "抱怨",
+        "text": "小张抱怨小李不经常去钓鱼。",
+        "hypothesis": "小李不经常去钓鱼。"
+    },
+    {
+        "d_id": "Art_0011_prompt",
+        "type": "正叙实",
+        "predicate": "抱怨",
+        "text": "小张抱怨自己没资格参加竞选。",
+        "hypothesis": "自己没资格参加竞选。"
+    },
+    {
+        "d_id": "Art_0012_prompt",
+        "type": "正叙实",
+        "predicate": "抱怨",
+        "text": "小张抱怨自己没资格参加竞选",
+        "hypothesis": "自己有资格参加竞选。"
+    },
+    {
+        "d_id": "Art_0013_prompt",
+        "type": "正叙实",
+        "predicate": "抱怨",
+        "text": "小张抱怨小李经常去钓鱼。",
+        "hypothesis": "小李不经常去钓鱼。"
+    },
+    {
+        "d_id": "Art_0014_prompt",
+        "type": "正叙实",
+        "predicate": "抱怨",
+        "text": "小张抱怨小李经常去钓鱼。",
+        "hypothesis": "小李经常去钓鱼。"
+    },
+    {
+        "d_id": "Art_0015_prompt",
+        "type": "正叙实",
+        "predicate": "抱怨",
+        "text": "小张抱怨自己体质太弱。",
+        "hypothesis": "自己体质很弱。"
+    },
+    {
+        "d_id": "Art_0016_prompt",
+        "type": "正叙实",
+        "predicate": "抱怨",
+        "text": "小张没有抱怨小李不经常去钓鱼。",
+        "hypothesis": "小李不经常去钓鱼。"
+    },
+    {
+        "d_id": "Art_0017_prompt",
+        "type": "正叙实",
+        "predicate": "抱怨",
+        "text": "小张没有抱怨自己没资格参加竞选。",
+        "hypothesis": "自己没资格参加竞选。"
+    },
+    {
+        "d_id": "Art_0018_prompt",
+        "type": "正叙实",
+        "predicate": "抱怨",
+        "text": "小张没有抱怨小李经常去钓鱼。",
+        "hypothesis": "小李不经常去钓鱼。"
+    },
+    {
+        "d_id": "Art_0019_prompt",
+        "type": "正叙实",
+        "predicate": "抱怨",
+        "text": "小张没有抱怨小李经常去钓鱼。",
+        "hypothesis": "小李经常去钓鱼。"
+    },
+    {
+        "d_id": "Art_0020_prompt",
+        "type": "正叙实",
+        "predicate": "抱怨",
+        "text": "小张没有抱怨自己体质太弱。",
+        "hypothesis": "自己体质不弱。"
+    },
+    {
+        "d_id": "Art_0021_prompt",
+        "type": "正叙实",
+        "predicate": "抱怨",
+        "text": "小张没有抱怨自己体质太弱。",
+        "hypothesis": "自己体质很弱。"
+    },
+    {
+        "d_id": "Art_0022_prompt",
+        "type": "正叙实",
+        "predicate": "暴露出",
+        "text": "小张的反应暴露出小李和小王之间没有默契。",
+        "hypothesis": "小张和小李有默契。"
+    },
+    {
+        "d_id": "Art_0023_prompt",
+        "type": "正叙实",
+        "predicate": "暴露出",
+        "text": "小张的反应暴露出小李和小王之间有矛盾。",
+        "hypothesis": "小张和小李没有矛盾。"
+    },
+    {
+        "d_id": "Art_0024_prompt",
+        "type": "正叙实",
+        "predicate": "表明",
+        "text": "小张的做法表明感情出现了问题。",
+        "hypothesis": "感情出现了问题。"
+    },
+    {
+        "d_id": "Art_0025_prompt",
+        "type": "正叙实",
+        "predicate": "表明",
+        "text": "小张的做法表明感情出现了问题。",
+        "hypothesis": "感情没有出现问题。"
+    },
+    {
+        "d_id": "Art_0026_prompt",
+        "type": "正叙实",
+        "predicate": "表明",
+        "text": "小张的做法表明感情没有出现问题。",
+        "hypothesis": "感情出现了问题。"
+    },
+    {
+        "d_id": "Art_0027_prompt",
+        "type": "正叙实",
+        "predicate": "表明",
+        "text": "小张的做法表明感情没有出现问题。",
+        "hypothesis": "感情没有出现问题。"
+    },
+    {
+        "d_id": "Art_0028_prompt",
+        "type": "正叙实",
+        "predicate": "表明",
+        "text": "小张的做法表明小李不想留在学校。",
+        "hypothesis": "小李不想留在学校。"
+    },
+    {
+        "d_id": "Art_0029_prompt",
+        "type": "正叙实",
+        "predicate": "表明",
+        "text": "小张的做法表明小李不想留在学校。",
+        "hypothesis": "小李想留在学校。"
+    },
+    {
+        "d_id": "Art_0030_prompt",
+        "type": "正叙实",
+        "predicate": "表明",
+        "text": "小张的做法表明小李想留在学校。",
+        "hypothesis": "小李不想留在学校。"
+    },
+    {
+        "d_id": "Art_0031_prompt",
+        "type": "正叙实",
+        "predicate": "表明",
+        "text": "小张的做法表明小李想留在学校。",
+        "hypothesis": "小李想留在学校。"
+    },
+    {
+        "d_id": "Art_0032_prompt",
+        "type": "正叙实",
+        "predicate": "表明",
+        "text": "小张的做法不表明感情出现了问题。",
+        "hypothesis": "感情出现了问题。"
+    },
+    {
+        "d_id": "Art_0033_prompt",
+        "type": "正叙实",
+        "predicate": "表明",
+        "text": "小张的做法不表明感情出现了问题。",
+        "hypothesis": "感情没有出现问题。"
+    },
+    {
+        "d_id": "Art_0034_prompt",
+        "type": "正叙实",
+        "predicate": "表明",
+        "text": "小张的做法不表明感情没有出现问题。",
+        "hypothesis": "感情没有出现问题。"
+    },
+    {
+        "d_id": "Art_0035_prompt",
+        "type": "正叙实",
+        "predicate": "表明",
+        "text": "小张的做法不表明小李不想留在学校。",
+        "hypothesis": "小李想留在学校。"
+    },
+    {
+        "d_id": "Art_0036_prompt",
+        "type": "正叙实",
+        "predicate": "表明",
+        "text": "小张的做法不表明小李想留在学校。",
+        "hypothesis": "小李不想留在学校。"
+    },
+    {
+        "d_id": "Art_0037_prompt",
+        "type": "正叙实",
+        "predicate": "表明",
+        "text": "小张的做法不表明小李想留在学校。",
+        "hypothesis": "小李想留在学校。"
+    },
+    {
+        "d_id": "Art_0038_prompt",
+        "type": "非叙实",
+        "predicate": "猜",
+        "text": "我猜这不是小李的钢笔。",
+        "hypothesis": "这是小李的钢笔。"
+    },
+    {
+        "d_id": "Art_0039_prompt",
+        "type": "非叙实",
+        "predicate": "猜",
+        "text": "我猜这是小李的钢笔。",
+        "hypothesis": "这不是小李的钢笔。"
+    },
+    {
+        "d_id": "Art_0040_prompt",
+        "type": "非叙实",
+        "predicate": "猜",
+        "text": "我没有猜这不是小李的钢笔。",
+        "hypothesis": "这是小李的钢笔。"
+    },
+    {
+        "d_id": "Art_0041_prompt",
+        "type": "非叙实",
+        "predicate": "猜",
+        "text": "我没有猜这是小李的钢笔。",
+        "hypothesis": "这不是小李的钢笔。"
+    },
+    {
+        "d_id": "Art_0042_prompt",
+        "type": "非叙实",
+        "predicate": "猜",
+        "text": "小张猜站在门口的不是小李。",
+        "hypothesis": "站在门口的是小李。"
+    },
+    {
+        "d_id": "Art_0043_prompt",
+        "type": "非叙实",
+        "predicate": "猜",
+        "text": "小张猜站在门口的是小李。",
+        "hypothesis": "站在门口的不是小李。"
+    },
+    {
+        "d_id": "Art_0044_prompt",
+        "type": "非叙实",
+        "predicate": "猜",
+        "text": "小张没有猜站在门口的不是小李。",
+        "hypothesis": "站在门口的是小李。"
+    },
+    {
+        "d_id": "Art_0045_prompt",
+        "type": "非叙实",
+        "predicate": "猜",
+        "text": "小张没有猜站在门口的是小李。",
+        "hypothesis": "站在门口的不是小李。"
+    },
+    {
+        "d_id": "Art_0046_prompt",
+        "type": "非叙实",
+        "predicate": "猜测",
+        "text": "小张猜测小李不是从部队转业过来的。",
+        "hypothesis": "小李不是从部队转业过来的。"
+    },
+    {
+        "d_id": "Art_0047_prompt",
+        "type": "非叙实",
+        "predicate": "猜测",
+        "text": "小张猜测小李不是从部队转业过来的。",
+        "hypothesis": "小李是从部队转业过来的。"
+    },
+    {
+        "d_id": "Art_0048_prompt",
+        "type": "非叙实",
+        "predicate": "猜测",
+        "text": "小张猜测小李没生病。",
+        "hypothesis": "小李没生病。"
+    },
+    {
+        "d_id": "Art_0049_prompt",
+        "type": "非叙实",
+        "predicate": "猜测",
+        "text": "小张猜测小李没生病。",
+        "hypothesis": "小李生病了。"
+    },
+    {
+        "d_id": "Art_0050_prompt",
+        "type": "非叙实",
+        "predicate": "猜测",
+        "text": "小张猜测小李生病了。",
+        "hypothesis": "小李没生病。"
+    },
+    {
+        "d_id": "Art_0051_prompt",
+        "type": "非叙实",
+        "predicate": "猜测",
+        "text": "小张猜测小李生病了。",
+        "hypothesis": "小李生病了。"
+    },
+    {
+        "d_id": "Art_0052_prompt",
+        "type": "非叙实",
+        "predicate": "猜测",
+        "text": "小张猜测小李是从部队转业过来的。",
+        "hypothesis": "小李不是从部队转业过来的。"
+    },
+    {
+        "d_id": "Art_0053_prompt",
+        "type": "非叙实",
+        "predicate": "猜测",
+        "text": "小张猜测小李是从部队转业过来的。",
+        "hypothesis": "小李是从部队转业过来的。"
+    },
+    {
+        "d_id": "Art_0054_prompt",
+        "type": "非叙实",
+        "predicate": "猜测",
+        "text": "小张没有猜测小李不是从部队转业过来的。",
+        "hypothesis": "小李不是从部队转业过来的。"
+    },
+    {
+        "d_id": "Art_0055_prompt",
+        "type": "非叙实",
+        "predicate": "猜测",
+        "text": "小张没有猜测小李不是从部队转业过来的。",
+        "hypothesis": "小李是从部队转业过来的。"
+    },
+    {
+        "d_id": "Art_0056_prompt",
+        "type": "非叙实",
+        "predicate": "猜测",
+        "text": "小张没有猜测小李没生病。",
+        "hypothesis": "小李没生病。"
+    },
+    {
+        "d_id": "Art_0057_prompt",
+        "type": "非叙实",
+        "predicate": "猜测",
+        "text": "小张没有猜测小李没生病。",
+        "hypothesis": "小李生病了。"
+    },
+    {
+        "d_id": "Art_0058_prompt",
+        "type": "非叙实",
+        "predicate": "猜测",
+        "text": "小张没有猜测小李生病了。",
+        "hypothesis": "小李没生病。"
+    },
+    {
+        "d_id": "Art_0059_prompt",
+        "type": "非叙实",
+        "predicate": "猜测",
+        "text": "小张没有猜测小李生病了。",
+        "hypothesis": "小李生病了。"
+    },
+    {
+        "d_id": "Art_0060_prompt",
+        "type": "非叙实",
+        "predicate": "猜测",
+        "text": "小张没有猜测小李是从部队转业过来的。",
+        "hypothesis": "小李不是从部队转业过来的。"
+    },
+    {
+        "d_id": "Art_0061_prompt",
+        "type": "非叙实",
+        "predicate": "猜测",
+        "text": "小张没有猜测小李是从部队转业过来的。",
+        "hypothesis": "小李是从部队转业过来的。"
+    },
+    {
+        "d_id": "Art_0062_prompt",
+        "type": "正叙实",
+        "predicate": "猜到",
+        "text": "小张猜到小李不喜欢小王。",
+        "hypothesis": "小李不喜欢小王。"
+    },
+    {
+        "d_id": "Art_0063_prompt",
+        "type": "正叙实",
+        "predicate": "猜到",
+        "text": "小张猜到小李没生病。",
+        "hypothesis": "小李没生病。"
+    },
+    {
+        "d_id": "Art_0064_prompt",
+        "type": "正叙实",
+        "predicate": "猜到",
+        "text": "小张猜到小李没生病。",
+        "hypothesis": "小李生病了。"
+    },
+    {
+        "d_id": "Art_0065_prompt",
+        "type": "正叙实",
+        "predicate": "猜到",
+        "text": "小张猜到小李生病了。",
+        "hypothesis": "小李生病了。"
+    },
+    {
+        "d_id": "Art_0066_prompt",
+        "type": "正叙实",
+        "predicate": "猜到",
+        "text": "小张猜到小李喜欢小王。",
+        "hypothesis": "小李喜欢小王。"
+    },
+    {
+        "d_id": "Art_0067_prompt",
+        "type": "正叙实",
+        "predicate": "猜到",
+        "text": "小张没有猜到小李生病了。",
+        "hypothesis": "小李没生病。"
+    },
+    {
+        "d_id": "Art_0068_prompt",
+        "type": "正叙实",
+        "predicate": "诧异",
+        "text": "小张不诧异小王不喊疼。",
+        "hypothesis": "小王不喊疼。"
+    },
+    {
+        "d_id": "Art_0069_prompt",
+        "type": "正叙实",
+        "predicate": "诧异",
+        "text": "小张不诧异小王不喊疼。",
+        "hypothesis": "小王喊疼了。"
+    },
+    {
+        "d_id": "Art_0070_prompt",
+        "type": "正叙实",
+        "predicate": "诧异",
+        "text": "小张不诧异小王喊疼。",
+        "hypothesis": "小王不喊疼。"
+    },
+    {
+        "d_id": "Art_0071_prompt",
+        "type": "正叙实",
+        "predicate": "诧异",
+        "text": "小张不诧异小王喊疼。",
+        "hypothesis": "小王喊疼了。"
+    },
+    {
+        "d_id": "Art_0072_prompt",
+        "type": "正叙实",
+        "predicate": "诧异",
+        "text": "小张不诧异小王哭了。",
+        "hypothesis": "小王哭了。"
+    },
+    {
+        "d_id": "Art_0073_prompt",
+        "type": "正叙实",
+        "predicate": "诧异",
+        "text": "小张不诧异小王哭了。",
+        "hypothesis": "小王没哭。"
+    },
+    {
+        "d_id": "Art_0074_prompt",
+        "type": "正叙实",
+        "predicate": "诧异",
+        "text": "小张不诧异小王没哭。",
+        "hypothesis": "小王哭了。"
+    },
+    {
+        "d_id": "Art_0075_prompt",
+        "type": "正叙实",
+        "predicate": "诧异",
+        "text": "小张不诧异小王没哭。",
+        "hypothesis": "小王没哭。"
+    },
+    {
+        "d_id": "Art_0076_prompt",
+        "type": "正叙实",
+        "predicate": "诧异",
+        "text": "小张很诧异小王不喊疼。",
+        "hypothesis": "小王不喊疼。"
+    },
+    {
+        "d_id": "Art_0077_prompt",
+        "type": "正叙实",
+        "predicate": "诧异",
+        "text": "小张很诧异小王不喊疼。",
+        "hypothesis": "小王喊疼了。"
+    },
+    {
+        "d_id": "Art_0078_prompt",
+        "type": "正叙实",
+        "predicate": "诧异",
+        "text": "小张很诧异小王哭了。",
+        "hypothesis": "小王哭了。"
+    },
+    {
+        "d_id": "Art_0079_prompt",
+        "type": "正叙实",
+        "predicate": "诧异",
+        "text": "小张很诧异小王哭了。",
+        "hypothesis": "小王没哭。"
+    },
+    {
+        "d_id": "Art_0080_prompt",
+        "type": "正叙实",
+        "predicate": "诧异",
+        "text": "小张很诧异小王没哭。",
+        "hypothesis": "小王哭了。"
+    },
+    {
+        "d_id": "Art_0081_prompt",
+        "type": "正叙实",
+        "predicate": "诧异",
+        "text": "小张很诧异小王没哭。",
+        "hypothesis": "小王没哭。"
+    },
+    {
+        "d_id": "Art_0082_prompt",
+        "type": "正叙实",
+        "predicate": "承认",
+        "text": "小张不承认小李不会逃跑。",
+        "hypothesis": "小李不会逃跑。"
+    },
+    {
+        "d_id": "Art_0083_prompt",
+        "type": "正叙实",
+        "predicate": "承认",
+        "text": "小张不承认小李不会逃跑。",
+        "hypothesis": "小李会逃跑。"
+    },
+    {
+        "d_id": "Art_0084_prompt",
+        "type": "正叙实",
+        "predicate": "承认",
+        "text": "小张不承认小李打过小王。",
+        "hypothesis": "小李打过小王。"
+    },
+    {
+        "d_id": "Art_0085_prompt",
+        "type": "正叙实",
+        "predicate": "承认",
+        "text": "小张不承认小李会逃跑。",
+        "hypothesis": "小李不会逃跑。"
+    },
+    {
+        "d_id": "Art_0086_prompt",
+        "type": "正叙实",
+        "predicate": "承认",
+        "text": "小张不承认小李没打过小王。",
+        "hypothesis": "小李没打过小王。"
+    },
+    {
+        "d_id": "Art_0087_prompt",
+        "type": "正叙实",
+        "predicate": "承认",
+        "text": "小张承认小李打过小王。",
+        "hypothesis": "小李打过小王。"
+    },
+    {
+        "d_id": "Art_0088_prompt",
+        "type": "正叙实",
+        "predicate": "承认",
+        "text": "小张承认小李打过小王。",
+        "hypothesis": "小李没打过小王。"
+    },
+    {
+        "d_id": "Art_0089_prompt",
+        "type": "正叙实",
+        "predicate": "承认",
+        "text": "小张承认小李会逃跑。",
+        "hypothesis": "小李会逃跑。"
+    },
+    {
+        "d_id": "Art_0090_prompt",
+        "type": "正叙实",
+        "predicate": "承认",
+        "text": "小张承认小李没打过小王。",
+        "hypothesis": "小李没打过小王。"
+    },
+    {
+        "d_id": "Art_0091_prompt",
+        "type": "正叙实",
+        "predicate": "得知",
+        "text": "小张得知小李回家了。",
+        "hypothesis": "小李没回家。 "
+    },
+    {
+        "d_id": "Art_0092_prompt",
+        "type": "正叙实",
+        "predicate": "得知",
+        "text": "小张得知小李没回家。",
+        "hypothesis": "小李没回家。 "
+    },
+    {
+        "d_id": "Art_0093_prompt",
+        "type": "正叙实",
+        "predicate": "得知",
+        "text": "小张没有得知小李回家了。",
+        "hypothesis": "小李没回家。 "
+    },
+    {
+        "d_id": "Art_0094_prompt",
+        "type": "正叙实",
+        "predicate": "得知",
+        "text": "小张没有得知小李没回家。",
+        "hypothesis": "小李没回家。 "
+    },
+    {
+        "d_id": "Art_0095_prompt",
+        "type": "正叙实",
+        "predicate": "得知",
+        "text": "英国得知美国不会入侵格林纳达。",
+        "hypothesis": "美国不会入侵格林纳达。"
+    },
+    {
+        "d_id": "Art_0096_prompt",
+        "type": "正叙实",
+        "predicate": "得知",
+        "text": "英国得知美国不会入侵格林纳达。",
+        "hypothesis": "美国将会入侵格林纳达。"
+    },
+    {
+        "d_id": "Art_0097_prompt",
+        "type": "正叙实",
+        "predicate": "得知",
+        "text": "英国得知美国将会入侵格林纳达。",
+        "hypothesis": "美国不会入侵格林纳达。"
+    },
+    {
+        "d_id": "Art_0098_prompt",
+        "type": "正叙实",
+        "predicate": "得知",
+        "text": "英国得知美国将会入侵格林纳达。",
+        "hypothesis": "美国将会入侵格林纳达。"
+    },
+    {
+        "d_id": "Art_0099_prompt",
+        "type": "正叙实",
+        "predicate": "得知",
+        "text": "英国没有得知美国不会入侵格林纳达。",
+        "hypothesis": "美国不会入侵格林纳达。"
+    },
+    {
+        "d_id": "Art_0100_prompt",
+        "type": "正叙实",
+        "predicate": "得知",
+        "text": "英国没有得知美国不会入侵格林纳达。",
+        "hypothesis": "美国将会入侵格林纳达。"
+    },
+    {
+        "d_id": "Art_0101_prompt",
+        "type": "正叙实",
+        "predicate": "得知",
+        "text": "英国没有得知美国将会入侵格林纳达。",
+        "hypothesis": "美国将会入侵格林纳达。"
+    },
+    {
+        "d_id": "Art_0102_prompt",
+        "type": "正叙实",
+        "predicate": "发现",
+        "text": "小张发现咖啡里加了牛奶。",
+        "hypothesis": "咖啡里没加牛奶。"
+    },
+    {
+        "d_id": "Art_0103_prompt",
+        "type": "正叙实",
+        "predicate": "发现",
+        "text": "小张发现咖啡里没有加牛奶。",
+        "hypothesis": "咖啡里加了牛奶。"
+    },
+    {
+        "d_id": "Art_0104_prompt",
+        "type": "正叙实",
+        "predicate": "发现",
+        "text": "小张发现小李没在修理船桨。",
+        "hypothesis": "小李在修理船桨。"
+    },
+    {
+        "d_id": "Art_0105_prompt",
+        "type": "正叙实",
+        "predicate": "发现",
+        "text": "小张发现小李正在修理船桨。",
+        "hypothesis": "小李没在修理船桨。"
+    },
+    {
+        "d_id": "Art_0106_prompt",
+        "type": "非叙实",
+        "predicate": "感觉",
+        "text": "小张感觉小李没生病。",
+        "hypothesis": "小李没生病。"
+    },
+    {
+        "d_id": "Art_0107_prompt",
+        "type": "非叙实",
+        "predicate": "感觉",
+        "text": "小张感觉小李生病了。",
+        "hypothesis": "小李生病了。"
+    },
+    {
+        "d_id": "Art_0108_prompt",
+        "type": "非叙实",
+        "predicate": "感觉",
+        "text": "小张感觉小李喜欢小王。",
+        "hypothesis": "小李不喜欢小王。"
+    },
+    {
+        "d_id": "Art_0109_prompt",
+        "type": "非叙实",
+        "predicate": "感觉",
+        "text": "小张感觉小李喜欢小王。",
+        "hypothesis": "小李喜欢小王。"
+    },
+    {
+        "d_id": "Art_0110_prompt",
+        "type": "非叙实",
+        "predicate": "感觉",
+        "text": "小张没有感觉小李不喜欢小王。",
+        "hypothesis": "小李不喜欢小王。"
+    },
+    {
+        "d_id": "Art_0111_prompt",
+        "type": "非叙实",
+        "predicate": "感觉",
+        "text": "小张没有感觉小李生病了。",
+        "hypothesis": "小李没生病。"
+    },
+    {
+        "d_id": "Art_0112_prompt",
+        "type": "非叙实",
+        "predicate": "感觉",
+        "text": "小张没有感觉小李生病了。",
+        "hypothesis": "小李生病了。"
+    },
+    {
+        "d_id": "Art_0113_prompt",
+        "type": "非叙实",
+        "predicate": "感觉",
+        "text": "小张没有感觉小李喜欢小王。",
+        "hypothesis": "小李不喜欢小王。"
+    },
+    {
+        "d_id": "Art_0114_prompt",
+        "type": "非叙实",
+        "predicate": "感觉",
+        "text": "小张没有感觉小李喜欢小王。",
+        "hypothesis": "小李喜欢小王。"
+    },
+    {
+        "d_id": "Art_0115_prompt",
+        "type": "正叙实",
+        "predicate": "感觉到",
+        "text": "小张感觉到小李不喜欢小王。",
+        "hypothesis": "小李不喜欢小王。"
+    },
+    {
+        "d_id": "Art_0116_prompt",
+        "type": "正叙实",
+        "predicate": "感觉到",
+        "text": "小张感觉到小李不喜欢小王。",
+        "hypothesis": "小李喜欢小王。"
+    },
+    {
+        "d_id": "Art_0117_prompt",
+        "type": "正叙实",
+        "predicate": "感觉到",
+        "text": "小张感觉到小李没生病。",
+        "hypothesis": "小李没生病。"
+    },
+    {
+        "d_id": "Art_0118_prompt",
+        "type": "正叙实",
+        "predicate": "感觉到",
+        "text": "小张感觉到小李没生病。",
+        "hypothesis": "小李生病了。"
+    },
+    {
+        "d_id": "Art_0119_prompt",
+        "type": "正叙实",
+        "predicate": "感觉到",
+        "text": "小张感觉到小李喜欢小王。",
+        "hypothesis": "小李不喜欢小王。"
+    },
+    {
+        "d_id": "Art_0120_prompt",
+        "type": "正叙实",
+        "predicate": "感叹",
+        "text": "小张感叹苦难不会结束。",
+        "hypothesis": "苦难不会结束。"
+    },
+    {
+        "d_id": "Art_0121_prompt",
+        "type": "正叙实",
+        "predicate": "感叹",
+        "text": "小张感叹苦难不会结束。",
+        "hypothesis": "苦难将会结束。"
+    },
+    {
+        "d_id": "Art_0122_prompt",
+        "type": "正叙实",
+        "predicate": "感叹",
+        "text": "小张感叹苦难将会结束。",
+        "hypothesis": "苦难将会结束。"
+    },
+    {
+        "d_id": "Art_0123_prompt",
+        "type": "正叙实",
+        "predicate": "感叹",
+        "text": "小张感叹生活没变好。",
+        "hypothesis": "生活没变好。"
+    },
+    {
+        "d_id": "Art_0124_prompt",
+        "type": "正叙实",
+        "predicate": "高兴",
+        "text": "小张不高兴喝到了珍珠。",
+        "hypothesis": "小张没喝到珍珠。"
+    },
+    {
+        "d_id": "Art_0125_prompt",
+        "type": "正叙实",
+        "predicate": "高兴",
+        "text": "小张不高兴没喝到珍珠。",
+        "hypothesis": "小张喝到珍珠了。"
+    },
+    {
+        "d_id": "Art_0126_prompt",
+        "type": "正叙实",
+        "predicate": "高兴",
+        "text": "小张不高兴小李不会过来。",
+        "hypothesis": "小李会过来。"
+    },
+    {
+        "d_id": "Art_0127_prompt",
+        "type": "正叙实",
+        "predicate": "高兴",
+        "text": "小张不高兴小李不来。",
+        "hypothesis": "小李不会过来。"
+    },
+    {
+        "d_id": "Art_0128_prompt",
+        "type": "正叙实",
+        "predicate": "高兴",
+        "text": "小张不高兴小李会过来。",
+        "hypothesis": "小李会过来。"
+    },
+    {
+        "d_id": "Art_0129_prompt",
+        "type": "正叙实",
+        "predicate": "高兴",
+        "text": "小张很高兴喝到了珍珠。",
+        "hypothesis": "小张没喝到珍珠。"
+    },
+    {
+        "d_id": "Art_0130_prompt",
+        "type": "正叙实",
+        "predicate": "高兴",
+        "text": "小张很高兴没喝到珍珠。",
+        "hypothesis": "小张喝到珍珠了。"
+    },
+    {
+        "d_id": "Art_0131_prompt",
+        "type": "正叙实",
+        "predicate": "高兴",
+        "text": "小张很高兴小李不来。",
+        "hypothesis": "小李不会过来。"
+    },
+    {
+        "d_id": "Art_0132_prompt",
+        "type": "非叙实",
+        "predicate": "估计",
+        "text": "小张估计今年的棉花产量不会增加。",
+        "hypothesis": "今年的棉花产量不会增加。"
+    },
+    {
+        "d_id": "Art_0133_prompt",
+        "type": "非叙实",
+        "predicate": "估计",
+        "text": "小张估计今年的棉花产量不会增加。",
+        "hypothesis": "今年的棉花产量会增加。"
+    },
+    {
+        "d_id": "Art_0134_prompt",
+        "type": "非叙实",
+        "predicate": "估计",
+        "text": "小张估计今年的棉花产量会增加。",
+        "hypothesis": "今年的棉花产量不会增加。"
+    },
+    {
+        "d_id": "Art_0135_prompt",
+        "type": "非叙实",
+        "predicate": "估计",
+        "text": "小张估计今年的棉花产量会增加。",
+        "hypothesis": "今年的棉花产量会增加。"
+    },
+    {
+        "d_id": "Art_0136_prompt",
+        "type": "非叙实",
+        "predicate": "估计",
+        "text": "小张没有估计今年的棉花产量不会增加。",
+        "hypothesis": "今年的棉花产量不会增加。"
+    },
+    {
+        "d_id": "Art_0137_prompt",
+        "type": "非叙实",
+        "predicate": "估计",
+        "text": "小张没有估计今年的棉花产量不会增加。",
+        "hypothesis": "今年的棉花产量会增加。"
+    },
+    {
+        "d_id": "Art_0138_prompt",
+        "type": "非叙实",
+        "predicate": "估计",
+        "text": "小张没有估计今年的棉花产量会增加。",
+        "hypothesis": "今年的棉花产量不会增加。"
+    },
+    {
+        "d_id": "Art_0139_prompt",
+        "type": "非叙实",
+        "predicate": "估计",
+        "text": "小张没有估计今年的棉花产量会增加。",
+        "hypothesis": "今年的棉花产量会增加。"
+    },
+    {
+        "d_id": "Art_0140_prompt",
+        "type": "非叙实",
+        "predicate": "估计",
+        "text": "小张没有估计小李没生病。",
+        "hypothesis": "小李没生病。"
+    },
+    {
+        "d_id": "Art_0141_prompt",
+        "type": "非叙实",
+        "predicate": "估计",
+        "text": "小张没有估计小李没生病。",
+        "hypothesis": "小李生病了。"
+    },
+    {
+        "d_id": "Art_0142_prompt",
+        "type": "非叙实",
+        "predicate": "估计",
+        "text": "小张没有估计小李生病了。",
+        "hypothesis": "小李没生病。"
+    },
+    {
+        "d_id": "Art_0143_prompt",
+        "type": "非叙实",
+        "predicate": "估计",
+        "text": "小张没有估计小李生病了。",
+        "hypothesis": "小李生病了。"
+    },
+    {
+        "d_id": "Art_0144_prompt",
+        "type": "正叙实",
+        "predicate": "后悔",
+        "text": "小张不后悔和小李结婚了。",
+        "hypothesis": "小张没和小李结婚。"
+    },
+    {
+        "d_id": "Art_0145_prompt",
+        "type": "正叙实",
+        "predicate": "后悔",
+        "text": "小张不后悔没和小李结婚。",
+        "hypothesis": "小张和小李结婚了。"
+    },
+    {
+        "d_id": "Art_0146_prompt",
+        "type": "正叙实",
+        "predicate": "后悔",
+        "text": "小张不后悔要和小李结婚。",
+        "hypothesis": "小张不要和小李结婚。"
+    },
+    {
+        "d_id": "Art_0147_prompt",
+        "type": "正叙实",
+        "predicate": "后悔",
+        "text": "小张不后悔要和小李结婚。",
+        "hypothesis": "小张要和小李结婚。"
+    },
+    {
+        "d_id": "Art_0148_prompt",
+        "type": "正叙实",
+        "predicate": "后悔",
+        "text": "小张后悔和小李结婚了。",
+        "hypothesis": "小张和小李结婚了。"
+    },
+    {
+        "d_id": "Art_0149_prompt",
+        "type": "正叙实",
+        "predicate": "后悔",
+        "text": "小张后悔和小李结婚了。",
+        "hypothesis": "小张没和小李结婚。"
+    },
+    {
+        "d_id": "Art_0150_prompt",
+        "type": "正叙实",
+        "predicate": "后悔",
+        "text": "小张后悔要和小李结婚。",
+        "hypothesis": "小张不要和小李结婚。"
+    },
+    {
+        "d_id": "Art_0151_prompt",
+        "type": "正叙实",
+        "predicate": "后悔",
+        "text": "小张后悔要和小李结婚。",
+        "hypothesis": "小张要和小李结婚。"
+    },
+    {
+        "d_id": "Art_0152_prompt",
+        "type": "非叙实",
+        "predicate": "怀疑",
+        "text": "小张怀疑今年的棉花产量不会增加。",
+        "hypothesis": "今年的棉花产量不会增加。"
+    },
+    {
+        "d_id": "Art_0153_prompt",
+        "type": "非叙实",
+        "predicate": "怀疑",
+        "text": "小张怀疑今年的棉花产量会增加。",
+        "hypothesis": "今年的棉花产量不会增加。"
+    },
+    {
+        "d_id": "Art_0154_prompt",
+        "type": "非叙实",
+        "predicate": "怀疑",
+        "text": "小张怀疑今年的棉花产量会增加。",
+        "hypothesis": "今年的棉花产量会增加。"
+    },
+    {
+        "d_id": "Art_0155_prompt",
+        "type": "非叙实",
+        "predicate": "怀疑",
+        "text": "小张怀疑小李不是卧底。",
+        "hypothesis": "小李是卧底。"
+    },
+    {
+        "d_id": "Art_0156_prompt",
+        "type": "非叙实",
+        "predicate": "怀疑",
+        "text": "小张怀疑小李是卧底。",
+        "hypothesis": "小李不是卧底。"
+    },
+    {
+        "d_id": "Art_0157_prompt",
+        "type": "非叙实",
+        "predicate": "怀疑",
+        "text": "小张怀疑小李是卧底。",
+        "hypothesis": "小李是卧底。"
+    },
+    {
+        "d_id": "Art_0158_prompt",
+        "type": "非叙实",
+        "predicate": "怀疑",
+        "text": "小张没有怀疑今年的棉花产量不会增加。",
+        "hypothesis": "今年的棉花产量不会增加。"
+    },
+    {
+        "d_id": "Art_0159_prompt",
+        "type": "非叙实",
+        "predicate": "怀疑",
+        "text": "小张没有怀疑今年的棉花产量不会增加。",
+        "hypothesis": "今年的棉花产量会增加。"
+    },
+    {
+        "d_id": "Art_0160_prompt",
+        "type": "非叙实",
+        "predicate": "怀疑",
+        "text": "小张没有怀疑今年的棉花产量会增加。",
+        "hypothesis": "今年的棉花产量会增加。"
+    },
+    {
+        "d_id": "Art_0161_prompt",
+        "type": "非叙实",
+        "predicate": "怀疑",
+        "text": "小张没有怀疑小李不是卧底。",
+        "hypothesis": "小李是卧底。"
+    },
+    {
+        "d_id": "Art_0162_prompt",
+        "type": "非叙实",
+        "predicate": "怀疑",
+        "text": "小张没有怀疑小李是卧底。",
+        "hypothesis": "小李不是卧底。"
+    },
+    {
+        "d_id": "Art_0163_prompt",
+        "type": "反叙实",
+        "predicate": "幻想",
+        "text": "小张幻想自己不会和小李结婚。",
+        "hypothesis": "自己不会和小李结婚。"
+    },
+    {
+        "d_id": "Art_0164_prompt",
+        "type": "反叙实",
+        "predicate": "幻想",
+        "text": "小张幻想自己不会和小李结婚。",
+        "hypothesis": "自己会和小李结婚。"
+    },
+    {
+        "d_id": "Art_0165_prompt",
+        "type": "反叙实",
+        "predicate": "幻想",
+        "text": "小张幻想自己不是富翁。",
+        "hypothesis": "自己不是富翁。"
+    },
+    {
+        "d_id": "Art_0166_prompt",
+        "type": "反叙实",
+        "predicate": "幻想",
+        "text": "小张幻想自己不是富翁。",
+        "hypothesis": "自己是富翁。"
+    },
+    {
+        "d_id": "Art_0167_prompt",
+        "type": "反叙实",
+        "predicate": "谎称",
+        "text": "小张谎称不会帮助小李。",
+        "hypothesis": "小张不会帮助小李。"
+    },
+    {
+        "d_id": "Art_0168_prompt",
+        "type": "反叙实",
+        "predicate": "谎称",
+        "text": "小张谎称不会帮助小李。",
+        "hypothesis": "小张会帮助小李。"
+    },
+    {
+        "d_id": "Art_0169_prompt",
+        "type": "反叙实",
+        "predicate": "谎称",
+        "text": "小张谎称会帮助小李。",
+        "hypothesis": "小张不会帮助小李。"
+    },
+    {
+        "d_id": "Art_0170_prompt",
+        "type": "反叙实",
+        "predicate": "谎称",
+        "text": "小张谎称会帮助小李。",
+        "hypothesis": "小张会帮助小李。"
+    },
+    {
+        "d_id": "Art_0171_prompt",
+        "type": "反叙实",
+        "predicate": "谎称",
+        "text": "小张谎称小李不在家。",
+        "hypothesis": "小李不在家。"
+    },
+    {
+        "d_id": "Art_0172_prompt",
+        "type": "反叙实",
+        "predicate": "谎称",
+        "text": "小张谎称小李不在家。",
+        "hypothesis": "小李在家。"
+    },
+    {
+        "d_id": "Art_0173_prompt",
+        "type": "反叙实",
+        "predicate": "谎称",
+        "text": "小张谎称小李在家。",
+        "hypothesis": "小李不在家。"
+    },
+    {
+        "d_id": "Art_0174_prompt",
+        "type": "反叙实",
+        "predicate": "谎称",
+        "text": "小张谎称小李在家。",
+        "hypothesis": "小李在家。"
+    },
+    {
+        "d_id": "Art_0175_prompt",
+        "type": "正叙实",
+        "predicate": "获悉",
+        "text": "记者获悉小李没有恢复健康。",
+        "hypothesis": "小李已经恢复健康。"
+    },
+    {
+        "d_id": "Art_0176_prompt",
+        "type": "正叙实",
+        "predicate": "获悉",
+        "text": "记者获悉小李已经恢复健康。",
+        "hypothesis": "小李没有恢复健康。"
+    },
+    {
+        "d_id": "Art_0177_prompt",
+        "type": "正叙实",
+        "predicate": "获悉",
+        "text": "英国获悉美国不会入侵格林纳达。",
+        "hypothesis": "美国将会入侵格林纳达。"
+    },
+    {
+        "d_id": "Art_0178_prompt",
+        "type": "正叙实",
+        "predicate": "获悉",
+        "text": "英国获悉美国将会入侵格林纳达。",
+        "hypothesis": "美国不会入侵格林纳达。"
+    },
+    {
+        "d_id": "Art_0179_prompt",
+        "type": "正叙实",
+        "predicate": "获悉",
+        "text": "英国获悉美国将会入侵格林纳达。",
+        "hypothesis": "美国将会入侵格林纳达。"
+    },
+    {
+        "d_id": "Art_0180_prompt",
+        "type": "正叙实",
+        "predicate": "记得",
+        "text": "小张不记得饭后不需要散步。",
+        "hypothesis": "小张饭后不需要散步。"
+    },
+    {
+        "d_id": "Art_0181_prompt",
+        "type": "正叙实",
+        "predicate": "记得",
+        "text": "小张不记得饭后不需要散步。",
+        "hypothesis": "小张饭后需要散步。"
+    },
+    {
+        "d_id": "Art_0182_prompt",
+        "type": "正叙实",
+        "predicate": "记得",
+        "text": "小张不记得饭后需要散步。",
+        "hypothesis": "小张饭后不需要散步。"
+    },
+    {
+        "d_id": "Art_0183_prompt",
+        "type": "正叙实",
+        "predicate": "记得",
+        "text": "小张不记得饭后需要散步。",
+        "hypothesis": "小张饭后需要散步。"
+    },
+    {
+        "d_id": "Art_0184_prompt",
+        "type": "正叙实",
+        "predicate": "记得",
+        "text": "小张不记得小李吃了早饭。",
+        "hypothesis": "小李吃了早饭了。"
+    },
+    {
+        "d_id": "Art_0185_prompt",
+        "type": "正叙实",
+        "predicate": "记得",
+        "text": "小张不记得小李吃了早饭。",
+        "hypothesis": "小李没吃早饭。"
+    },
+    {
+        "d_id": "Art_0186_prompt",
+        "type": "正叙实",
+        "predicate": "记得",
+        "text": "小张记得饭后不需要散步。",
+        "hypothesis": "小张饭后需要散步。"
+    },
+    {
+        "d_id": "Art_0187_prompt",
+        "type": "正叙实",
+        "predicate": "记得",
+        "text": "小张记得饭后需要散步。",
+        "hypothesis": "小张饭后不需要散步。"
+    },
+    {
+        "d_id": "Art_0188_prompt",
+        "type": "正叙实",
+        "predicate": "记得",
+        "text": "小张记得小李没吃早饭。",
+        "hypothesis": "小李吃了早饭了。"
+    },
+    {
+        "d_id": "Art_0189_prompt",
+        "type": "正叙实",
+        "predicate": "记得",
+        "text": "小张记得小李没吃早饭。",
+        "hypothesis": "小李没吃早饭。"
+    },
+    {
+        "d_id": "Art_0190_prompt",
+        "type": "反叙实",
+        "predicate": "假装",
+        "text": "小张假装害怕打雷。",
+        "hypothesis": "小张害怕打雷。"
+    },
+    {
+        "d_id": "Art_0191_prompt",
+        "type": "正叙实",
+        "predicate": "觉察出",
+        "text": "小张察觉出字迹没有变化。",
+        "hypothesis": "字迹有变化。"
+    },
+    {
+        "d_id": "Art_0192_prompt",
+        "type": "正叙实",
+        "predicate": "觉察出",
+        "text": "小张察觉出足球不是巧克力做的。",
+        "hypothesis": "足球不是巧克力做的。"
+    },
+    {
+        "d_id": "Art_0193_prompt",
+        "type": "正叙实",
+        "predicate": "觉察出",
+        "text": "小张察觉出足球不是巧克力做的。",
+        "hypothesis": "足球是巧克力做的。"
+    },
+    {
+        "d_id": "Art_0194_prompt",
+        "type": "正叙实",
+        "predicate": "觉察到",
+        "text": "小张察觉到爱情不是必须的。",
+        "hypothesis": "爱情不是必须的。"
+    },
+    {
+        "d_id": "Art_0195_prompt",
+        "type": "正叙实",
+        "predicate": "觉察到",
+        "text": "小张察觉到爱情是必须的。",
+        "hypothesis": "爱情是必须的。"
+    },
+    {
+        "d_id": "Art_0196_prompt",
+        "type": "正叙实",
+        "predicate": "觉察到",
+        "text": "小张察觉到风向将会变化。",
+        "hypothesis": "风向不会变化。"
+    },
+    {
+        "d_id": "Art_0197_prompt",
+        "type": "正叙实",
+        "predicate": "觉察到",
+        "text": "小张没有察觉到爱情是必须的。",
+        "hypothesis": "爱情不是必须的。"
+    },
+    {
+        "d_id": "Art_0198_prompt",
+        "type": "正叙实",
+        "predicate": "觉察到",
+        "text": "小张没有察觉到爱情是必须的。",
+        "hypothesis": "爱情是必须的。"
+    },
+    {
+        "d_id": "Art_0199_prompt",
+        "type": "正叙实",
+        "predicate": "觉察到",
+        "text": "小张没有察觉到风向不会变化。",
+        "hypothesis": "风向不会变化。"
+    },
+    {
+        "d_id": "Art_0200_prompt",
+        "type": "正叙实",
+        "predicate": "觉察到",
+        "text": "小张没有察觉到风向将会变化。",
+        "hypothesis": "风向不会变化。"
+    },
+    {
+        "d_id": "Art_0201_prompt",
+        "type": "正叙实",
+        "predicate": "觉察到",
+        "text": "小张没有察觉到风向将会变化。",
+        "hypothesis": "风向将会变化。"
+    },
+    {
+        "d_id": "Art_0202_prompt",
+        "type": "正叙实",
+        "predicate": "觉出",
+        "text": "小张觉出小李是卧底。",
+        "hypothesis": "小李不是卧底。"
+    },
+    {
+        "d_id": "Art_0203_prompt",
+        "type": "正叙实",
+        "predicate": "觉出",
+        "text": "小张觉出小李是卧底。",
+        "hypothesis": "小李是卧底。"
+    },
+    {
+        "d_id": "Art_0204_prompt",
+        "type": "正叙实",
+        "predicate": "觉出",
+        "text": "小张觉出自己应该离开。",
+        "hypothesis": "小张不应该离开。"
+    },
+    {
+        "d_id": "Art_0205_prompt",
+        "type": "正叙实",
+        "predicate": "觉出",
+        "text": "小张觉出自己应该离开。",
+        "hypothesis": "小张应该离开。"
+    },
+    {
+        "d_id": "Art_0206_prompt",
+        "type": "非叙实",
+        "predicate": "觉得",
+        "text": "小张不觉得小李不是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0207_prompt",
+        "type": "非叙实",
+        "predicate": "觉得",
+        "text": "小张不觉得小李是故意撒娇。",
+        "hypothesis": "小李是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0208_prompt",
+        "type": "非叙实",
+        "predicate": "觉得",
+        "text": "小张觉得小李不是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0209_prompt",
+        "type": "非叙实",
+        "predicate": "觉得",
+        "text": "小张觉得小李不是卧底。",
+        "hypothesis": "小李是卧底。"
+    },
+    {
+        "d_id": "Art_0210_prompt",
+        "type": "非叙实",
+        "predicate": "觉得",
+        "text": "小张觉得小李是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0211_prompt",
+        "type": "非叙实",
+        "predicate": "觉得",
+        "text": "小张觉得小李是故意撒娇。",
+        "hypothesis": "小李是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0212_prompt",
+        "type": "非叙实",
+        "predicate": "觉得",
+        "text": "小张觉得小李是卧底。",
+        "hypothesis": "小李不是卧底。"
+    },
+    {
+        "d_id": "Art_0213_prompt",
+        "type": "非叙实",
+        "predicate": "觉得",
+        "text": "小张觉得小李是卧底。",
+        "hypothesis": "小李是卧底。"
+    },
+    {
+        "d_id": "Art_0214_prompt",
+        "type": "非叙实",
+        "predicate": "觉得",
+        "text": "小张没有觉得小李不是卧底。",
+        "hypothesis": "小李不是卧底。"
+    },
+    {
+        "d_id": "Art_0215_prompt",
+        "type": "非叙实",
+        "predicate": "觉得",
+        "text": "小张没有觉得小李不是卧底。",
+        "hypothesis": "小李是卧底。"
+    },
+    {
+        "d_id": "Art_0216_prompt",
+        "type": "非叙实",
+        "predicate": "觉得",
+        "text": "小张没有觉得小李是卧底。",
+        "hypothesis": "小李不是卧底。"
+    },
+    {
+        "d_id": "Art_0217_prompt",
+        "type": "非叙实",
+        "predicate": "觉着",
+        "text": "小张不觉着小李不是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0218_prompt",
+        "type": "非叙实",
+        "predicate": "觉着",
+        "text": "小张不觉着小李是故意撒娇。",
+        "hypothesis": "小李是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0219_prompt",
+        "type": "非叙实",
+        "predicate": "觉着",
+        "text": "小张觉着小李不是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0220_prompt",
+        "type": "非叙实",
+        "predicate": "觉着",
+        "text": "小张觉着小李不是故意撒娇。",
+        "hypothesis": "小李是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0221_prompt",
+        "type": "非叙实",
+        "predicate": "觉着",
+        "text": "小张觉着小李不喜欢小王。",
+        "hypothesis": "小李不喜欢小王。"
+    },
+    {
+        "d_id": "Art_0222_prompt",
+        "type": "非叙实",
+        "predicate": "觉着",
+        "text": "小张觉着小李喜欢小王。",
+        "hypothesis": "小李喜欢小王。"
+    },
+    {
+        "d_id": "Art_0223_prompt",
+        "type": "非叙实",
+        "predicate": "觉着",
+        "text": "小张没觉着小李不喜欢小王。",
+        "hypothesis": "小李不喜欢小王。"
+    },
+    {
+        "d_id": "Art_0224_prompt",
+        "type": "非叙实",
+        "predicate": "觉着",
+        "text": "小张没觉着小李喜欢小王。",
+        "hypothesis": "小李喜欢小王。"
+    },
+    {
+        "d_id": "Art_0225_prompt",
+        "type": "正叙实",
+        "predicate": "揭露",
+        "text": "媒体揭露小张会出席婚礼。",
+        "hypothesis": "小张不会出席婚礼。"
+    },
+    {
+        "d_id": "Art_0226_prompt",
+        "type": "正叙实",
+        "predicate": "揭露",
+        "text": "媒体没有揭露小张会出席婚礼。",
+        "hypothesis": "小张不会出席婚礼。"
+    },
+    {
+        "d_id": "Art_0227_prompt",
+        "type": "正叙实",
+        "predicate": "揭露",
+        "text": "媒体没有揭露小张会出席婚礼。",
+        "hypothesis": "小张会出席婚礼。"
+    },
+    {
+        "d_id": "Art_0228_prompt",
+        "type": "正叙实",
+        "predicate": "揭露",
+        "text": "小张揭露小李不是卧底。",
+        "hypothesis": "小李不是卧底。"
+    },
+    {
+        "d_id": "Art_0229_prompt",
+        "type": "正叙实",
+        "predicate": "揭露",
+        "text": "小张揭露小李不是卧底。",
+        "hypothesis": "小李是卧底。"
+    },
+    {
+        "d_id": "Art_0230_prompt",
+        "type": "正叙实",
+        "predicate": "揭露",
+        "text": "小张揭露小李是卧底。",
+        "hypothesis": "小李不是卧底。"
+    },
+    {
+        "d_id": "Art_0231_prompt",
+        "type": "正叙实",
+        "predicate": "揭露",
+        "text": "小张揭露小李是卧底。",
+        "hypothesis": "小李是卧底。"
+    },
+    {
+        "d_id": "Art_0232_prompt",
+        "type": "正叙实",
+        "predicate": "揭露",
+        "text": "小张没有揭露小李不是卧底。",
+        "hypothesis": "小李不是卧底。"
+    },
+    {
+        "d_id": "Art_0233_prompt",
+        "type": "正叙实",
+        "predicate": "揭露",
+        "text": "小张没有揭露小李不是卧底。",
+        "hypothesis": "小李是卧底。"
+    },
+    {
+        "d_id": "Art_0234_prompt",
+        "type": "正叙实",
+        "predicate": "看出",
+        "text": "小张看出咖啡里加了牛奶。",
+        "hypothesis": "咖啡里加了牛奶。"
+    },
+    {
+        "d_id": "Art_0235_prompt",
+        "type": "正叙实",
+        "predicate": "看出",
+        "text": "小张看出咖啡里加了牛奶。",
+        "hypothesis": "咖啡里没加牛奶。"
+    },
+    {
+        "d_id": "Art_0236_prompt",
+        "type": "正叙实",
+        "predicate": "看出",
+        "text": "小张看出小李喜欢小王。",
+        "hypothesis": "小李不喜欢小王。"
+    },
+    {
+        "d_id": "Art_0237_prompt",
+        "type": "正叙实",
+        "predicate": "看出",
+        "text": "小张看出小李喜欢小王。",
+        "hypothesis": "小李喜欢小王。"
+    },
+    {
+        "d_id": "Art_0238_prompt",
+        "type": "正叙实",
+        "predicate": "看到",
+        "text": "小张看到小李离开了。",
+        "hypothesis": "小李没有离开。"
+    },
+    {
+        "d_id": "Art_0239_prompt",
+        "type": "正叙实",
+        "predicate": "看到",
+        "text": "小张看到小李没在工作。",
+        "hypothesis": "小李没在工作。"
+    },
+    {
+        "d_id": "Art_0240_prompt",
+        "type": "正叙实",
+        "predicate": "看到",
+        "text": "小张看到小李在工作。",
+        "hypothesis": "小李没在工作。"
+    },
+    {
+        "d_id": "Art_0241_prompt",
+        "type": "正叙实",
+        "predicate": "看到",
+        "text": "小张看到小李在工作。",
+        "hypothesis": "小李在工作。"
+    },
+    {
+        "d_id": "Art_0242_prompt",
+        "type": "正叙实",
+        "predicate": "看见",
+        "text": "小张看见小李不在游泳。",
+        "hypothesis": "小李不在游泳。"
+    },
+    {
+        "d_id": "Art_0243_prompt",
+        "type": "正叙实",
+        "predicate": "看见",
+        "text": "小张看见小李不在游泳。",
+        "hypothesis": "小李在游泳。"
+    },
+    {
+        "d_id": "Art_0244_prompt",
+        "type": "正叙实",
+        "predicate": "看见",
+        "text": "小张看见小李没有去上课。",
+        "hypothesis": "小李去上课了。"
+    },
+    {
+        "d_id": "Art_0245_prompt",
+        "type": "正叙实",
+        "predicate": "领悟到",
+        "text": "小张领悟到青年不应该把学习放在第一位。",
+        "hypothesis": "青年不应该把学习放在第一位。"
+    },
+    {
+        "d_id": "Art_0246_prompt",
+        "type": "正叙实",
+        "predicate": "领悟到",
+        "text": "小张领悟到青年不应该把学习放在第一位。",
+        "hypothesis": "青年应该把学习放在第一位。"
+    },
+    {
+        "d_id": "Art_0247_prompt",
+        "type": "正叙实",
+        "predicate": "领悟到",
+        "text": "小张领悟到青年应该把学习放在第一位。",
+        "hypothesis": "青年不应该把学习放在第一位。"
+    },
+    {
+        "d_id": "Art_0248_prompt",
+        "type": "正叙实",
+        "predicate": "领悟到",
+        "text": "小张领悟到勇敢不是最困难的事。",
+        "hypothesis": "勇敢不是最困难的事。"
+    },
+    {
+        "d_id": "Art_0249_prompt",
+        "type": "正叙实",
+        "predicate": "领悟到",
+        "text": "小张没有领悟到青年不应该把学习放在第一位。",
+        "hypothesis": "青年应该把学习放在第一位。"
+    },
+    {
+        "d_id": "Art_0250_prompt",
+        "type": "正叙实",
+        "predicate": "领悟到",
+        "text": "小张没有领悟到勇敢不是最困难的事。",
+        "hypothesis": "勇敢是最困难的事。"
+    },
+    {
+        "d_id": "Art_0251_prompt",
+        "type": "正叙实",
+        "predicate": "领悟到",
+        "text": "小张没有领悟到勇敢是最困难的事。",
+        "hypothesis": "勇敢不是最困难的事。"
+    },
+    {
+        "d_id": "Art_0252_prompt",
+        "type": "正叙实",
+        "predicate": "领悟到",
+        "text": "小张没有领悟到勇敢是最困难的事。",
+        "hypothesis": "勇敢是最困难的事。"
+    },
+    {
+        "d_id": "Art_0253_prompt",
+        "type": "正叙实",
+        "predicate": "埋怨",
+        "text": "小张埋怨小李经常去钓鱼。",
+        "hypothesis": "小李不经常去钓鱼。"
+    },
+    {
+        "d_id": "Art_0254_prompt",
+        "type": "正叙实",
+        "predicate": "埋怨",
+        "text": "小张埋怨小李经常去钓鱼。",
+        "hypothesis": "小李经常去钓鱼。"
+    },
+    {
+        "d_id": "Art_0255_prompt",
+        "type": "正叙实",
+        "predicate": "埋怨",
+        "text": "小张埋怨小李没有吃光去年的大米。",
+        "hypothesis": "小李吃光了去年的大米。"
+    },
+    {
+        "d_id": "Art_0256_prompt",
+        "type": "正叙实",
+        "predicate": "埋怨",
+        "text": "小张埋怨小李没有吃光去年的大米。",
+        "hypothesis": "小李没有吃光去年的大米。"
+    },
+    {
+        "d_id": "Art_0257_prompt",
+        "type": "正叙实",
+        "predicate": "埋怨",
+        "text": "小张没有埋怨小李不经常去钓鱼。",
+        "hypothesis": "小李不经常去钓鱼。"
+    },
+    {
+        "d_id": "Art_0258_prompt",
+        "type": "正叙实",
+        "predicate": "埋怨",
+        "text": "小张没有埋怨小李不经常去钓鱼。",
+        "hypothesis": "小李经常去钓鱼。"
+    },
+    {
+        "d_id": "Art_0259_prompt",
+        "type": "正叙实",
+        "predicate": "埋怨",
+        "text": "小张没有埋怨小李吃光了去年的大米。",
+        "hypothesis": "小李吃光了去年的大米。"
+    },
+    {
+        "d_id": "Art_0260_prompt",
+        "type": "正叙实",
+        "predicate": "埋怨",
+        "text": "小张没有埋怨小李吃光了去年的大米。",
+        "hypothesis": "小李没有吃光去年的大米。"
+    },
+    {
+        "d_id": "Art_0261_prompt",
+        "type": "正叙实",
+        "predicate": "埋怨",
+        "text": "小张没有埋怨小李经常去钓鱼。",
+        "hypothesis": "小李经常去钓鱼。"
+    },
+    {
+        "d_id": "Art_0262_prompt",
+        "type": "正叙实",
+        "predicate": "埋怨",
+        "text": "小张没有埋怨小李没有吃光去年的大米。",
+        "hypothesis": "小李没有吃光去年的大米。"
+    },
+    {
+        "d_id": "Art_0263_prompt",
+        "type": "正叙实",
+        "predicate": "明白",
+        "text": "小张不明白敌人不会投降。",
+        "hypothesis": "敌人不会投降。"
+    },
+    {
+        "d_id": "Art_0264_prompt",
+        "type": "正叙实",
+        "predicate": "明白",
+        "text": "小张不明白敌人将会投降。",
+        "hypothesis": "敌人不会投降。"
+    },
+    {
+        "d_id": "Art_0265_prompt",
+        "type": "正叙实",
+        "predicate": "明白",
+        "text": "小张不明白敌人将会投降。",
+        "hypothesis": "敌人将会投降。"
+    },
+    {
+        "d_id": "Art_0266_prompt",
+        "type": "正叙实",
+        "predicate": "明白",
+        "text": "小张明白敌人将会投降。",
+        "hypothesis": "敌人不会投降。"
+    },
+    {
+        "d_id": "Art_0267_prompt",
+        "type": "正叙实",
+        "predicate": "明白",
+        "text": "小张明白敌人将会投降。",
+        "hypothesis": "敌人将会投降。"
+    },
+    {
+        "d_id": "Art_0268_prompt",
+        "type": "正叙实",
+        "predicate": "明白",
+        "text": "小张明白敌人没有投降。",
+        "hypothesis": "敌人没有投降。"
+    },
+    {
+        "d_id": "Art_0269_prompt",
+        "type": "正叙实",
+        "predicate": "明白",
+        "text": "小张明白敌人已经投降。",
+        "hypothesis": "敌人已经投降。"
+    },
+    {
+        "d_id": "Art_0270_prompt",
+        "type": "正叙实",
+        "predicate": "目睹",
+        "text": "小张目睹小李没被赦免。",
+        "hypothesis": "小李被赦免了。"
+    },
+    {
+        "d_id": "Art_0271_prompt",
+        "type": "正叙实",
+        "predicate": "目睹",
+        "text": "小张目睹小李没被赦免。",
+        "hypothesis": "小李没被赦免。"
+    },
+    {
+        "d_id": "Art_0272_prompt",
+        "type": "正叙实",
+        "predicate": "目睹",
+        "text": "小张目睹小李没喝毒药。",
+        "hypothesis": "小李喝下了毒药。"
+    },
+    {
+        "d_id": "Art_0273_prompt",
+        "type": "正叙实",
+        "predicate": "目睹",
+        "text": "小张目睹小李没喝毒药。",
+        "hypothesis": "小李没喝毒药。"
+    },
+    {
+        "d_id": "Art_0274_prompt",
+        "type": "正叙实",
+        "predicate": "碰见",
+        "text": "小张碰见小李穿了衬衫。",
+        "hypothesis": "小李穿衬衫了。"
+    },
+    {
+        "d_id": "Art_0275_prompt",
+        "type": "正叙实",
+        "predicate": "碰见",
+        "text": "小张碰见小李没穿衬衫。",
+        "hypothesis": "小李没穿衬衫。"
+    },
+    {
+        "d_id": "Art_0276_prompt",
+        "type": "正叙实",
+        "predicate": "碰见",
+        "text": "小张碰见小李在上厕所。",
+        "hypothesis": "小李在上厕所。"
+    },
+    {
+        "d_id": "Art_0277_prompt",
+        "type": "正叙实",
+        "predicate": "批评",
+        "text": "小张不批评小李穿了裙子。",
+        "hypothesis": "小李穿了裙子。"
+    },
+    {
+        "d_id": "Art_0278_prompt",
+        "type": "正叙实",
+        "predicate": "批评",
+        "text": "小张不批评小李没穿裙子。",
+        "hypothesis": "小李穿了裙子。"
+    },
+    {
+        "d_id": "Art_0279_prompt",
+        "type": "正叙实",
+        "predicate": "批评",
+        "text": "小张没有批评小李不遵守时间。",
+        "hypothesis": "小李不遵守时间。"
+    },
+    {
+        "d_id": "Art_0280_prompt",
+        "type": "正叙实",
+        "predicate": "批评",
+        "text": "小张没有批评小李穿了裙子。",
+        "hypothesis": "小李没穿裙子。"
+    },
+    {
+        "d_id": "Art_0281_prompt",
+        "type": "正叙实",
+        "predicate": "批评",
+        "text": "小张没有批评小李的作品太新颖。",
+        "hypothesis": "小李的作品很新颖。"
+    },
+    {
+        "d_id": "Art_0282_prompt",
+        "type": "正叙实",
+        "predicate": "批评",
+        "text": "小张没有批评小李没穿裙子。",
+        "hypothesis": "小李没穿裙子。"
+    },
+    {
+        "d_id": "Art_0283_prompt",
+        "type": "正叙实",
+        "predicate": "批评",
+        "text": "小张批评小李不遵守时间。",
+        "hypothesis": "小李不遵守时间。"
+    },
+    {
+        "d_id": "Art_0284_prompt",
+        "type": "正叙实",
+        "predicate": "批评",
+        "text": "小张批评小李不遵守时间。",
+        "hypothesis": "小李遵守时间。"
+    },
+    {
+        "d_id": "Art_0285_prompt",
+        "type": "正叙实",
+        "predicate": "批评",
+        "text": "小张批评小李穿了裙子。",
+        "hypothesis": "小李没穿裙子。"
+    },
+    {
+        "d_id": "Art_0286_prompt",
+        "type": "正叙实",
+        "predicate": "批评",
+        "text": "小张批评小李的作品太新颖。",
+        "hypothesis": "小李的作品很新颖。"
+    },
+    {
+        "d_id": "Art_0287_prompt",
+        "type": "正叙实",
+        "predicate": "披露",
+        "text": "媒体没有披露小张将会出席婚礼。",
+        "hypothesis": "小张将不会出席婚礼。"
+    },
+    {
+        "d_id": "Art_0288_prompt",
+        "type": "正叙实",
+        "predicate": "披露",
+        "text": "媒体没有披露小张将会出席婚礼。",
+        "hypothesis": "小张将会出席婚礼。"
+    },
+    {
+        "d_id": "Art_0289_prompt",
+        "type": "正叙实",
+        "predicate": "披露",
+        "text": "媒体披露小张将不会出席婚礼。",
+        "hypothesis": "小张将会出席婚礼。"
+    },
+    {
+        "d_id": "Art_0290_prompt",
+        "type": "正叙实",
+        "predicate": "披露",
+        "text": "媒体披露小张将会出席婚礼。",
+        "hypothesis": "小张将不会出席婚礼。"
+    },
+    {
+        "d_id": "Art_0291_prompt",
+        "type": "正叙实",
+        "predicate": "瞥见",
+        "text": "小张瞥见小李哭了。",
+        "hypothesis": "小李没哭。"
+    },
+    {
+        "d_id": "Art_0292_prompt",
+        "type": "正叙实",
+        "predicate": "瞥见",
+        "text": "小张瞥见小李没哭。",
+        "hypothesis": "小李哭了。"
+    },
+    {
+        "d_id": "Art_0293_prompt",
+        "type": "正叙实",
+        "predicate": "瞥见",
+        "text": "小张瞥见小李没哭。",
+        "hypothesis": "小李没哭。"
+    },
+    {
+        "d_id": "Art_0294_prompt",
+        "type": "正叙实",
+        "predicate": "瞥见",
+        "text": "小张瞥见小李手上没有戴戒指。",
+        "hypothesis": "小李手上戴着戒指。"
+    },
+    {
+        "d_id": "Art_0295_prompt",
+        "type": "正叙实",
+        "predicate": "瞥见",
+        "text": "小张瞥见小李手上没有戴戒指。",
+        "hypothesis": "小李手上没有戴戒指。"
+    },
+    {
+        "d_id": "Art_0296_prompt",
+        "type": "正叙实",
+        "predicate": "瞧见",
+        "text": "小张瞧见茶水里没有花瓣。",
+        "hypothesis": "茶水里没有花瓣。"
+    },
+    {
+        "d_id": "Art_0297_prompt",
+        "type": "正叙实",
+        "predicate": "瞧见",
+        "text": "小张瞧见茶水里有花瓣。",
+        "hypothesis": "茶水里有花瓣。"
+    },
+    {
+        "d_id": "Art_0298_prompt",
+        "type": "正叙实",
+        "predicate": "瞧见",
+        "text": "小张瞧见小李没去上课。",
+        "hypothesis": "小李没有去上课。"
+    },
+    {
+        "d_id": "Art_0299_prompt",
+        "type": "正叙实",
+        "predicate": "瞧见",
+        "text": "小张瞧见小李没去上课。",
+        "hypothesis": "小李去上课了。"
+    },
+    {
+        "d_id": "Art_0300_prompt",
+        "type": "正叙实",
+        "predicate": "瞧见",
+        "text": "小张瞧见小李去上课了。",
+        "hypothesis": "小李去上课了。"
+    },
+    {
+        "d_id": "Art_0301_prompt",
+        "type": "正叙实",
+        "predicate": "清楚",
+        "text": "小张不清楚小李不会离开这里。",
+        "hypothesis": "小李不会离开这里。"
+    },
+    {
+        "d_id": "Art_0302_prompt",
+        "type": "正叙实",
+        "predicate": "清楚",
+        "text": "小张不清楚小李会离开这里。",
+        "hypothesis": "小李不会离开这里。"
+    },
+    {
+        "d_id": "Art_0303_prompt",
+        "type": "正叙实",
+        "predicate": "清楚",
+        "text": "小张不清楚小李会离开这里。",
+        "hypothesis": "小李会离开这里。"
+    },
+    {
+        "d_id": "Art_0304_prompt",
+        "type": "正叙实",
+        "predicate": "清楚",
+        "text": "小张不清楚小李没有离开这里。",
+        "hypothesis": "小李没有离开这里。"
+    },
+    {
+        "d_id": "Art_0305_prompt",
+        "type": "正叙实",
+        "predicate": "清楚",
+        "text": "小张不清楚小李没有离开这里。",
+        "hypothesis": "小李已经离开这里了。"
+    },
+    {
+        "d_id": "Art_0306_prompt",
+        "type": "正叙实",
+        "predicate": "清楚",
+        "text": "小张不清楚小李已经离开这里了。",
+        "hypothesis": "小李已经离开这里了。"
+    },
+    {
+        "d_id": "Art_0307_prompt",
+        "type": "正叙实",
+        "predicate": "清楚",
+        "text": "小张清楚小李不会离开这里。",
+        "hypothesis": "小李不会离开这里。"
+    },
+    {
+        "d_id": "Art_0308_prompt",
+        "type": "正叙实",
+        "predicate": "清楚",
+        "text": "小张清楚小李会离开这里。",
+        "hypothesis": "小李会离开这里。"
+    },
+    {
+        "d_id": "Art_0309_prompt",
+        "type": "正叙实",
+        "predicate": "清楚",
+        "text": "小张清楚小李没有离开这里。",
+        "hypothesis": "小李没有离开这里。"
+    },
+    {
+        "d_id": "Art_0310_prompt",
+        "type": "正叙实",
+        "predicate": "清楚",
+        "text": "小张清楚小李已经离开这里了。",
+        "hypothesis": "小李已经离开这里了。"
+    },
+    {
+        "d_id": "Art_0311_prompt",
+        "type": "正叙实",
+        "predicate": "庆幸",
+        "text": "小张没有庆幸带了手表。",
+        "hypothesis": "小张带手表了。"
+    },
+    {
+        "d_id": "Art_0312_prompt",
+        "type": "正叙实",
+        "predicate": "庆幸",
+        "text": "小张没有庆幸带了手表。",
+        "hypothesis": "小张没带手表。"
+    },
+    {
+        "d_id": "Art_0313_prompt",
+        "type": "正叙实",
+        "predicate": "庆幸",
+        "text": "小张没有庆幸没带手表。",
+        "hypothesis": "小张没带手表。"
+    },
+    {
+        "d_id": "Art_0314_prompt",
+        "type": "正叙实",
+        "predicate": "庆幸",
+        "text": "小张没有庆幸小李不会来。",
+        "hypothesis": "小李会来。"
+    },
+    {
+        "d_id": "Art_0315_prompt",
+        "type": "正叙实",
+        "predicate": "庆幸",
+        "text": "小张庆幸带了手表。",
+        "hypothesis": "小张没带手表。"
+    },
+    {
+        "d_id": "Art_0316_prompt",
+        "type": "正叙实",
+        "predicate": "庆幸",
+        "text": "小张庆幸没带手表。",
+        "hypothesis": "小张带手表了。"
+    },
+    {
+        "d_id": "Art_0317_prompt",
+        "type": "正叙实",
+        "predicate": "庆幸",
+        "text": "小张庆幸小李不会来。",
+        "hypothesis": "小李不会来。"
+    },
+    {
+        "d_id": "Art_0318_prompt",
+        "type": "正叙实",
+        "predicate": "庆幸",
+        "text": "小张庆幸小李不会来。",
+        "hypothesis": "小李会来。"
+    },
+    {
+        "d_id": "Art_0319_prompt",
+        "type": "正叙实",
+        "predicate": "认识到",
+        "text": "小张没有认识到革命不会胜利。",
+        "hypothesis": "革命不会胜利。"
+    },
+    {
+        "d_id": "Art_0320_prompt",
+        "type": "正叙实",
+        "predicate": "认识到",
+        "text": "小张没有认识到革命将会胜利。",
+        "hypothesis": "革命将会胜利。"
+    },
+    {
+        "d_id": "Art_0321_prompt",
+        "type": "正叙实",
+        "predicate": "认识到",
+        "text": "小张没有认识到这不是颜色的问题。",
+        "hypothesis": "这不是颜色的问题。"
+    },
+    {
+        "d_id": "Art_0322_prompt",
+        "type": "正叙实",
+        "predicate": "认识到",
+        "text": "小张没有认识到这不是颜色的问题。",
+        "hypothesis": "这是颜色的问题。"
+    },
+    {
+        "d_id": "Art_0323_prompt",
+        "type": "正叙实",
+        "predicate": "认识到",
+        "text": "小张没有认识到这是颜色的问题。",
+        "hypothesis": "这不是颜色的问题。"
+    },
+    {
+        "d_id": "Art_0324_prompt",
+        "type": "正叙实",
+        "predicate": "认识到",
+        "text": "小张认识到革命将会胜利。",
+        "hypothesis": "革命不会胜利。"
+    },
+    {
+        "d_id": "Art_0325_prompt",
+        "type": "正叙实",
+        "predicate": "认识到",
+        "text": "小张认识到这是颜色的问题。",
+        "hypothesis": "这不是颜色的问题。"
+    },
+    {
+        "d_id": "Art_0326_prompt",
+        "type": "正叙实",
+        "predicate": "认识到",
+        "text": "小张认识到这是颜色的问题。",
+        "hypothesis": "这是颜色的问题。"
+    },
+    {
+        "d_id": "Art_0327_prompt",
+        "type": "非叙实",
+        "predicate": "认为",
+        "text": "小张不认为小李不是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0328_prompt",
+        "type": "非叙实",
+        "predicate": "认为",
+        "text": "小张不认为小李没生病。",
+        "hypothesis": "小李没生病。"
+    },
+    {
+        "d_id": "Art_0329_prompt",
+        "type": "非叙实",
+        "predicate": "认为",
+        "text": "小张不认为小李没生病。",
+        "hypothesis": "小李生病了。"
+    },
+    {
+        "d_id": "Art_0330_prompt",
+        "type": "非叙实",
+        "predicate": "认为",
+        "text": "小张不认为小李生病了。",
+        "hypothesis": "小李没生病。"
+    },
+    {
+        "d_id": "Art_0331_prompt",
+        "type": "非叙实",
+        "predicate": "认为",
+        "text": "小张不认为小李是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0332_prompt",
+        "type": "非叙实",
+        "predicate": "认为",
+        "text": "小张不认为小李是故意撒娇。",
+        "hypothesis": "小李是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0333_prompt",
+        "type": "非叙实",
+        "predicate": "认为",
+        "text": "小张认为小李没生病。",
+        "hypothesis": "小李生病了。"
+    },
+    {
+        "d_id": "Art_0334_prompt",
+        "type": "非叙实",
+        "predicate": "认为",
+        "text": "小张认为小李生病了。",
+        "hypothesis": "小李没生病。"
+    },
+    {
+        "d_id": "Art_0335_prompt",
+        "type": "非叙实",
+        "predicate": "认为",
+        "text": "小张认为小李生病了。",
+        "hypothesis": "小李生病了。"
+    },
+    {
+        "d_id": "Art_0336_prompt",
+        "type": "非叙实",
+        "predicate": "认为",
+        "text": "小张认为小李是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0337_prompt",
+        "type": "非叙实",
+        "predicate": "认为",
+        "text": "小张认为小李是故意撒娇。",
+        "hypothesis": "小李是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0338_prompt",
+        "type": "非叙实",
+        "predicate": "声称",
+        "text": "小张没有声称不认识小李。",
+        "hypothesis": "小张认识小李。"
+    },
+    {
+        "d_id": "Art_0339_prompt",
+        "type": "非叙实",
+        "predicate": "声称",
+        "text": "小张没有声称认识小李。",
+        "hypothesis": "小张不认识小李。"
+    },
+    {
+        "d_id": "Art_0340_prompt",
+        "type": "非叙实",
+        "predicate": "声称",
+        "text": "小张没有声称小李没有偷吃蛋糕。",
+        "hypothesis": "小李偷吃了蛋糕。"
+    },
+    {
+        "d_id": "Art_0341_prompt",
+        "type": "非叙实",
+        "predicate": "声称",
+        "text": "小张没有声称小李偷吃了蛋糕。",
+        "hypothesis": "小李没有偷吃蛋糕。"
+    },
+    {
+        "d_id": "Art_0342_prompt",
+        "type": "非叙实",
+        "predicate": "声称",
+        "text": "小张声称不认识小李。",
+        "hypothesis": "小张认识小李。"
+    },
+    {
+        "d_id": "Art_0343_prompt",
+        "type": "非叙实",
+        "predicate": "声称",
+        "text": "小张声称认识小李。",
+        "hypothesis": "小张不认识小李。"
+    },
+    {
+        "d_id": "Art_0344_prompt",
+        "type": "非叙实",
+        "predicate": "声称",
+        "text": "小张声称小李没有偷吃蛋糕。",
+        "hypothesis": "小李偷吃了蛋糕。"
+    },
+    {
+        "d_id": "Art_0345_prompt",
+        "type": "非叙实",
+        "predicate": "声称",
+        "text": "小张声称小李偷吃了蛋糕。",
+        "hypothesis": "小李没有偷吃蛋糕。"
+    },
+    {
+        "d_id": "Art_0346_prompt",
+        "type": "非叙实",
+        "predicate": "声明",
+        "text": "小张没有声明不会捐献全部遗产。",
+        "hypothesis": "小张不会捐献全部遗产。"
+    },
+    {
+        "d_id": "Art_0347_prompt",
+        "type": "非叙实",
+        "predicate": "声明",
+        "text": "小张没有声明不认识小李。",
+        "hypothesis": "小张认识小李。"
+    },
+    {
+        "d_id": "Art_0348_prompt",
+        "type": "非叙实",
+        "predicate": "声明",
+        "text": "小张没有声明将会捐献全部遗产。",
+        "hypothesis": "小张会捐献全部遗产。"
+    },
+    {
+        "d_id": "Art_0349_prompt",
+        "type": "非叙实",
+        "predicate": "声明",
+        "text": "小张没有声明认识小李。",
+        "hypothesis": "小张不认识小李。"
+    },
+    {
+        "d_id": "Art_0350_prompt",
+        "type": "非叙实",
+        "predicate": "声明",
+        "text": "小张没有声明认识小李。",
+        "hypothesis": "小张认识小李。"
+    },
+    {
+        "d_id": "Art_0351_prompt",
+        "type": "非叙实",
+        "predicate": "声明",
+        "text": "小张声明不会捐献全部遗产。",
+        "hypothesis": "小张不会捐献全部遗产。"
+    },
+    {
+        "d_id": "Art_0352_prompt",
+        "type": "非叙实",
+        "predicate": "声明",
+        "text": "小张声明将会捐献全部遗产。",
+        "hypothesis": "小张会捐献全部遗产。"
+    },
+    {
+        "d_id": "Art_0353_prompt",
+        "type": "非叙实",
+        "predicate": "声明",
+        "text": "小张声明认识小李。",
+        "hypothesis": "小张不认识小李。"
+    },
+    {
+        "d_id": "Art_0354_prompt",
+        "type": "非叙实",
+        "predicate": "声明",
+        "text": "小张声明认识小李。",
+        "hypothesis": "小张认识小李。"
+    },
+    {
+        "d_id": "Art_0355_prompt",
+        "type": "非叙实",
+        "predicate": "声言",
+        "text": "小张声言不会为小李报仇。",
+        "hypothesis": "小张不会为小李报仇。"
+    },
+    {
+        "d_id": "Art_0356_prompt",
+        "type": "非叙实",
+        "predicate": "声言",
+        "text": "小张声言会为小李报仇。",
+        "hypothesis": "小张会为小李报仇。"
+    },
+    {
+        "d_id": "Art_0357_prompt",
+        "type": "非叙实",
+        "predicate": "声言",
+        "text": "小张声言小李无意挑衅。",
+        "hypothesis": "小李无意挑衅。"
+    },
+    {
+        "d_id": "Art_0358_prompt",
+        "type": "非叙实",
+        "predicate": "声言",
+        "text": "小张声言小李有意挑衅。",
+        "hypothesis": "小李无意挑衅。"
+    },
+    {
+        "d_id": "Art_0359_prompt",
+        "type": "非叙实",
+        "predicate": "声言",
+        "text": "小张声言小李有意挑衅。",
+        "hypothesis": "小李有意挑衅。"
+    },
+    {
+        "d_id": "Art_0360_prompt",
+        "type": "非叙实",
+        "predicate": "声言",
+        "text": "政府声言不愿意谈判。",
+        "hypothesis": "政府不愿意谈判。"
+    },
+    {
+        "d_id": "Art_0361_prompt",
+        "type": "非叙实",
+        "predicate": "声言",
+        "text": "政府声言愿意谈判。",
+        "hypothesis": "政府愿意谈判。"
+    },
+    {
+        "d_id": "Art_0362_prompt",
+        "type": "非叙实",
+        "predicate": "数落",
+        "text": "小张没有数落徒弟的招式不明显。",
+        "hypothesis": "徒弟的招式不明显。"
+    },
+    {
+        "d_id": "Art_0363_prompt",
+        "type": "正叙实",
+        "predicate": "数落",
+        "text": "小张没有数落徒弟的招式不明显。",
+        "hypothesis": "徒弟的招式很明显。"
+    },
+    {
+        "d_id": "Art_0364_prompt",
+        "type": "正叙实",
+        "predicate": "数落",
+        "text": "小张没有数落小李穿了裙子。",
+        "hypothesis": "小李穿了裙子。"
+    },
+    {
+        "d_id": "Art_0365_prompt",
+        "type": "正叙实",
+        "predicate": "数落",
+        "text": "小张没有数落小李穿了裙子。",
+        "hypothesis": "小李没穿裙子。"
+    },
+    {
+        "d_id": "Art_0366_prompt",
+        "type": "正叙实",
+        "predicate": "数落",
+        "text": "小张没有数落小李没穿裙子。",
+        "hypothesis": "小李穿了裙子。"
+    },
+    {
+        "d_id": "Art_0367_prompt",
+        "type": "非叙实",
+        "predicate": "数落",
+        "text": "小张数落徒弟的招式不明显。",
+        "hypothesis": "徒弟的招式不明显。"
+    },
+    {
+        "d_id": "Art_0368_prompt",
+        "type": "正叙实",
+        "predicate": "数落",
+        "text": "小张数落徒弟的招式不明显。",
+        "hypothesis": "徒弟的招式很明显。"
+    },
+    {
+        "d_id": "Art_0369_prompt",
+        "type": "正叙实",
+        "predicate": "数落",
+        "text": "小张数落徒弟的招式太明显。",
+        "hypothesis": "徒弟的招式很明显。"
+    },
+    {
+        "d_id": "Art_0370_prompt",
+        "type": "正叙实",
+        "predicate": "数落",
+        "text": "小张数落小李穿了裙子。",
+        "hypothesis": "小李穿了裙子。"
+    },
+    {
+        "d_id": "Art_0371_prompt",
+        "type": "正叙实",
+        "predicate": "数落",
+        "text": "小张数落小李没穿裙子。",
+        "hypothesis": "小李没穿裙子。"
+    },
+    {
+        "d_id": "Art_0372_prompt",
+        "type": "非叙实",
+        "predicate": "说",
+        "text": "小张没说会妥协。",
+        "hypothesis": "小张不会妥协。"
+    },
+    {
+        "d_id": "Art_0373_prompt",
+        "type": "非叙实",
+        "predicate": "说",
+        "text": "小张没说会妥协。",
+        "hypothesis": "小张会妥协。"
+    },
+    {
+        "d_id": "Art_0374_prompt",
+        "type": "非叙实",
+        "predicate": "说",
+        "text": "小张没说这不是小李的钢笔。",
+        "hypothesis": "这是小李的钢笔。"
+    },
+    {
+        "d_id": "Art_0375_prompt",
+        "type": "非叙实",
+        "predicate": "说",
+        "text": "小张没说这是小李的钢笔。",
+        "hypothesis": "这不是小李的钢笔。"
+    },
+    {
+        "d_id": "Art_0376_prompt",
+        "type": "非叙实",
+        "predicate": "说",
+        "text": "小张说不会妥协。",
+        "hypothesis": "小张会妥协。"
+    },
+    {
+        "d_id": "Art_0377_prompt",
+        "type": "非叙实",
+        "predicate": "说",
+        "text": "小张说会妥协。",
+        "hypothesis": "小张不会妥协。"
+    },
+    {
+        "d_id": "Art_0378_prompt",
+        "type": "非叙实",
+        "predicate": "说",
+        "text": "小张说这不是小李的钢笔。",
+        "hypothesis": "这不是小李的钢笔。"
+    },
+    {
+        "d_id": "Art_0379_prompt",
+        "type": "非叙实",
+        "predicate": "说",
+        "text": "小张说这不是小李的钢笔。",
+        "hypothesis": "这是小李的钢笔。"
+    },
+    {
+        "d_id": "Art_0380_prompt",
+        "type": "非叙实",
+        "predicate": "说",
+        "text": "小张说这是小李的钢笔。",
+        "hypothesis": "这是小李的钢笔。"
+    },
+    {
+        "d_id": "Art_0381_prompt",
+        "type": "正叙实",
+        "predicate": "听出",
+        "text": "小张听出门外不是小李的声音。",
+        "hypothesis": "门外不是小李的声音。"
+    },
+    {
+        "d_id": "Art_0382_prompt",
+        "type": "正叙实",
+        "predicate": "听出",
+        "text": "小张听出门外不是小李的声音。",
+        "hypothesis": "门外是小李的声音。"
+    },
+    {
+        "d_id": "Art_0383_prompt",
+        "type": "正叙实",
+        "predicate": "听出",
+        "text": "小张听出小李不高兴。",
+        "hypothesis": "小李很高兴。"
+    },
+    {
+        "d_id": "Art_0384_prompt",
+        "type": "正叙实",
+        "predicate": "听到",
+        "text": "小张听到柜子里发出了响声。",
+        "hypothesis": "柜子里发出了响声。"
+    },
+    {
+        "d_id": "Art_0385_prompt",
+        "type": "正叙实",
+        "predicate": "听到",
+        "text": "小张听到邻居唱歌了。",
+        "hypothesis": "邻居唱歌了。"
+    },
+    {
+        "d_id": "Art_0386_prompt",
+        "type": "正叙实",
+        "predicate": "听到",
+        "text": "小张听到邻居唱歌了。",
+        "hypothesis": "邻居没唱歌。"
+    },
+    {
+        "d_id": "Art_0387_prompt",
+        "type": "正叙实",
+        "predicate": "听到",
+        "text": "小张听到邻居没唱歌。",
+        "hypothesis": "邻居唱歌了。"
+    },
+    {
+        "d_id": "Art_0388_prompt",
+        "type": "正叙实",
+        "predicate": "听到",
+        "text": "小张听到邻居没唱歌。",
+        "hypothesis": "邻居没唱歌。"
+    },
+    {
+        "d_id": "Art_0389_prompt",
+        "type": "正叙实",
+        "predicate": "听到",
+        "text": "小张听到邻居没在唱歌。",
+        "hypothesis": "邻居没在唱歌。"
+    },
+    {
+        "d_id": "Art_0390_prompt",
+        "type": "正叙实",
+        "predicate": "听到",
+        "text": "小张听到邻居没在唱歌。",
+        "hypothesis": "邻居在唱歌。"
+    },
+    {
+        "d_id": "Art_0391_prompt",
+        "type": "正叙实",
+        "predicate": "听到",
+        "text": "小张听到邻居在唱歌。",
+        "hypothesis": "邻居没在唱歌。"
+    },
+    {
+        "d_id": "Art_0392_prompt",
+        "type": "正叙实",
+        "predicate": "听到",
+        "text": "小张听到邻居在唱歌。",
+        "hypothesis": "邻居在唱歌。"
+    },
+    {
+        "d_id": "Art_0393_prompt",
+        "type": "正叙实",
+        "predicate": "听到",
+        "text": "小张听到小李的旧病复发了。",
+        "hypothesis": "小李的旧病没有复发。"
+    },
+    {
+        "d_id": "Art_0394_prompt",
+        "type": "正叙实",
+        "predicate": "听见",
+        "text": "小张听见小李发言了。",
+        "hypothesis": "小李没发言。"
+    },
+    {
+        "d_id": "Art_0395_prompt",
+        "type": "正叙实",
+        "predicate": "听见",
+        "text": "小张听见小李没发言。",
+        "hypothesis": "小李发言了。"
+    },
+    {
+        "d_id": "Art_0396_prompt",
+        "type": "正叙实",
+        "predicate": "听见",
+        "text": "小张听见小李没有说话。",
+        "hypothesis": "小李没说话。"
+    },
+    {
+        "d_id": "Art_0397_prompt",
+        "type": "正叙实",
+        "predicate": "听见",
+        "text": "小张听见小李说话了。",
+        "hypothesis": "小李没说话。"
+    },
+    {
+        "d_id": "Art_0398_prompt",
+        "type": "正叙实",
+        "predicate": "听见",
+        "text": "小张听见院子里没有声音。",
+        "hypothesis": "院子里有声音。"
+    },
+    {
+        "d_id": "Art_0399_prompt",
+        "type": "非叙实",
+        "predicate": "听说",
+        "text": "小张没听说小李不会投降。",
+        "hypothesis": "小李不会投降。"
+    },
+    {
+        "d_id": "Art_0400_prompt",
+        "type": "非叙实",
+        "predicate": "听说",
+        "text": "小张没听说小李不会投降。",
+        "hypothesis": "小李会投降。"
+    },
+    {
+        "d_id": "Art_0401_prompt",
+        "type": "非叙实",
+        "predicate": "听说",
+        "text": "小张没听说小李会投降。",
+        "hypothesis": "小李不会投降。"
+    },
+    {
+        "d_id": "Art_0402_prompt",
+        "type": "非叙实",
+        "predicate": "听说",
+        "text": "小张没听说小李会投降。",
+        "hypothesis": "小李会投降。"
+    },
+    {
+        "d_id": "Art_0403_prompt",
+        "type": "非叙实",
+        "predicate": "听说",
+        "text": "小张没听说小李买了电动自行车。",
+        "hypothesis": "小李买了电动自行车。"
+    },
+    {
+        "d_id": "Art_0404_prompt",
+        "type": "非叙实",
+        "predicate": "听说",
+        "text": "小张没听说小李买了电动自行车。",
+        "hypothesis": "小李没买电动自行车。"
+    },
+    {
+        "d_id": "Art_0405_prompt",
+        "type": "非叙实",
+        "predicate": "听说",
+        "text": "小张没听说小李没买电动自行车。",
+        "hypothesis": "小李买了电动自行车。"
+    },
+    {
+        "d_id": "Art_0406_prompt",
+        "type": "非叙实",
+        "predicate": "听说",
+        "text": "小张没听说小李没买电动自行车。",
+        "hypothesis": "小李没买电动自行车。"
+    },
+    {
+        "d_id": "Art_0407_prompt",
+        "type": "非叙实",
+        "predicate": "听说",
+        "text": "小张听说小李不会投降。",
+        "hypothesis": "小李不会投降。"
+    },
+    {
+        "d_id": "Art_0408_prompt",
+        "type": "非叙实",
+        "predicate": "听说",
+        "text": "小张听说小李不会投降。",
+        "hypothesis": "小李会投降。"
+    },
+    {
+        "d_id": "Art_0409_prompt",
+        "type": "非叙实",
+        "predicate": "听说",
+        "text": "小张听说小李会投降。",
+        "hypothesis": "小李不会投降。"
+    },
+    {
+        "d_id": "Art_0410_prompt",
+        "type": "非叙实",
+        "predicate": "听说",
+        "text": "小张听说小李会投降。",
+        "hypothesis": "小李会投降。"
+    },
+    {
+        "d_id": "Art_0411_prompt",
+        "type": "非叙实",
+        "predicate": "听说",
+        "text": "小张听说小李买了电动自行车。",
+        "hypothesis": "小李买了电动自行车。"
+    },
+    {
+        "d_id": "Art_0412_prompt",
+        "type": "非叙实",
+        "predicate": "听说",
+        "text": "小张听说小李买了电动自行车。",
+        "hypothesis": "小李没买电动自行车。"
+    },
+    {
+        "d_id": "Art_0413_prompt",
+        "type": "非叙实",
+        "predicate": "听说",
+        "text": "小张听说小李没买电动自行车。",
+        "hypothesis": "小李买了电动自行车。"
+    },
+    {
+        "d_id": "Art_0414_prompt",
+        "type": "非叙实",
+        "predicate": "听说",
+        "text": "小张听说小李没买电动自行车。",
+        "hypothesis": "小李没买电动自行车。"
+    },
+    {
+        "d_id": "Art_0415_prompt",
+        "type": "非叙实",
+        "predicate": "推算",
+        "text": "小张没有推算今晚没有人会遭殃。",
+        "hypothesis": "今晚有人会遭殃。"
+    },
+    {
+        "d_id": "Art_0416_prompt",
+        "type": "非叙实",
+        "predicate": "推算",
+        "text": "小张没有推算没有人遭殃。",
+        "hypothesis": "已经有人遭殃了。"
+    },
+    {
+        "d_id": "Art_0417_prompt",
+        "type": "非叙实",
+        "predicate": "推算",
+        "text": "小张推算今晚没有人会遭殃。",
+        "hypothesis": "今晚有人会遭殃。"
+    },
+    {
+        "d_id": "Art_0418_prompt",
+        "type": "非叙实",
+        "predicate": "推算",
+        "text": "小张推算没有人遭殃。",
+        "hypothesis": "已经有人遭殃了。"
+    },
+    {
+        "d_id": "Art_0419_prompt",
+        "type": "反叙实",
+        "predicate": "妄称",
+        "text": "小张妄称自己会去欧洲旅游。",
+        "hypothesis": "小张不会去欧洲旅游。"
+    },
+    {
+        "d_id": "Art_0420_prompt",
+        "type": "反叙实",
+        "predicate": "妄称",
+        "text": "小张妄称自己会去欧洲旅游。",
+        "hypothesis": "小张会去欧洲旅游。"
+    },
+    {
+        "d_id": "Art_0421_prompt",
+        "type": "反叙实",
+        "predicate": "妄称",
+        "text": "小张妄称自己是李老师最得意的学生。",
+        "hypothesis": "小张不是李老师最得意的学生。"
+    },
+    {
+        "d_id": "Art_0422_prompt",
+        "type": "反叙实",
+        "predicate": "妄称",
+        "text": "小张妄称自己是李老师最得意的学生。",
+        "hypothesis": "小张是李老师最得意的学生。"
+    },
+    {
+        "d_id": "Art_0423_prompt",
+        "type": "正叙实",
+        "predicate": "忘记",
+        "text": "小张没有忘记不需要锁门。",
+        "hypothesis": "小张需要锁门。"
+    },
+    {
+        "d_id": "Art_0424_prompt",
+        "type": "正叙实",
+        "predicate": "忘记",
+        "text": "小张没有忘记刚才锁了门了。",
+        "hypothesis": "小张刚才没有锁门。"
+    },
+    {
+        "d_id": "Art_0425_prompt",
+        "type": "正叙实",
+        "predicate": "忘记",
+        "text": "小张没有忘记刚才锁了门了。",
+        "hypothesis": "小张刚才锁了门。"
+    },
+    {
+        "d_id": "Art_0426_prompt",
+        "type": "正叙实",
+        "predicate": "忘记",
+        "text": "小张忘记不需要锁门了。",
+        "hypothesis": "小张需要锁门。"
+    },
+    {
+        "d_id": "Art_0427_prompt",
+        "type": "正叙实",
+        "predicate": "忘记",
+        "text": "小张忘记刚才锁了门了。",
+        "hypothesis": "小张刚才没有锁门。"
+    },
+    {
+        "d_id": "Art_0428_prompt",
+        "type": "正叙实",
+        "predicate": "忘记",
+        "text": "小张忘记了刚才没有锁门。",
+        "hypothesis": "小张刚才没有锁门。"
+    },
+    {
+        "d_id": "Art_0429_prompt",
+        "type": "正叙实",
+        "predicate": "忘记",
+        "text": "小张忘记需要锁门了。",
+        "hypothesis": "小张不需要锁门。"
+    },
+    {
+        "d_id": "Art_0430_prompt",
+        "type": "正叙实",
+        "predicate": "望见",
+        "text": "小张望见敌军撤退了。",
+        "hypothesis": "敌军撤退了。"
+    },
+    {
+        "d_id": "Art_0431_prompt",
+        "type": "正叙实",
+        "predicate": "望见",
+        "text": "小张望见敌军撤退了。",
+        "hypothesis": "敌军没有撤退。"
+    },
+    {
+        "d_id": "Art_0432_prompt",
+        "type": "正叙实",
+        "predicate": "望见",
+        "text": "小张望见敌军没有撤退。",
+        "hypothesis": "敌军没有撤退。"
+    },
+    {
+        "d_id": "Art_0433_prompt",
+        "type": "正叙实",
+        "predicate": "望见",
+        "text": "小张望见敌军驻扎在对岸。",
+        "hypothesis": "敌军没有驻扎在对岸。"
+    },
+    {
+        "d_id": "Art_0434_prompt",
+        "type": "正叙实",
+        "predicate": "望见",
+        "text": "小张望见敌军驻扎在对岸。",
+        "hypothesis": "敌军驻扎在对岸。"
+    },
+    {
+        "d_id": "Art_0435_prompt",
+        "type": "正叙实",
+        "predicate": "闻到",
+        "text": "小张闻到屋子里没有煤气味。",
+        "hypothesis": "屋子里没有煤气味。"
+    },
+    {
+        "d_id": "Art_0436_prompt",
+        "type": "正叙实",
+        "predicate": "闻到",
+        "text": "小张闻到小李身上没有汗味。",
+        "hypothesis": "小李身上没有汗味。"
+    },
+    {
+        "d_id": "Art_0437_prompt",
+        "type": "正叙实",
+        "predicate": "闻到",
+        "text": "小张闻到小李身上没有汗味。",
+        "hypothesis": "小李身上有汗味。"
+    },
+    {
+        "d_id": "Art_0438_prompt",
+        "type": "反叙实",
+        "predicate": "污蔑",
+        "text": "小张污蔑小李是小偷。",
+        "hypothesis": "小李不是小偷。"
+    },
+    {
+        "d_id": "Art_0439_prompt",
+        "type": "反叙实",
+        "predicate": "污蔑",
+        "text": "小张污蔑小李是小偷。",
+        "hypothesis": "小李是小偷。"
+    },
+    {
+        "d_id": "Art_0440_prompt",
+        "type": "反叙实",
+        "predicate": "污蔑",
+        "text": "小张污蔑小李偷吃了蛋糕。",
+        "hypothesis": "小李没有偷吃蛋糕。"
+    },
+    {
+        "d_id": "Art_0441_prompt",
+        "type": "反叙实",
+        "predicate": "污蔑",
+        "text": "小张污蔑小李偷吃了蛋糕。",
+        "hypothesis": "小李偷吃了蛋糕。"
+    },
+    {
+        "d_id": "Art_0442_prompt",
+        "type": "反叙实",
+        "predicate": "污陷",
+        "text": "小张污陷小李没有坚守岗位。",
+        "hypothesis": "小李坚守岗位了。"
+    },
+    {
+        "d_id": "Art_0443_prompt",
+        "type": "反叙实",
+        "predicate": "污陷",
+        "text": "小张污陷小李没有坚守岗位。",
+        "hypothesis": "小李没有坚守岗位。"
+    },
+    {
+        "d_id": "Art_0444_prompt",
+        "type": "反叙实",
+        "predicate": "诬陷",
+        "text": "小张诬陷小李不守信用。",
+        "hypothesis": "小李不守信用。"
+    },
+    {
+        "d_id": "Art_0445_prompt",
+        "type": "反叙实",
+        "predicate": "诬陷",
+        "text": "小张诬陷小李是小偷。",
+        "hypothesis": "小李不是小偷。"
+    },
+    {
+        "d_id": "Art_0446_prompt",
+        "type": "反叙实",
+        "predicate": "诬陷",
+        "text": "小张诬陷小李是小偷。",
+        "hypothesis": "小李是小偷。"
+    },
+    {
+        "d_id": "Art_0447_prompt",
+        "type": "正叙实",
+        "predicate": "羡慕",
+        "text": "小张不羡慕小李不需要出差。",
+        "hypothesis": "小李不需要出差。"
+    },
+    {
+        "d_id": "Art_0448_prompt",
+        "type": "正叙实",
+        "predicate": "羡慕",
+        "text": "小张不羡慕小李戴眼镜。",
+        "hypothesis": "小李不戴眼镜。"
+    },
+    {
+        "d_id": "Art_0449_prompt",
+        "type": "正叙实",
+        "predicate": "羡慕",
+        "text": "小张不羡慕小李需要出差。",
+        "hypothesis": "小李需要出差。"
+    },
+    {
+        "d_id": "Art_0450_prompt",
+        "type": "正叙实",
+        "predicate": "羡慕",
+        "text": "小张羡慕小李不戴眼镜。",
+        "hypothesis": "小李戴眼镜。"
+    },
+    {
+        "d_id": "Art_0451_prompt",
+        "type": "正叙实",
+        "predicate": "羡慕",
+        "text": "小张羡慕小李戴眼镜。",
+        "hypothesis": "小李不戴眼镜。"
+    },
+    {
+        "d_id": "Art_0452_prompt",
+        "type": "正叙实",
+        "predicate": "羡慕",
+        "text": "小张羡慕小李需要出差。",
+        "hypothesis": "小李不需要出差。"
+    },
+    {
+        "d_id": "Art_0453_prompt",
+        "type": "非叙实",
+        "predicate": "相信",
+        "text": "小张不相信小李不是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0454_prompt",
+        "type": "非叙实",
+        "predicate": "相信",
+        "text": "小张不相信小李不是故意撒娇。",
+        "hypothesis": "小李是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0455_prompt",
+        "type": "非叙实",
+        "predicate": "相信",
+        "text": "小张不相信小李没说实话。",
+        "hypothesis": "小李没说实话。"
+    },
+    {
+        "d_id": "Art_0456_prompt",
+        "type": "非叙实",
+        "predicate": "相信",
+        "text": "小张不相信小李没说实话。",
+        "hypothesis": "小李说了实话。"
+    },
+    {
+        "d_id": "Art_0457_prompt",
+        "type": "非叙实",
+        "predicate": "相信",
+        "text": "小张不相信小李是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0458_prompt",
+        "type": "非叙实",
+        "predicate": "相信",
+        "text": "小张不相信小李是故意撒娇。",
+        "hypothesis": "小李是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0459_prompt",
+        "type": "非叙实",
+        "predicate": "相信",
+        "text": "小张不相信小李说了实话。",
+        "hypothesis": "小李没说实话。"
+    },
+    {
+        "d_id": "Art_0460_prompt",
+        "type": "非叙实",
+        "predicate": "相信",
+        "text": "小张不相信小李说了实话。",
+        "hypothesis": "小李说了实话。"
+    },
+    {
+        "d_id": "Art_0461_prompt",
+        "type": "非叙实",
+        "predicate": "相信",
+        "text": "小张相信小李不是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0462_prompt",
+        "type": "非叙实",
+        "predicate": "相信",
+        "text": "小张相信小李不是故意撒娇。",
+        "hypothesis": "小李是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0463_prompt",
+        "type": "非叙实",
+        "predicate": "相信",
+        "text": "小张相信小李是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0464_prompt",
+        "type": "非叙实",
+        "predicate": "相信",
+        "text": "小张相信小李是故意撒娇。",
+        "hypothesis": "小李是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0465_prompt",
+        "type": "非叙实",
+        "predicate": "想",
+        "text": "我想小李不会生气。",
+        "hypothesis": "小李会生气。"
+    },
+    {
+        "d_id": "Art_0466_prompt",
+        "type": "非叙实",
+        "predicate": "想",
+        "text": "我想小李不会生气。",
+        "hypothesis": "小李生气了。"
+    },
+    {
+        "d_id": "Art_0467_prompt",
+        "type": "非叙实",
+        "predicate": "想",
+        "text": "我想小李不是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0468_prompt",
+        "type": "非叙实",
+        "predicate": "想",
+        "text": "我想小李还没退休。",
+        "hypothesis": "小李已经退休了。"
+    },
+    {
+        "d_id": "Art_0469_prompt",
+        "type": "非叙实",
+        "predicate": "想",
+        "text": "我想小李会生气。",
+        "hypothesis": "小李不会生气。"
+    },
+    {
+        "d_id": "Art_0470_prompt",
+        "type": "非叙实",
+        "predicate": "想",
+        "text": "我想小李是故意撒娇。",
+        "hypothesis": "小李是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0471_prompt",
+        "type": "非叙实",
+        "predicate": "想",
+        "text": "我想小李已经退休了。",
+        "hypothesis": "小李已经退休了。"
+    },
+    {
+        "d_id": "Art_0472_prompt",
+        "type": "正叙实",
+        "predicate": "想到",
+        "text": "小张没想到小李不会生气。",
+        "hypothesis": "小李不会生气。"
+    },
+    {
+        "d_id": "Art_0473_prompt",
+        "type": "正叙实",
+        "predicate": "想到",
+        "text": "小张没想到小李还没退休。",
+        "hypothesis": "小李还没退休。"
+    },
+    {
+        "d_id": "Art_0474_prompt",
+        "type": "正叙实",
+        "predicate": "想到",
+        "text": "小张没想到小李会生气。",
+        "hypothesis": "小李不会生气。"
+    },
+    {
+        "d_id": "Art_0475_prompt",
+        "type": "正叙实",
+        "predicate": "想到",
+        "text": "小张没想到小李已经退休了。",
+        "hypothesis": "小李还没退休。"
+    },
+    {
+        "d_id": "Art_0476_prompt",
+        "type": "反叙实",
+        "predicate": "想象",
+        "text": "小张想象自己不是富翁。",
+        "hypothesis": "小张不是富翁。"
+    },
+    {
+        "d_id": "Art_0477_prompt",
+        "type": "反叙实",
+        "predicate": "想象",
+        "text": "小张想象自己没有做全职太太。",
+        "hypothesis": "小张没有做全职太太。"
+    },
+    {
+        "d_id": "Art_0478_prompt",
+        "type": "反叙实",
+        "predicate": "想象",
+        "text": "小张想象自己没有做全职太太。",
+        "hypothesis": "小张做了全职太太。"
+    },
+    {
+        "d_id": "Art_0479_prompt",
+        "type": "反叙实",
+        "predicate": "想象",
+        "text": "小张想象自己是富翁。",
+        "hypothesis": "小张不是富翁。"
+    },
+    {
+        "d_id": "Art_0480_prompt",
+        "type": "反叙实",
+        "predicate": "想象",
+        "text": "小张想象自己是富翁。",
+        "hypothesis": "小张是富翁。"
+    },
+    {
+        "d_id": "Art_0481_prompt",
+        "type": "反叙实",
+        "predicate": "想象",
+        "text": "小张想象自己做了全职太太。",
+        "hypothesis": "小张做了全职太太。"
+    },
+    {
+        "d_id": "Art_0482_prompt",
+        "type": "非叙实",
+        "predicate": "扬言",
+        "text": "小张没有扬言不出席小李的婚礼。",
+        "hypothesis": "小张不出席小李的婚礼。"
+    },
+    {
+        "d_id": "Art_0483_prompt",
+        "type": "非叙实",
+        "predicate": "扬言",
+        "text": "小张没有扬言不出席小李的婚礼。",
+        "hypothesis": "小张要出席小李的婚礼。"
+    },
+    {
+        "d_id": "Art_0484_prompt",
+        "type": "非叙实",
+        "predicate": "扬言",
+        "text": "小张没有扬言要出席小李的婚礼。",
+        "hypothesis": "小张不出席小李的婚礼。"
+    },
+    {
+        "d_id": "Art_0485_prompt",
+        "type": "非叙实",
+        "predicate": "扬言",
+        "text": "小张没有扬言要出席小李的婚礼。",
+        "hypothesis": "小张要出席小李的婚礼。"
+    },
+    {
+        "d_id": "Art_0486_prompt",
+        "type": "非叙实",
+        "predicate": "扬言",
+        "text": "小张扬言不出席小李的婚礼。",
+        "hypothesis": "小张不出席小李的婚礼。"
+    },
+    {
+        "d_id": "Art_0487_prompt",
+        "type": "非叙实",
+        "predicate": "扬言",
+        "text": "小张扬言不出席小李的婚礼。",
+        "hypothesis": "小张要出席小李的婚礼。"
+    },
+    {
+        "d_id": "Art_0488_prompt",
+        "type": "非叙实",
+        "predicate": "扬言",
+        "text": "小张扬言要出席小李的婚礼。",
+        "hypothesis": "小张不出席小李的婚礼。"
+    },
+    {
+        "d_id": "Art_0489_prompt",
+        "type": "非叙实",
+        "predicate": "扬言",
+        "text": "小张扬言要出席小李的婚礼。",
+        "hypothesis": "小张要出席小李的婚礼。"
+    },
+    {
+        "d_id": "Art_0490_prompt",
+        "type": "非叙实",
+        "predicate": "以为",
+        "text": "小张不以为（不认为）爱情没有道理可讲。",
+        "hypothesis": "爱情没有道理可讲。"
+    },
+    {
+        "d_id": "Art_0491_prompt",
+        "type": "非叙实",
+        "predicate": "以为",
+        "text": "小张不以为（不认为）小李不是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0492_prompt",
+        "type": "非叙实",
+        "predicate": "以为",
+        "text": "小张不以为（认为）爱情有道理可讲。",
+        "hypothesis": "爱情有道理可讲。"
+    },
+    {
+        "d_id": "Art_0493_prompt",
+        "type": "非叙实",
+        "predicate": "以为",
+        "text": "小张不以为（认为）小李是故意撒娇。",
+        "hypothesis": "小李是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0494_prompt",
+        "type": "反叙实",
+        "predicate": "以为",
+        "text": "小张以为（错误地认为）爱情有道理可讲。",
+        "hypothesis": "爱情有道理可讲。"
+    },
+    {
+        "d_id": "Art_0495_prompt",
+        "type": "反叙实",
+        "predicate": "以为",
+        "text": "小张以为（错误地认为）小李是故意撒娇。",
+        "hypothesis": "小李是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0496_prompt",
+        "type": "非叙实",
+        "predicate": "以为",
+        "text": "小张以为（认为）爱情没有道理可讲。",
+        "hypothesis": "爱情没有道理可讲。"
+    },
+    {
+        "d_id": "Art_0497_prompt",
+        "type": "非叙实",
+        "predicate": "以为",
+        "text": "小张以为（认为）爱情有道理可讲。",
+        "hypothesis": "爱情有道理可讲。"
+    },
+    {
+        "d_id": "Art_0498_prompt",
+        "type": "非叙实",
+        "predicate": "以为",
+        "text": "小张以为（认为）小李不是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0499_prompt",
+        "type": "非叙实",
+        "predicate": "以为",
+        "text": "小张以为（认为）小李不是故意撒娇。",
+        "hypothesis": "小李是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0500_prompt",
+        "type": "非叙实",
+        "predicate": "以为",
+        "text": "小张以为（认为）小李是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0501_prompt",
+        "type": "反叙实",
+        "predicate": "以为",
+        "text": "小张以为爱情有道理可讲。",
+        "hypothesis": "爱情没有道理可讲。"
+    },
+    {
+        "d_id": "Art_0502_prompt",
+        "type": "反叙实",
+        "predicate": "以为",
+        "text": "小张以为小李不是故意撒娇。",
+        "hypothesis": "小李不是故意撒娇。"
+    },
+    {
+        "d_id": "Art_0503_prompt",
+        "type": "正叙实",
+        "predicate": "意识到",
+        "text": "小张没有意识到小李会离开。",
+        "hypothesis": "小李不会离开。"
+    },
+    {
+        "d_id": "Art_0504_prompt",
+        "type": "正叙实",
+        "predicate": "意识到",
+        "text": "小张没有意识到小李会离开。",
+        "hypothesis": "小李会离开。"
+    },
+    {
+        "d_id": "Art_0505_prompt",
+        "type": "正叙实",
+        "predicate": "意识到",
+        "text": "小张意识到小李会离开。",
+        "hypothesis": "小李会离开。"
+    },
+    {
+        "d_id": "Art_0506_prompt",
+        "type": "正叙实",
+        "predicate": "预见到",
+        "text": "小张没有预见到第二天不会下雨。",
+        "hypothesis": "第二天不会下雨。"
+    },
+    {
+        "d_id": "Art_0507_prompt",
+        "type": "正叙实",
+        "predicate": "预见到",
+        "text": "小张没有预见到小李不会伤心。",
+        "hypothesis": "小李不会伤心。"
+    },
+    {
+        "d_id": "Art_0508_prompt",
+        "type": "正叙实",
+        "predicate": "预见到",
+        "text": "小张没有预见到小李会伤心。",
+        "hypothesis": "小李不会伤心。"
+    },
+    {
+        "d_id": "Art_0509_prompt",
+        "type": "正叙实",
+        "predicate": "预见到",
+        "text": "小张没有预见到小李会伤心。",
+        "hypothesis": "小李会伤心。"
+    },
+    {
+        "d_id": "Art_0510_prompt",
+        "type": "正叙实",
+        "predicate": "预见到",
+        "text": "小张预见到第二天不会下雨。",
+        "hypothesis": "第二天不会下雨。"
+    },
+    {
+        "d_id": "Art_0511_prompt",
+        "type": "正叙实",
+        "predicate": "预见到",
+        "text": "小张预见到第二天不会下雨。",
+        "hypothesis": "第二天会下雨。"
+    },
+    {
+        "d_id": "Art_0512_prompt",
+        "type": "正叙实",
+        "predicate": "预见到",
+        "text": "小张预见到第二天会下雨。",
+        "hypothesis": "第二天不会下雨。"
+    },
+    {
+        "d_id": "Art_0513_prompt",
+        "type": "正叙实",
+        "predicate": "预见到",
+        "text": "小张预见到小李会伤心。",
+        "hypothesis": "小李不会伤心。"
+    },
+    {
+        "d_id": "Art_0514_prompt",
+        "type": "正叙实",
+        "predicate": "预见到",
+        "text": "小张预见到小李会伤心。",
+        "hypothesis": "小李会伤心。"
+    },
+    {
+        "d_id": "Art_0515_prompt",
+        "type": "正叙实",
+        "predicate": "遇见",
+        "text": "小张遇见孩子们在放鞭炮。",
+        "hypothesis": "孩子们没在放鞭炮。"
+    },
+    {
+        "d_id": "Art_0516_prompt",
+        "type": "正叙实",
+        "predicate": "遇见",
+        "text": "小张遇见孩子们在放鞭炮。",
+        "hypothesis": "孩子们在放鞭炮。"
+    },
+    {
+        "d_id": "Art_0517_prompt",
+        "type": "正叙实",
+        "predicate": "遇见",
+        "text": "小张遇见小李在哭。",
+        "hypothesis": "小李没在哭。"
+    },
+    {
+        "d_id": "Art_0518_prompt",
+        "type": "正叙实",
+        "predicate": "遇见",
+        "text": "小张遇见小李在哭。",
+        "hypothesis": "小李在哭。"
+    },
+    {
+        "d_id": "Art_0519_prompt",
+        "type": "正叙实",
+        "predicate": "证明",
+        "text": "文章没有证明大气污染和地质活动没有关系。",
+        "hypothesis": "大气污染和地质活动没有关系。"
+    },
+    {
+        "d_id": "Art_0520_prompt",
+        "type": "正叙实",
+        "predicate": "证明",
+        "text": "文章没有证明大气污染和地质活动没有关系。",
+        "hypothesis": "大气污染和地质活动有关系。"
+    },
+    {
+        "d_id": "Art_0521_prompt",
+        "type": "正叙实",
+        "predicate": "证明",
+        "text": "文章证明大气污染和地质活动没有关系。",
+        "hypothesis": "大气污染和地质活动没有关系。"
+    },
+    {
+        "d_id": "Art_0522_prompt",
+        "type": "正叙实",
+        "predicate": "证明",
+        "text": "文章证明大气污染和地质活动没有关系。",
+        "hypothesis": "大气污染和地质活动有关系。"
+    },
+    {
+        "d_id": "Art_0523_prompt",
+        "type": "正叙实",
+        "predicate": "证明",
+        "text": "文章证明大气污染和地质活动有关系。",
+        "hypothesis": "大气污染和地质活动没有关系。"
+    },
+    {
+        "d_id": "Art_0524_prompt",
+        "type": "正叙实",
+        "predicate": "证明",
+        "text": "小张没有证明小李不认识小王。",
+        "hypothesis": "小李认识小王。"
+    },
+    {
+        "d_id": "Art_0525_prompt",
+        "type": "正叙实",
+        "predicate": "证明",
+        "text": "小张没有证明小李认识小王。",
+        "hypothesis": "小李不认识小王。"
+    },
+    {
+        "d_id": "Art_0526_prompt",
+        "type": "正叙实",
+        "predicate": "证明",
+        "text": "小张向法院证明小李认识小王。",
+        "hypothesis": "小李认识小王。"
+    },
+    {
+        "d_id": "Art_0527_prompt",
+        "type": "正叙实",
+        "predicate": "证明",
+        "text": "小张证明小李不认识小王。",
+        "hypothesis": "小李不认识小王。"
+    },
+    {
+        "d_id": "Art_0528_prompt",
+        "type": "正叙实",
+        "predicate": "证实",
+        "text": "文章没有证实大气污染和地质活动没有关系。",
+        "hypothesis": "大气污染和地质活动没有关系。"
+    },
+    {
+        "d_id": "Art_0529_prompt",
+        "type": "正叙实",
+        "predicate": "证实",
+        "text": "文章没有证实大气污染和地质活动没有关系。",
+        "hypothesis": "大气污染和地质活动有关系。"
+    },
+    {
+        "d_id": "Art_0530_prompt",
+        "type": "正叙实",
+        "predicate": "证实",
+        "text": "文章没有证实大气污染和地质活动有关系。",
+        "hypothesis": "大气污染和地质活动没有关系。"
+    },
+    {
+        "d_id": "Art_0531_prompt",
+        "type": "正叙实",
+        "predicate": "证实",
+        "text": "文章没有证实大气污染和地质活动有关系。",
+        "hypothesis": "大气污染和地质活动有关系。"
+    },
+    {
+        "d_id": "Art_0532_prompt",
+        "type": "正叙实",
+        "predicate": "证实",
+        "text": "文章证实大气污染和地质活动有关系。",
+        "hypothesis": "大气污染和地质活动没有关系。"
+    },
+    {
+        "d_id": "Art_0533_prompt",
+        "type": "正叙实",
+        "predicate": "证实",
+        "text": "小张没有证实小李不认识小王。",
+        "hypothesis": "小李认识小王。"
+    },
+    {
+        "d_id": "Art_0534_prompt",
+        "type": "正叙实",
+        "predicate": "证实",
+        "text": "小张没有证实小李认识小王。",
+        "hypothesis": "小李不认识小王。"
+    },
+    {
+        "d_id": "Art_0535_prompt",
+        "type": "正叙实",
+        "predicate": "证实",
+        "text": "小张证实小李不认识小王。",
+        "hypothesis": "小李不认识小王。"
+    },
+    {
+        "d_id": "Art_0536_prompt",
+        "type": "正叙实",
+        "predicate": "证实",
+        "text": "小张证实小李不认识小王。",
+        "hypothesis": "小李认识小王。"
+    },
+    {
+        "d_id": "Art_0537_prompt",
+        "type": "正叙实",
+        "predicate": "证实",
+        "text": "小张证实小李认识小王。",
+        "hypothesis": "小李认识小王。"
+    },
+    {
+        "d_id": "Art_0538_prompt",
+        "type": "正叙实",
+        "predicate": "知道",
+        "text": "小张不知道不需要带钱包。",
+        "hypothesis": "小张不需要带钱包。"
+    },
+    {
+        "d_id": "Art_0539_prompt",
+        "type": "正叙实",
+        "predicate": "知道",
+        "text": "小张不知道不需要带钱包。",
+        "hypothesis": "小张需要带钱包。"
+    },
+    {
+        "d_id": "Art_0540_prompt",
+        "type": "正叙实",
+        "predicate": "知道",
+        "text": "小张不知道小李不是山东人。",
+        "hypothesis": "小李是山东人。"
+    },
+    {
+        "d_id": "Art_0541_prompt",
+        "type": "正叙实",
+        "predicate": "知道",
+        "text": "小张知道不需要带钱包。",
+        "hypothesis": "小张需要带钱包。"
+    },
+    {
+        "d_id": "Art_0542_prompt",
+        "type": "正叙实",
+        "predicate": "知道",
+        "text": "小张知道小李不是山东人。",
+        "hypothesis": "小李不是山东人。"
+    },
+    {
+        "d_id": "Art_0543_prompt",
+        "type": "正叙实",
+        "predicate": "知道",
+        "text": "小张知道需要带钱包。",
+        "hypothesis": "小张不需要带钱包。"
+    },
+    {
+        "d_id": "Art_0544_prompt",
+        "type": "正叙实",
+        "predicate": "注意到",
+        "text": "小张没有注意到小李的脸色没有变化。",
+        "hypothesis": "小李的脸色没有变化。"
+    },
+    {
+        "d_id": "Art_0545_prompt",
+        "type": "正叙实",
+        "predicate": "注意到",
+        "text": "小张没有注意到小李的脸色有了变化。",
+        "hypothesis": "小李的脸色没有变化。"
+    },
+    {
+        "d_id": "Art_0546_prompt",
+        "type": "正叙实",
+        "predicate": "注意到",
+        "text": "小张没有注意到小李的脸色有了变化。",
+        "hypothesis": "小李的脸色有了变化。"
+    },
+    {
+        "d_id": "Art_0547_prompt",
+        "type": "正叙实",
+        "predicate": "注意到",
+        "text": "小张没有注意到小李没在哭。",
+        "hypothesis": "小李没在哭。"
+    },
+    {
+        "d_id": "Art_0548_prompt",
+        "type": "正叙实",
+        "predicate": "注意到",
+        "text": "小张没有注意到小李在哭。",
+        "hypothesis": "小李没在哭。"
+    },
+    {
+        "d_id": "Art_0549_prompt",
+        "type": "正叙实",
+        "predicate": "注意到",
+        "text": "小张没有注意到小李在哭。",
+        "hypothesis": "小李在哭。"
+    },
+    {
+        "d_id": "Art_0550_prompt",
+        "type": "正叙实",
+        "predicate": "注意到",
+        "text": "小张注意到小李的脸色没有变化。",
+        "hypothesis": "小李的脸色没有变化。"
+    },
+    {
+        "d_id": "Art_0551_prompt",
+        "type": "正叙实",
+        "predicate": "注意到",
+        "text": "小张注意到小李的脸色没有变化。",
+        "hypothesis": "小李的脸色有了变化。"
+    },
+    {
+        "d_id": "Art_0552_prompt",
+        "type": "正叙实",
+        "predicate": "注意到",
+        "text": "小张注意到小李的脸色有了变化。",
+        "hypothesis": "小李的脸色没有变化。"
+    },
+    {
+        "d_id": "Art_0553_prompt",
+        "type": "正叙实",
+        "predicate": "注意到",
+        "text": "小张注意到小李的脸色有了变化。",
+        "hypothesis": "小李的脸色有了变化。"
+    },
+    {
+        "d_id": "Art_0554_prompt",
+        "type": "正叙实",
+        "predicate": "注意到",
+        "text": "小张注意到小李没在哭。",
+        "hypothesis": "小李没在哭。"
+    },
+    {
+        "d_id": "Art_0555_prompt",
+        "type": "正叙实",
+        "predicate": "注意到",
+        "text": "小张注意到小李没在哭。",
+        "hypothesis": "小李在哭。"
+    },
+    {
+        "d_id": "Art_0556_prompt",
+        "type": "正叙实",
+        "predicate": "注意到",
+        "text": "小张注意到小李在哭。",
+        "hypothesis": "小李没在哭。"
+    },
+    {
+        "d_id": "Art_0557_prompt",
+        "type": "正叙实",
+        "predicate": "注意到",
+        "text": "小张注意到小李在哭。",
+        "hypothesis": "小李在哭。"
+    },
+    {
+        "d_id": "Art_0558_prompt",
+        "type": "反叙实",
+        "predicate": "装作",
+        "text": "小张装作知道两人的关系。",
+        "hypothesis": "小张知道两人的关系。"
+    }
+]

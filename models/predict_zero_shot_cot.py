@@ -5,9 +5,9 @@ import os
 import re 
 
 # --- 配置 ---
-INPUT_FILE = '../Sample_Set/NatS_20250407.json' #自然语料库，可以改成人工的
-OUTPUT_FILE = '../output/predictions_baseline.json'
-OLLAMA_MODEL = 'qwen2:7b'
+INPUT_FILE = '../Sample_Set/Nat_20250430_prompt.json' #自然语料库，可以改成人工的
+OUTPUT_FILE = '../output/predictions_NatS.json'
+OLLAMA_MODEL = 'qwen3'
 
 # 获取脚本所在的目录
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -43,7 +43,6 @@ except Exception as e:
 
 # --- 提示词模板 ---
 PROMPT_TEMPLATE = """
-
 # 任务：叙实性判断 (必须输出 T 或 F, 除非绝对无法判断)
 
 ## 指令
@@ -95,6 +94,9 @@ for item in tqdm(data, desc="Predicting"):
         ])
         answer_raw = response['message']['content'].strip()
 
+        # 过滤掉 <think>...</think> 之间的内容
+        answer_raw = re.sub(r'<think>.*?</think>', '', answer_raw, flags=re.DOTALL).strip()
+         # 去除 think 标签内的内容
         # --- 更鲁棒的答案解析逻辑 ---
         # 1. 尝试直接匹配单个大写字母 T/F/U/R
         if answer_raw in ['T', 'F', 'U', 'R']:

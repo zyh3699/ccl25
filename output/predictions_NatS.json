@@ -1,1202 +1,5922 @@
 [
     {
-        "d_id": "ArtS_001",
-        "answer": "T"
-    },
-    {
-        "d_id": "ArtS_002",
-        "answer": "T"
+        "d_id": "Nat_0001_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_003",
+        "d_id": "Nat_0002_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_004",
-        "answer": "F"
+        "d_id": "Nat_0003_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_005",
+        "d_id": "Nat_0004_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_006",
+        "d_id": "Nat_0005_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_007",
-        "answer": "T"
+        "d_id": "Nat_0006_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_008",
-        "answer": "F"
+        "d_id": "Nat_0007_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_009",
+        "d_id": "Nat_0008_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_010",
+        "d_id": "Nat_0009_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_011",
-        "answer": "T"
+        "d_id": "Nat_0010_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_012",
+        "d_id": "Nat_0011_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_013",
-        "answer": "T"
+        "d_id": "Nat_0012_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_014",
+        "d_id": "Nat_0013_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_015",
-        "answer": "T"
+        "d_id": "Nat_0014_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_016",
+        "d_id": "Nat_0015_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_017",
-        "answer": "F"
+        "d_id": "Nat_0016_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_018",
+        "d_id": "Nat_0017_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_019",
+        "d_id": "Nat_0018_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_020",
+        "d_id": "Nat_0019_prompt",
         "answer": "T"
-    },
-    {
-        "d_id": "ArtS_021",
-        "answer": "F"
     },
     {
-        "d_id": "ArtS_022",
+        "d_id": "Nat_0020_prompt",
         "answer": "F"
-    },
-    {
-        "d_id": "ArtS_023",
-        "answer": "T"
     },
     {
-        "d_id": "ArtS_024",
+        "d_id": "Nat_0021_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_025",
-        "answer": "T"
+        "d_id": "Nat_0022_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_026",
+        "d_id": "Nat_0023_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_027",
-        "answer": "F"
+        "d_id": "Nat_0024_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_028",
+        "d_id": "Nat_0025_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_029",
-        "answer": "F"
+        "d_id": "Nat_0026_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_030",
+        "d_id": "Nat_0027_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_031",
+        "d_id": "Nat_0028_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_032",
+        "d_id": "Nat_0029_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_033",
+        "d_id": "Nat_0030_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_034",
-        "answer": "F"
+        "d_id": "Nat_0031_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_035",
-        "answer": "T"
+        "d_id": "Nat_0032_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_036",
+        "d_id": "Nat_0033_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_037",
+        "d_id": "Nat_0034_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_038",
+        "d_id": "Nat_0035_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_039",
+        "d_id": "Nat_0036_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_040",
-        "answer": "F"
+        "d_id": "Nat_0037_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_041",
-        "answer": "T"
+        "d_id": "Nat_0038_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_042",
+        "d_id": "Nat_0039_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_043",
-        "answer": "F"
+        "d_id": "Nat_0040_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_044",
+        "d_id": "Nat_0041_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_045",
+        "d_id": "Nat_0042_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_046",
-        "answer": "F"
+        "d_id": "Nat_0043_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_047",
-        "answer": "F"
+        "d_id": "Nat_0044_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_048",
+        "d_id": "Nat_0045_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_049",
+        "d_id": "Nat_0046_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_050",
-        "answer": "F"
+        "d_id": "Nat_0047_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_051",
-        "answer": "T"
+        "d_id": "Nat_0048_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_052",
+        "d_id": "Nat_0049_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_053",
-        "answer": "T"
+        "d_id": "Nat_0050_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_054",
+        "d_id": "Nat_0051_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_055",
-        "answer": "F"
+        "d_id": "Nat_0052_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_056",
-        "answer": "F"
+        "d_id": "Nat_0053_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_057",
+        "d_id": "Nat_0054_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_058",
-        "answer": "F"
+        "d_id": "Nat_0055_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_059",
+        "d_id": "Nat_0056_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_060",
+        "d_id": "Nat_0057_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_061",
-        "answer": "T"
+        "d_id": "Nat_0058_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_062",
+        "d_id": "Nat_0059_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_063",
-        "answer": "T"
+        "d_id": "Nat_0060_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_064",
+        "d_id": "Nat_0061_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_065",
-        "answer": "T"
+        "d_id": "Nat_0062_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_066",
+        "d_id": "Nat_0063_prompt",
         "answer": "T"
-    },
-    {
-        "d_id": "ArtS_067",
-        "answer": "F"
     },
     {
-        "d_id": "ArtS_068",
+        "d_id": "Nat_0064_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_069",
+        "d_id": "Nat_0065_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_070",
-        "answer": "F"
+        "d_id": "Nat_0066_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_071",
+        "d_id": "Nat_0067_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_072",
+        "d_id": "Nat_0068_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_073",
-        "answer": "F"
+        "d_id": "Nat_0069_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_074",
+        "d_id": "Nat_0070_prompt",
         "answer": "F"
-    },
-    {
-        "d_id": "ArtS_075",
-        "answer": "T"
     },
     {
-        "d_id": "ArtS_076",
+        "d_id": "Nat_0071_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_077",
-        "answer": "T"
+        "d_id": "Nat_0072_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_078",
+        "d_id": "Nat_0073_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_079",
+        "d_id": "Nat_0074_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_080",
+        "d_id": "Nat_0075_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_081",
-        "answer": "T"
+        "d_id": "Nat_0076_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_082",
+        "d_id": "Nat_0077_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_083",
+        "d_id": "Nat_0078_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_084",
+        "d_id": "Nat_0079_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_085",
+        "d_id": "Nat_0080_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_086",
+        "d_id": "Nat_0081_prompt",
         "answer": "T"
-    },
-    {
-        "d_id": "ArtS_087",
-        "answer": "F"
     },
     {
-        "d_id": "ArtS_088",
+        "d_id": "Nat_0082_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_089",
+        "d_id": "Nat_0083_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_090",
+        "d_id": "Nat_0084_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_091",
-        "answer": "F"
-    },
-    {
-        "d_id": "ArtS_092",
+        "d_id": "Nat_0085_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_093",
+        "d_id": "Nat_0086_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_094",
+        "d_id": "Nat_0087_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_095",
+        "d_id": "Nat_0088_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_096",
-        "answer": "F"
+        "d_id": "Nat_0089_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_097",
+        "d_id": "Nat_0090_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_098",
-        "answer": "T"
+        "d_id": "Nat_0091_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_099",
-        "answer": "T"
+        "d_id": "Nat_0092_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_100",
-        "answer": "T"
+        "d_id": "Nat_0093_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_101",
-        "answer": "T"
+        "d_id": "Nat_0094_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_102",
-        "answer": "T"
+        "d_id": "Nat_0095_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_103",
-        "answer": "T"
+        "d_id": "Nat_0096_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_104",
-        "answer": "T"
+        "d_id": "Nat_0097_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_105",
-        "answer": "F"
+        "d_id": "Nat_0098_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_106",
-        "answer": "T"
+        "d_id": "Nat_0099_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_107",
-        "answer": "T"
+        "d_id": "Nat_0100_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_108",
+        "d_id": "Nat_0101_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_109",
+        "d_id": "Nat_0102_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_110",
+        "d_id": "Nat_0103_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_111",
-        "answer": "U"
+        "d_id": "Nat_0104_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_112",
+        "d_id": "Nat_0105_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_113",
+        "d_id": "Nat_0106_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_114",
-        "answer": "U"
+        "d_id": "Nat_0107_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_115",
+        "d_id": "Nat_0108_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_116",
+        "d_id": "Nat_0109_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_117",
+        "d_id": "Nat_0110_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_118",
-        "answer": "U"
+        "d_id": "Nat_0111_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_119",
-        "answer": "U"
+        "d_id": "Nat_0112_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_120",
-        "answer": "U"
+        "d_id": "Nat_0113_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_121",
-        "answer": "U"
+        "d_id": "Nat_0114_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_122",
+        "d_id": "Nat_0115_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_123",
-        "answer": "U"
+        "d_id": "Nat_0116_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_124",
-        "answer": "U"
+        "d_id": "Nat_0117_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_125",
+        "d_id": "Nat_0118_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_126",
-        "answer": "U"
+        "d_id": "Nat_0119_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_127",
+        "d_id": "Nat_0120_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_128",
-        "answer": "U"
+        "d_id": "Nat_0121_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_129",
-        "answer": "U"
+        "d_id": "Nat_0122_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_130",
-        "answer": "U"
+        "d_id": "Nat_0123_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_131",
+        "d_id": "Nat_0124_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_132",
-        "answer": "U"
+        "d_id": "Nat_0125_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_133",
+        "d_id": "Nat_0126_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_134",
+        "d_id": "Nat_0127_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_135",
+        "d_id": "Nat_0128_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_136",
+        "d_id": "Nat_0129_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_137",
+        "d_id": "Nat_0130_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_138",
+        "d_id": "Nat_0131_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_139",
+        "d_id": "Nat_0132_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_140",
-        "answer": "U"
+        "d_id": "Nat_0133_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_141",
+        "d_id": "Nat_0134_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_142",
-        "answer": "U"
+        "d_id": "Nat_0135_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_143",
+        "d_id": "Nat_0136_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_144",
+        "d_id": "Nat_0137_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_145",
+        "d_id": "Nat_0138_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_146",
+        "d_id": "Nat_0139_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_147",
+        "d_id": "Nat_0140_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_148",
-        "answer": "U"
+        "d_id": "Nat_0141_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_149",
+        "d_id": "Nat_0142_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_150",
-        "answer": "U"
+        "d_id": "Nat_0143_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_151",
+        "d_id": "Nat_0144_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_152",
-        "answer": "U"
+        "d_id": "Nat_0145_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0146_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_153",
+        "d_id": "Nat_0147_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0148_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_154",
+        "d_id": "Nat_0149_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_155",
+        "d_id": "Nat_0150_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_156",
-        "answer": "F"
+        "d_id": "Nat_0151_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_157",
-        "answer": "F"
+        "d_id": "Nat_0152_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0153_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_158",
+        "d_id": "Nat_0154_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_159",
+        "d_id": "Nat_0155_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_160",
-        "answer": "F"
+        "d_id": "Nat_0156_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_161",
+        "d_id": "Nat_0157_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_162",
+        "d_id": "Nat_0158_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_163",
-        "answer": "F"
+        "d_id": "Nat_0159_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_164",
+        "d_id": "Nat_0160_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_165",
-        "answer": "F"
+        "d_id": "Nat_0161_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_166",
+        "d_id": "Nat_0162_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_167",
+        "d_id": "Nat_0163_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_168",
-        "answer": "F"
+        "d_id": "Nat_0164_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_169",
-        "answer": "F"
+        "d_id": "Nat_0165_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_170",
+        "d_id": "Nat_0166_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0167_prompt",
         "answer": "T"
+    },
+    {
+        "d_id": "Nat_0168_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_171",
+        "d_id": "Nat_0169_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_172",
+        "d_id": "Nat_0170_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_173",
+        "d_id": "Nat_0171_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_174",
-        "answer": "T"
+        "d_id": "Nat_0172_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_175",
+        "d_id": "Nat_0173_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_176",
+        "d_id": "Nat_0174_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_177",
+        "d_id": "Nat_0175_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0176_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_178",
+        "d_id": "Nat_0177_prompt",
         "answer": "T"
+    },
+    {
+        "d_id": "Nat_0178_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_179",
+        "d_id": "Nat_0179_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_180",
+        "d_id": "Nat_0180_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_181",
-        "answer": "F"
+        "d_id": "Nat_0181_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_182",
+        "d_id": "Nat_0182_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_183",
+        "d_id": "Nat_0183_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_184",
+        "d_id": "Nat_0184_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_185",
+        "d_id": "Nat_0185_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_186",
+        "d_id": "Nat_0186_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_187",
+        "d_id": "Nat_0187_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_188",
-        "answer": "T"
+        "d_id": "Nat_0188_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_189",
+        "d_id": "Nat_0189_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_190",
+        "d_id": "Nat_0190_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_191",
+        "d_id": "Nat_0191_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_192",
+        "d_id": "Nat_0192_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_193",
+        "d_id": "Nat_0193_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_194",
-        "answer": "T"
+        "d_id": "Nat_0194_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_195",
+        "d_id": "Nat_0195_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_196",
-        "answer": "T"
+        "d_id": "Nat_0196_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_197",
+        "d_id": "Nat_0197_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_198",
+        "d_id": "Nat_0198_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_199",
+        "d_id": "Nat_0199_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_200",
+        "d_id": "Nat_0200_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_201",
+        "d_id": "Nat_0201_prompt",
         "answer": "T"
+    },
+    {
+        "d_id": "Nat_0202_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_202",
+        "d_id": "Nat_0203_prompt",
         "answer": "T"
+    },
+    {
+        "d_id": "Nat_0204_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_203",
+        "d_id": "Nat_0205_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_204",
+        "d_id": "Nat_0206_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_205",
+        "d_id": "Nat_0207_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_206",
-        "answer": "F"
+        "d_id": "Nat_0208_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_207",
+        "d_id": "Nat_0209_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_208",
+        "d_id": "Nat_0210_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_209",
+        "d_id": "Nat_0211_prompt",
         "answer": "F"
+    },
+    {
+        "d_id": "Nat_0212_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_210",
+        "d_id": "Nat_0213_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_211",
+        "d_id": "Nat_0214_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_212",
+        "d_id": "Nat_0215_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_213",
-        "answer": "T"
+        "d_id": "Nat_0216_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_214",
-        "answer": "T"
+        "d_id": "Nat_0217_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_215",
+        "d_id": "Nat_0218_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_216",
+        "d_id": "Nat_0219_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_217",
+        "d_id": "Nat_0220_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_218",
-        "answer": "T"
+        "d_id": "Nat_0221_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_219",
+        "d_id": "Nat_0222_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_220",
+        "d_id": "Nat_0223_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_221",
-        "answer": "T"
+        "d_id": "Nat_0224_prompt",
+        "answer": "U"
     },
     {
-        "d_id": "ArtS_222",
+        "d_id": "Nat_0225_prompt",
         "answer": "T"
+    },
+    {
+        "d_id": "Nat_0226_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_223",
+        "d_id": "Nat_0227_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_224",
+        "d_id": "Nat_0228_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_225",
+        "d_id": "Nat_0229_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_226",
-        "answer": "T"
+        "d_id": "Nat_0230_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_227",
+        "d_id": "Nat_0231_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_228",
-        "answer": "T"
+        "d_id": "Nat_0232_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_229",
+        "d_id": "Nat_0233_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_230",
-        "answer": "T"
+        "d_id": "Nat_0234_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_231",
+        "d_id": "Nat_0235_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_232",
-        "answer": "U"
+        "d_id": "Nat_0236_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_233",
-        "answer": "U"
+        "d_id": "Nat_0237_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_234",
+        "d_id": "Nat_0238_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_235",
+        "d_id": "Nat_0239_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_236",
+        "d_id": "Nat_0240_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_237",
+        "d_id": "Nat_0241_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_238",
-        "answer": "T"
+        "d_id": "Nat_0242_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_239",
+        "d_id": "Nat_0243_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_240",
+        "d_id": "Nat_0244_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_241",
-        "answer": "F"
+        "d_id": "Nat_0245_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_242",
-        "answer": "T"
+        "d_id": "Nat_0246_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_243",
+        "d_id": "Nat_0247_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_244",
+        "d_id": "Nat_0248_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_245",
+        "d_id": "Nat_0249_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_246",
-        "answer": "T"
+        "d_id": "Nat_0250_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_247",
+        "d_id": "Nat_0251_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_248",
-        "answer": "T"
+        "d_id": "Nat_0252_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_249",
+        "d_id": "Nat_0253_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_250",
+        "d_id": "Nat_0254_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_251",
+        "d_id": "Nat_0255_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_252",
+        "d_id": "Nat_0256_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_253",
-        "answer": "F"
+        "d_id": "Nat_0257_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_254",
-        "answer": "T"
+        "d_id": "Nat_0258_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_255",
+        "d_id": "Nat_0259_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_256",
-        "answer": "T"
+        "d_id": "Nat_0260_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_257",
+        "d_id": "Nat_0261_prompt",
         "answer": "T"
     },
     {
-        "d_id": "ArtS_258",
+        "d_id": "Nat_0262_prompt",
         "answer": "F"
     },
     {
-        "d_id": "ArtS_259",
-        "answer": "U"
+        "d_id": "Nat_0263_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_260",
-        "answer": "U"
+        "d_id": "Nat_0264_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_261",
-        "answer": "U"
+        "d_id": "Nat_0265_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_262",
-        "answer": "U"
+        "d_id": "Nat_0266_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_263",
-        "answer": "U"
+        "d_id": "Nat_0267_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_264",
-        "answer": "U"
+        "d_id": "Nat_0268_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_265",
-        "answer": "U"
+        "d_id": "Nat_0269_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_266",
-        "answer": "U"
+        "d_id": "Nat_0270_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_267",
-        "answer": "U"
+        "d_id": "Nat_0271_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_268",
+        "d_id": "Nat_0272_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_269",
-        "answer": "U"
+        "d_id": "Nat_0273_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_270",
-        "answer": "U"
+        "d_id": "Nat_0274_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_271",
-        "answer": "U"
+        "d_id": "Nat_0275_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_272",
-        "answer": "U"
+        "d_id": "Nat_0276_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_273",
-        "answer": "U"
+        "d_id": "Nat_0277_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_274",
+        "d_id": "Nat_0278_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_275",
-        "answer": "U"
+        "d_id": "Nat_0279_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_276",
+        "d_id": "Nat_0280_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_277",
-        "answer": "U"
+        "d_id": "Nat_0281_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_278",
-        "answer": "U"
+        "d_id": "Nat_0282_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_279",
-        "answer": "U"
+        "d_id": "Nat_0283_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_280",
-        "answer": "U"
+        "d_id": "Nat_0284_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_281",
-        "answer": "U"
+        "d_id": "Nat_0285_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_282",
-        "answer": "U"
+        "d_id": "Nat_0286_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_283",
-        "answer": "U"
+        "d_id": "Nat_0287_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_284",
-        "answer": "U"
+        "d_id": "Nat_0288_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_285",
-        "answer": "U"
+        "d_id": "Nat_0289_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_286",
-        "answer": "U"
+        "d_id": "Nat_0290_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_287",
-        "answer": "U"
+        "d_id": "Nat_0291_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_288",
-        "answer": "U"
+        "d_id": "Nat_0292_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_289",
-        "answer": "U"
+        "d_id": "Nat_0293_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_290",
-        "answer": "U"
+        "d_id": "Nat_0294_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_291",
-        "answer": "U"
+        "d_id": "Nat_0295_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_292",
-        "answer": "U"
+        "d_id": "Nat_0296_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_293",
-        "answer": "U"
+        "d_id": "Nat_0297_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_294",
-        "answer": "U"
+        "d_id": "Nat_0298_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0299_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0300_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0301_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0302_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0303_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0304_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0305_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_295",
+        "d_id": "Nat_0306_prompt",
         "answer": "U"
     },
     {
-        "d_id": "ArtS_296",
+        "d_id": "Nat_0307_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0308_prompt",
         "answer": "U"
+    },
+    {
+        "d_id": "Nat_0309_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0310_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0311_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0312_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0313_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0314_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0315_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0316_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0317_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0318_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0319_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0320_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0321_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0322_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0323_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0324_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0325_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0326_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0327_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0328_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0329_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0330_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0331_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0332_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0333_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0334_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0335_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0336_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0337_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_297",
+        "d_id": "Nat_0338_prompt",
         "answer": "U"
+    },
+    {
+        "d_id": "Nat_0339_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0340_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0341_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0342_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0343_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0344_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0345_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0346_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0347_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0348_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0349_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0350_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0351_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_298",
+        "d_id": "Nat_0352_prompt",
         "answer": "U"
+    },
+    {
+        "d_id": "Nat_0353_prompt",
+        "answer": "T"
     },
     {
-        "d_id": "ArtS_299",
+        "d_id": "Nat_0354_prompt",
         "answer": "U"
+    },
+    {
+        "d_id": "Nat_0355_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0356_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0357_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0358_prompt",
+        "answer": "F"
     },
     {
-        "d_id": "ArtS_300",
+        "d_id": "Nat_0359_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0360_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0361_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0362_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0363_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0364_prompt",
         "answer": "U"
+    },
+    {
+        "d_id": "Nat_0365_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0366_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0367_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0368_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0369_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0370_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0371_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0372_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0373_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0374_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0375_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0376_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0377_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0378_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0379_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0380_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0381_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0382_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0383_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0384_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0385_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0386_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0387_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0388_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0389_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0390_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0391_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0392_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0393_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0394_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0395_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0396_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0397_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0398_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0399_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0400_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0401_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0402_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0403_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0404_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0405_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0406_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0407_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0408_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0409_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0410_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0411_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0412_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0413_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0414_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0415_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0416_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0417_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0418_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0419_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0420_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0421_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0422_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0423_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0424_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0425_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0426_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0427_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0428_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0429_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0430_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0431_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0432_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0433_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0434_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0435_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0436_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0437_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0438_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0439_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0440_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0441_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0442_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0443_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0444_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0445_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0446_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0447_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0448_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0449_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0450_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0451_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0452_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0453_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0454_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0455_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0456_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0457_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0458_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0459_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0460_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0461_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0462_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0463_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0464_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0465_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0466_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0467_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0468_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0469_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0470_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0471_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0472_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0473_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0474_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0475_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0476_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0477_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0478_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0479_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0480_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0481_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0482_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0483_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0484_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0485_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0486_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0487_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0488_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0489_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0490_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0491_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0492_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0493_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0494_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0495_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0496_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0497_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0498_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0499_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0500_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0501_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0502_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0503_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0504_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0505_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0506_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0507_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0508_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0509_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0510_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0511_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0512_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0513_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0514_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0515_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0516_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0517_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0518_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0519_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0520_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0521_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0522_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0523_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0524_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0525_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0526_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0527_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0528_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0529_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0530_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0531_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0532_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0533_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0534_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0535_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0536_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0537_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0538_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0539_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0540_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0541_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0542_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0543_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0544_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0545_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0546_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0547_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0548_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0549_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0550_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0551_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0552_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0553_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0554_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0555_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0556_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0557_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0558_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0559_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0560_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0561_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0562_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0563_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0564_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0565_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0566_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0567_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0568_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0569_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0570_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0571_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0572_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0573_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0574_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0575_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0576_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0577_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0578_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0579_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0580_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0581_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0582_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0583_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0584_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0585_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0586_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0587_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0588_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0589_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0590_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0591_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0592_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0593_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0594_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0595_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0596_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0597_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0598_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0599_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0600_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0601_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0602_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0603_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0604_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0605_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0606_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0607_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0608_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0609_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0610_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0611_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0612_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0613_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0614_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0615_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0616_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0617_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0618_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0619_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0620_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0621_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0622_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0623_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0624_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0625_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0626_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0627_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0628_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0629_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0630_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0631_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0632_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0633_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0634_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0635_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0636_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0637_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0638_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0639_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0640_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0641_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0642_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0643_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0644_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0645_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0646_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0647_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0648_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0649_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0650_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0651_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0652_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0653_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0654_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0655_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0656_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0657_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0658_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0659_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0660_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0661_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0662_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0663_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0664_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0665_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0666_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0667_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0668_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0669_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0670_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0671_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0672_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0673_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0674_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0675_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0676_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0677_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0678_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0679_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0680_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0681_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0682_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0683_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0684_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0685_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0686_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0687_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0688_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0689_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0690_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0691_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0692_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0693_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0694_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0695_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0696_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0697_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0698_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0699_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0700_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0701_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0702_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0703_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0704_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0705_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0706_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0707_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0708_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0709_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0710_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0711_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0712_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0713_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0714_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0715_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0716_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0717_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0718_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0719_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0720_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0721_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0722_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0723_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0724_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0725_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0726_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0727_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0728_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0729_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0730_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0731_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0732_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0733_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0734_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0735_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0736_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0737_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0738_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0739_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0740_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0741_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0742_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0743_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0744_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0745_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0746_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0747_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0748_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0749_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0750_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0751_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0752_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0753_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0754_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0755_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0756_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0757_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0758_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0759_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0760_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0761_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0762_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0763_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0764_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0765_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0766_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0767_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0768_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0769_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0770_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0771_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0772_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0773_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0774_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0775_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0776_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0777_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0778_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0779_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0780_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0781_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0782_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0783_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0784_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0785_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0786_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0787_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0788_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0789_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0790_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0791_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0792_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0793_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0794_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0795_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0796_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0797_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0798_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0799_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0800_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0801_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0802_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0803_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0804_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0805_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0806_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0807_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0808_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0809_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0810_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0811_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0812_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0813_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0814_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0815_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0816_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0817_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0818_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0819_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0820_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0821_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0822_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0823_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0824_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0825_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0826_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0827_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0828_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0829_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0830_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0831_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0832_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0833_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0834_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0835_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0836_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0837_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0838_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0839_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0840_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0841_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0842_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0843_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0844_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0845_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0846_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0847_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0848_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0849_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0850_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0851_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0852_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0853_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0854_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0855_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0856_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0857_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0858_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0859_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0860_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0861_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0862_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0863_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0864_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0865_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0866_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0867_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0868_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0869_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0870_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0871_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0872_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0873_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0874_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0875_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0876_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0877_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0878_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0879_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0880_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0881_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0882_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0883_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0884_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0885_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0886_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0887_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0888_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0889_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0890_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0891_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0892_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0893_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0894_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0895_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0896_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0897_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0898_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0899_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0900_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0901_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0902_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0903_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0904_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0905_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0906_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0907_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0908_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0909_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0910_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0911_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0912_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0913_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0914_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0915_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0916_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0917_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0918_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0919_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0920_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0921_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0922_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0923_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0924_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0925_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0926_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0927_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0928_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0929_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0930_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0931_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0932_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0933_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0934_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0935_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0936_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0937_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0938_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0939_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0940_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0941_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0942_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0943_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0944_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0945_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0946_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0947_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0948_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0949_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0950_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0951_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0952_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_0953_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0954_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0955_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0956_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0957_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0958_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0959_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0960_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0961_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0962_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0963_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0964_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0965_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0966_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0967_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0968_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0969_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0970_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0971_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0972_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0973_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0974_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0975_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0976_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0977_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0978_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0979_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0980_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0981_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0982_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0983_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0984_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0985_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0986_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0987_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0988_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0989_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0990_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0991_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0992_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0993_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0994_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0995_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0996_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0997_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_0998_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_0999_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1000_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1001_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1002_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1003_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1004_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1005_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1006_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1007_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1008_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1009_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1010_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1011_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1012_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1013_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1014_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1015_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1016_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1017_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1018_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1019_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1020_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1021_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1022_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1023_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1024_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1025_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1026_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1027_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1028_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1029_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1030_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1031_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1032_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1033_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1034_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1035_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1036_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1037_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1038_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1039_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1040_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1041_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1042_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1043_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1044_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1045_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1046_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1047_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1048_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1049_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1050_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1051_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1052_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1053_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1054_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1055_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1056_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1057_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1058_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1059_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1060_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1061_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1062_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1063_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1064_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1065_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1066_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1067_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1068_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1069_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1070_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1071_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1072_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1073_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1074_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1075_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1076_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1077_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1078_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1079_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1080_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1081_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1082_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1083_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1084_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1085_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1086_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1087_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1088_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1089_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1090_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1091_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1092_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1093_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1094_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1095_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1096_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1097_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1098_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1099_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1100_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1101_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1102_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1103_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1104_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1105_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1106_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1107_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1108_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1109_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1110_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1111_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1112_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1113_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1114_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1115_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1116_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1117_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1118_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1119_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1120_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1121_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1122_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1123_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1124_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1125_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1126_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1127_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1128_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1129_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1130_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1131_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1132_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1133_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1134_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1135_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1136_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1137_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1138_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1139_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1140_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1141_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1142_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1143_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1144_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1145_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1146_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1147_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1148_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1149_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1150_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1151_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1152_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1153_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1154_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1155_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1156_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1157_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1158_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1159_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1160_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1161_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1162_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1163_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1164_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1165_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1166_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1167_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1168_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1169_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1170_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1171_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1172_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1173_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1174_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1175_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1176_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1177_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1178_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1179_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1180_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1181_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1182_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1183_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1184_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1185_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1186_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1187_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1188_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1189_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1190_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1191_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1192_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1193_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1194_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1195_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1196_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1197_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1198_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1199_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1200_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1201_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1202_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1203_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1204_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1205_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1206_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1207_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1208_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1209_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1210_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1211_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1212_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1213_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1214_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1215_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1216_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1217_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1218_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1219_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1220_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1221_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1222_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1223_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1224_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1225_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1226_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1227_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1228_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1229_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1230_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1231_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1232_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1233_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1234_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1235_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1236_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1237_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1238_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1239_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1240_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1241_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1242_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1243_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1244_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1245_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1246_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1247_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1248_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1249_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1250_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1251_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1252_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1253_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1254_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1255_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1256_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1257_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1258_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1259_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1260_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1261_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1262_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1263_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1264_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1265_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1266_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1267_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1268_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1269_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1270_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1271_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1272_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1273_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1274_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1275_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1276_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1277_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1278_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1279_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1280_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1281_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1282_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1283_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1284_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1285_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1286_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1287_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1288_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1289_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1290_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1291_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1292_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1293_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1294_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1295_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1296_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1297_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1298_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1299_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1300_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1301_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1302_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1303_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1304_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1305_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1306_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1307_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1308_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1309_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1310_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1311_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1312_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1313_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1314_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1315_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1316_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1317_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1318_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1319_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1320_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1321_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1322_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1323_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1324_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1325_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1326_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1327_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1328_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1329_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1330_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1331_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1332_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1333_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1334_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1335_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1336_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1337_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1338_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1339_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1340_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1341_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1342_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1343_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1344_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1345_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1346_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1347_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1348_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1349_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1350_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1351_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1352_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1353_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1354_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1355_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1356_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1357_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1358_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1359_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1360_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1361_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1362_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1363_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1364_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1365_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1366_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1367_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1368_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1369_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1370_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1371_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1372_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1373_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1374_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1375_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1376_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1377_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1378_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1379_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1380_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1381_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1382_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1383_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1384_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1385_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1386_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1387_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1388_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1389_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1390_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1391_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1392_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1393_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1394_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1395_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1396_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1397_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1398_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1399_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1400_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1401_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1402_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1403_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1404_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1405_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1406_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1407_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1408_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1409_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1410_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1411_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1412_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1413_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1414_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1415_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1416_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1417_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1418_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1419_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1420_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1421_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1422_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1423_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1424_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1425_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1426_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1427_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1428_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1429_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1430_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1431_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1432_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1433_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1434_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1435_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1436_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1437_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1438_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1439_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1440_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1441_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1442_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1443_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1444_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1445_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1446_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1447_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1448_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1449_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1450_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1451_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1452_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1453_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1454_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1455_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1456_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1457_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1458_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1459_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1460_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1461_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1462_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1463_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1464_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1465_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1466_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1467_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1468_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1469_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1470_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1471_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1472_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1473_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1474_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1475_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1476_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1477_prompt",
+        "answer": "T"
+    },
+    {
+        "d_id": "Nat_1478_prompt",
+        "answer": "F"
+    },
+    {
+        "d_id": "Nat_1479_prompt",
+        "answer": "U"
+    },
+    {
+        "d_id": "Nat_1480_prompt",
+        "answer": "F"
     }
 ]
