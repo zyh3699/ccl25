@@ -6,7 +6,7 @@ import re
 
 # --- 配置 ---
 INPUT_FILE = '../Sample_Set/ArtS_20250325.json' #自然语料库，可以改成人工的
-OUTPUT_FILE = 'predictions.json'
+OUTPUT_FILE = '../output/predictions_vote.json'
 OLLAMA_MODEL = 'qwen2:7b'
 
 # 获取脚本所在的目录
