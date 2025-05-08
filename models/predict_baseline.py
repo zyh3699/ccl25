@@ -5,7 +5,7 @@ import os
 import re 
 
 # --- 配置 ---
-INPUT_FILE = '../Sample_Set/ArtS_20250325.json' #自然语料库，可以改成人工的
+INPUT_FILE = '../Sample_Set/NatS_20250407.json' #自然语料库，可以改成人工的
 OUTPUT_FILE = '../output/predictions_baseline.json'
 OLLAMA_MODEL = 'qwen2:7b'
 

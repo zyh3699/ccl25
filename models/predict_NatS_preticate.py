@@ -7,7 +7,7 @@ import re
 # --- 配置 ---
 INPUT_FILE = '../Sample_Set/Nat_20250430_prompt.json' #自然语料库，可以改成人工的
 OUTPUT_FILE = '../output/predictions_NatS.json'
-OLLAMA_MODEL = 'qwen2:7b'
+OLLAMA_MODEL = 'qwen3'
 
 # 获取脚本所在的目录
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -115,6 +115,9 @@ for item in tqdm(data, desc="Predicting"):
             {'role': 'user', 'content': prompt}
         ])
         answer_raw = response['message']['content'].strip()
+
+        # 过滤掉 <think>...</think> 之间的内容
+        answer_raw = re.sub(r'<think>.*?</think>', '', answer_raw, flags=re.DOTALL).strip()
 
         # --- 更鲁棒的答案解析逻辑 ---
         # 1. 尝试直接匹配单个大写字母 T/F/U/R
