@@ -5,7 +5,7 @@ import os
 import re 
 
 # --- 配置 ---
-INPUT_FILE = '../Sample_Set/ArtS_20250325.json' #自然语料库，可以改成人工的
+INPUT_FILE = '../Sample_Set/Art_20250430_FT.json' #自然语料库，可以改成人工的
 OUTPUT_FILE = '../output/predictions_ArtS_finetuned.json'
 OLLAMA_MODEL = 'qwen7b_lora_q4'
 
@@ -110,90 +110,90 @@ for item in tqdm(data, desc="Predicting"):
 
     results.append({'d_id': d_id, 'answer': predicted_answer})
 
-# --- 计算准确率 ---
-correct_count = 0
-t_f_u_prediction_count = 0 # 分母：模型做出了T/F/U预测的数量
-r_prediction_count = 0     # 模型预测为 R 的数量
-invalid_prediction_count = 0 # 模型回答无效的数量
-error_count = 0            # API调用错误数量
-missing_ground_truth = 0   # 缺少原始答案无法比对的数量
-errors_context = []
-if original_answers: # 只有当 original_answers 非空时（即处理的是样例集）才计算准确率
-    print("\n正在计算准确率（基于样例集）...")
-    for result in results:
-        d_id = result['d_id']
-        predicted_answer = result['answer']
-        ground_truth = original_answers.get(d_id)
+# # --- 计算准确率 ---
+# correct_count = 0
+# t_f_u_prediction_count = 0 # 分母：模型做出了T/F/U预测的数量
+# r_prediction_count = 0     # 模型预测为 R 的数量
+# invalid_prediction_count = 0 # 模型回答无效的数量
+# error_count = 0            # API调用错误数量
+# missing_ground_truth = 0   # 缺少原始答案无法比对的数量
+# errors_context = []
+# if original_answers: # 只有当 original_answers 非空时（即处理的是样例集）才计算准确率
+#     print("\n正在计算准确率（基于样例集）...")
+#     for result in results:
+#         d_id = result['d_id']
+#         predicted_answer = result['answer']
+#         ground_truth = original_answers.get(d_id)
 
-        if ground_truth is None:
-            missing_ground_truth += 1
-            continue # 无法比较
+#         if ground_truth is None:
+#             missing_ground_truth += 1
+#             continue # 无法比较
 
-        if predicted_answer == 'Error':
-            error_count += 1
-            continue
-        elif predicted_answer == 'Invalid':
-            invalid_prediction_count += 1
-            continue
-        elif predicted_answer == 'R':
-            r_prediction_count +=1
-            # R 是否算对，取决于评测标准，这里我们先只统计 R 的数量
-            # 如果需要将 R 算入准确率（即模型正确地拒绝回答）
-            # if ground_truth == 'R':
-            #     correct_count += 1
-            #     t_f_u_r_prediction_count += 1 # 假设 R 也算有效预测
-            # continue
-        elif predicted_answer in ['T', 'F', 'U']:
-             t_f_u_prediction_count += 1
-             if predicted_answer == ground_truth:
-                 correct_count += 1
-             else:
-                # 记录预测错误的上下文
-                errors_context.append({
-                    "d_id": d_id,
-                    "text": next((item['text'] for item in data if item['d_id'] == d_id), "N/A"),
-                    "hypothesis": next((item['hypothesis'] for item in data if item['d_id'] == d_id), "N/A"),
-                    "predicted_answer": predicted_answer,
-                    "ground_truth": ground_truth
-                })
+#         if predicted_answer == 'Error':
+#             error_count += 1
+#             continue
+#         elif predicted_answer == 'Invalid':
+#             invalid_prediction_count += 1
+#             continue
+#         elif predicted_answer == 'R':
+#             r_prediction_count +=1
+#             # R 是否算对，取决于评测标准，这里我们先只统计 R 的数量
+#             # 如果需要将 R 算入准确率（即模型正确地拒绝回答）
+#             # if ground_truth == 'R':
+#             #     correct_count += 1
+#             #     t_f_u_r_prediction_count += 1 # 假设 R 也算有效预测
+#             # continue
+#         elif predicted_answer in ['T', 'F', 'U']:
+#              t_f_u_prediction_count += 1
+#              if predicted_answer == ground_truth:
+#                  correct_count += 1
+#              else:
+#                 # 记录预测错误的上下文
+#                 errors_context.append({
+#                     "d_id": d_id,
+#                     "text": next((item['text'] for item in data if item['d_id'] == d_id), "N/A"),
+#                     "hypothesis": next((item['hypothesis'] for item in data if item['d_id'] == d_id), "N/A"),
+#                     "predicted_answer": predicted_answer,
+#                     "ground_truth": ground_truth
+#                 })
 
-    if errors_context:
-        print("\n--- 预测错误的上下文 ---")
-        for error in errors_context:
-            print(f"d_id: {error['d_id']}")
-            print(f"背景句: {error['text']}")
-            print(f"结论句: {error['hypothesis']}")
-            print(f"模型预测: {error['predicted_answer']}")
-            print(f"真实答案: {error['ground_truth']}")
-            print("-" * 50)
+#     if errors_context:
+#         print("\n--- 预测错误的上下文 ---")
+#         for error in errors_context:
+#             print(f"d_id: {error['d_id']}")
+#             print(f"背景句: {error['text']}")
+#             print(f"结论句: {error['hypothesis']}")
+#             print(f"模型预测: {error['predicted_answer']}")
+#             print(f"真实答案: {error['ground_truth']}")
+#             print("-" * 50)
            
 
-    # 计算准确率（分母为 T/F/U 的预测总数）
-    accuracy = (correct_count / t_f_u_prediction_count) * 100 if t_f_u_prediction_count > 0 else 0
+#     # 计算准确率（分母为 T/F/U 的预测总数）
+#     accuracy = (correct_count / t_f_u_prediction_count) * 100 if t_f_u_prediction_count > 0 else 0
 
-    print(f"\n--- 准确率统计 (基于样例集) ---")
-    print(f"总记录数: {len(data)}")
-    print(f"处理记录数: {len(results)}")
-    print(f"缺少原始答案的记录数: {missing_ground_truth}")
-    print(f"API 调用错误数: {error_count}")
-    print(f"模型回答无效数 (Invalid): {invalid_prediction_count}")
-    print(f"模型预测为拒绝回答数 (R): {r_prediction_count}")
-    print(f"模型做出 T/F/U 预测总数: {t_f_u_prediction_count}")
-    print(f"其中正确预测数 (T/F/U): {correct_count}")
-    print(f"准确率 (Correct T/F/U / Total T/F/U Predictions): {accuracy:.2f}%")
-else:
-    print("\n未找到原始答案（可能处理的是测试集），跳过准确率计算。")
-    print(f"--- 预测统计 ---")
-    error_count = sum(1 for r in results if r['answer'] == 'Error')
-    invalid_prediction_count = sum(1 for r in results if r['answer'] == 'Invalid')
-    r_prediction_count = sum(1 for r in results if r['answer'] == 'R')
-    t_f_u_prediction_count = sum(1 for r in results if r['answer'] in ['T', 'F', 'U'])
-    print(f"总记录数: {len(data)}")
-    print(f"处理记录数: {len(results)}")
-    print(f"API 调用错误数: {error_count}")
-    print(f"模型回答无效数 (Invalid): {invalid_prediction_count}")
-    print(f"模型预测为拒绝回答数 (R): {r_prediction_count}")
-    print(f"模型做出 T/F/U 预测总数: {t_f_u_prediction_count}")
+#     print(f"\n--- 准确率统计 (基于样例集) ---")
+#     print(f"总记录数: {len(data)}")
+#     print(f"处理记录数: {len(results)}")
+#     print(f"缺少原始答案的记录数: {missing_ground_truth}")
+#     print(f"API 调用错误数: {error_count}")
+#     print(f"模型回答无效数 (Invalid): {invalid_prediction_count}")
+#     print(f"模型预测为拒绝回答数 (R): {r_prediction_count}")
+#     print(f"模型做出 T/F/U 预测总数: {t_f_u_prediction_count}")
+#     print(f"其中正确预测数 (T/F/U): {correct_count}")
+#     print(f"准确率 (Correct T/F/U / Total T/F/U Predictions): {accuracy:.2f}%")
+# else:
+#     print("\n未找到原始答案（可能处理的是测试集），跳过准确率计算。")
+#     print(f"--- 预测统计 ---")
+#     error_count = sum(1 for r in results if r['answer'] == 'Error')
+#     invalid_prediction_count = sum(1 for r in results if r['answer'] == 'Invalid')
+#     r_prediction_count = sum(1 for r in results if r['answer'] == 'R')
+#     t_f_u_prediction_count = sum(1 for r in results if r['answer'] in ['T', 'F', 'U'])
+#     print(f"总记录数: {len(data)}")
+#     print(f"处理记录数: {len(results)}")
+#     print(f"API 调用错误数: {error_count}")
+#     print(f"模型回答无效数 (Invalid): {invalid_prediction_count}")
+#     print(f"模型预测为拒绝回答数 (R): {r_prediction_count}")
+#     print(f"模型做出 T/F/U 预测总数: {t_f_u_prediction_count}")
 
 
 # --- 保存结果 ---
