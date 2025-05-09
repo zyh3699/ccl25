@@ -3,11 +3,11 @@ import ollama
 from tqdm import tqdm
 import os
 import re 
-
+import random
 # --- 配置 ---
 INPUT_FILE = '../Sample_Set/NatS_20250407.json' #自然语料库，可以改成人工的
 OUTPUT_FILE = '../output/predictions_baseline.json'
-OLLAMA_MODEL = 'qwen2:7b'
+OLLAMA_MODEL = 'qwen3'
 
 # 获取脚本所在的目录
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -29,7 +29,15 @@ except Exception as e:
     print(f"加载文件时发生未知错误: {e}")
     exit()
 
-
+if len(data) > 30:
+    print(f"从 {len(data)} 条记录中随机抽取 30 条进行评测...")
+    data = random.sample(data, 30)
+    print(f"已抽取 30 条数据。")
+elif len(data) > 0:
+    print(f"数据记录总数 ({len(data)}) 不足或等于 30 条，将处理所有数据...")
+else:
+    print("错误：数据集中没有记录可供处理。")
+    exit()
 # --- 初始化 ---
 try:
     client = ollama.Client()

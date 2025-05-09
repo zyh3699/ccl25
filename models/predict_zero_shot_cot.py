@@ -5,9 +5,9 @@ import os
 import re 
 
 # --- 配置 ---
-INPUT_FILE = '../Sample_Set/Nat_20250430_prompt.json' #自然语料库，可以改成人工的
+INPUT_FILE = '../Sample_Set/NatS_20250407.json' #自然语料库，可以改成人工的
 OUTPUT_FILE = '../output/predictions_NatS.json'
-OLLAMA_MODEL = 'qwen3'
+OLLAMA_MODEL = 'deepseek-r1'
 
 # 获取脚本所在的目录
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
