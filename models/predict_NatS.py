@@ -1,13 +1,22 @@
 import json
-import ollama
+# import ollama # 移除 ollama
+import google.generativeai as genai # 导入 Gemini SDK
 from tqdm import tqdm
 import os
-import re 
+import re
 
 # --- 配置 ---
 INPUT_FILE = '../Sample_Set/NatS_20250407.json' #自然语料库，可以改成人工的
 OUTPUT_FILE = '../output/predictions_NatS.json'
-OLLAMA_MODEL = 'qwen2:7b'
+# OLLAMA_MODEL = 'qwen2:1.5b' # 移除 Ollama 模型配置
+
+# Gemini API 配置
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
+GEMINI_MODEL_NAME = 'gemini-2.5-pro-exp-03-25' # 您可以根据需要更改为其他 Gemini 模型，例如 'gemini-1.5-flash-latest'
+
+if not GEMINI_API_KEY:
+    print("错误：GEMINI_API_KEY 环境变量未设置。请设置该变量后重试。")
+    exit()
 
 # 获取脚本所在的目录
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -30,241 +39,233 @@ except Exception as e:
     exit()
 
 
-# --- 初始化 ---
+# --- 初始化 Gemini API ---
 try:
-    client = ollama.Client()
-    # 检查模型是否存在 (ollama python库本身不直接提供检查特定模型的功能，但调用 list 可以间接确认服务)
-    client.list()
-    print(f"Ollama 客户端初始化成功，将使用模型: {OLLAMA_MODEL}")
+    genai.configure(api_key=GEMINI_API_KEY)
+    model = genai.GenerativeModel(
+        GEMINI_MODEL_NAME,
+        generation_config=genai.types.GenerationConfig(
+            temperature=0.2 #较低的温度有助于分类任务获得更一致的输出
+        )
+        # 您可以在此处添加 safety_settings 如果需要调整安全级别
+        # safety_settings=[
+        #     {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
+        #     {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
+        #     {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
+        #     {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
+        # ]
+    )
+    print(f"Gemini API 初始化成功，将使用模型: {GEMINI_MODEL_NAME}")
 except Exception as e:
-    print(f"错误：无法连接到 Ollama 或初始化客户端: {e}")
-    print(f"请确保 Ollama 服务正在运行并且模型 '{OLLAMA_MODEL}' 可用。")
+    print(f"错误：无法初始化 Gemini API 或模型: {e}")
     exit()
 
 # --- 提示词模板 ---
 PROMPT_TEMPLATE = """
 
-# 任务：叙实性判断 (必须输出 T 或 F, 除非绝对无法判断)
-
-## 指令
-仔细阅读“背景句”和“结论句”。
-**你的唯一任务是判断“结论句”的真实性，并且必须从 'T', 'F', 'U' 三个选项中给出一个。**
-**严格依据“背景句”进行判断。**
-
-**请严格按以下步骤分析：**
-## 一、核心推理原则
-
-### 1. 谓词类型判定（强化识别例外）
-- **假性谓词**：**暗示所述内容为虚构或不真实的指控**  
-  典型词：**诬陷、污蔑、谎称、捏造、反咬、嫁祸、妄称**  
-   **处理规则**：结论**否定指控内容** → **T**  
-  **错误警示**：如背景使用“污蔑、诬陷”等假性词，**但结论确认了指控内容（如“确实是娼妓出身”）→ 必为 F**
-
-- **真性谓词**：**对某内容表示确认、证实、认定为真**  
-  典型词：**确认、证实、承认、清楚、检测显示、听出、看到**  
-  处理规则：结论**肯定该内容** → **T**；否定 → **F**  
-
-- **中性谓词**：**表达推测、个人观点、误认**  
-  典型词：**以为、认为、怀疑、以为是、有人说、声称**  
-  处理规则：**结论肯定该内容 → 默认 F**，除非背景中有独立佐证。  
-  结论否定该内容 → 默认 F，除非有明确证据支持  
-  **误区警示**：不要将“以为”当作真性谓词处理！
-
-### 2. 否定穿透与双重否定规则
-- “确认/清楚/听出 + 否定内容” → 实为**肯定否定事实**
-  - 例：背景“听出他是韩国孩子” → 他是韩国孩子（= T）
-- **结论双重否定处理：**
-  - 奇数个否定 → 表示否定  
-  - 偶数个否定 → 表示肯定  
-  - 必须**转为肯定/否定语义后再进行匹配**。
+好的，基于我们之前的讨论和所有样例的学习，如果我现在要重写一个更完善、更细致的提示词模板，我会尝试包含以下方面：
 
 ---
 
-## 二、事实提取与重述模板
+## **任务：精细化叙实性判断 (输出 T, F, U)**
 
-| 类型 | 背景句关键词 | 实际事实（应提取为） |
-|------|---------------|----------------------|
-| 误判 | “听出是韩国孩子” | 是韩国孩子（真性谓词确认） |
-| 误判 | “我讥讽她，她说我尖酸刻薄” | 我讥讽她（真性谓词确认） |
-| 误判 | “污蔑她们是娼妓” | 她们不是娼妓（假性谓词） |
-| 正确 | “诬陷我撞了他” | 我没撞他（假性谓词） |
-| 正确 | “以为她丈夫以她为中心” | 是否以她为中心 = 未确认（中性）→ 任何结论都为 F |
+### **最高指令：**
+你将获得三项信息：**背景句 (P)**、**结论句 (H)**、**谓词 (V)**。
+你的核心任务是：**严格依据背景句(P)提供的信息，判断结论句(H)的真实性。谓词(V)是帮助你定位P中关键信息和说话者态度的线索。**
+请进行详细的逻辑推理，并最终输出 T（真）、F（假）或 U（无法判断）。
 
 ---
 
-## 三、关键判断模板（错误纠正类）
+### **一、核心推理框架**
 
-- 背景：“听出他是韩国孩子”  
-  错误结论：“他不是韩国孩子” → **F**（听出 = 真性谓词）
+1.  **理解谓词 (V) 的性质及其对背景句中目标陈述 (S) 真实性的暗示：**
+    *   在背景句(P)中，谓词(V)通常会引出或关联一个目标陈述或事件，我们称之为 **S**。
+    *   你的首要任务是判断 **S 在背景句(P)的语境下是真是假，还是不确定**。
 
-- 背景：“诬陷我撞了他”  
-  正确结论：“我没撞他” → **T**（诬陷 = 假性谓词）
+2.  **谓词分类与S的真实性判断：**
 
-- 背景：“她以为写书的都是圣人君子”  
-  任意结论：“写书的都是 / 不是 圣人君子” → **U**（中性谓词 + 无佐证）
+    *   **A. 强事实性谓词 (Strongly Factive Predicates):**
+        *   **示例:** 看见、发现、知道、意识到、清楚、听出、证实、目睹、揭露、获悉、披露、记得（某事发生）、（正确）猜到、领悟到、注意到、承认（事实）。
+        *   **规则:** 这类谓词强烈预设其关联的 **S** 在背景句(P)的语境下为 **真 (TRUE)**。
+        *   *即使P中对这类谓词本身进行了否定（如“他没有意识到S”），S（如“他错了”）通常仍然被预设为 TRUE。特别注意这种结构。*
 
-- 背景：“以为她丈夫以她为中心”  
-  任意结论：“丈夫确实以 / 不以她为中心” → **F**（观点表达，无证据）
+    *   **B. 强反事实性谓词 (Strongly Counter-factive Predicates):**
+        *   **示例:** 谎称、假装、幻想、污蔑、诬陷、妄称。
+        *   **规则:** 这类谓词强烈暗示其关联的 **S** 在背景句(P)的语境下为 **假 (FALSE)**。
 
----
-## 常见陷阱识别与规则（关键）
+    *   **C. 主观/非事实性/弱指示性谓词 (Subjective/Non-factive/Weakly Indicative Predicates):**
+        *   **示例:**
+            *   **表达观点/主张/信念:** 认为、声称、表示、说、主张、相信、声明、重申、感觉（到）、以为、估计、猜、猜测、怀疑、指责、批评、抱怨、埋怨、哀叹、感叹、吹嘘。
+            *   **表达情感/态度（S的真实性常依赖说话者主观感受或未经验证的判断）:** 后悔（某事发生为真，但后悔的情感是主观的）、羡慕（被羡慕的对象状态通常为真，但羡慕本身是主观的）。
+        *   **规则:**
+            *   **默认情况:** 这类谓词引导的 **S** 的真实性**本身是不确定的 (UNCERTAIN)**，它仅仅是某人的言论、观点、猜测、情感或未经验证的断言。
+            *   **重要例外与细化：**
+                *   **"以为A，但/却/后来发现/实际上是B"结构：** 此结构中，A通常被视为说话者曾经的错误认知（**S<sub>A</sub> 为 FALSE**），而B是修正后的正确认知（**S<sub>B</sub> 为 TRUE**）。
+                *   **"后悔"：** "后悔做了S" 或 "后悔没做S"。 "做了S" 或 "没做S" 本身是 **TRUE** 的。结论句如果是关于S是否发生，则为T/F。如果结论句是关于后悔这种情感本身，则可能为U。
+                *   **"羡慕"：** "羡慕X拥有Y"。 "X拥有Y" 通常在语境中是 **TRUE** 的。
+                *   **"哀叹/抱怨/批评/指责S"：** S的真实性**高度依赖上下文**。
+                    *   如果P中仅提到某人哀叹/抱怨/批评S，而无其他佐证，则S的真实性为 **UNCERTAIN**。
+                    *   如果P中有其他信息强烈暗示S是基于事实的（如`Nat_0001`），则S可能为 **TRUE**。
+                    *   如果P中有信息反驳S，则S可能为 **FALSE** 或 **UNCERTAIN**。
+                *   **"感觉/觉察出/觉出/觉得/觉着S"：**
+                    *   如果S描述的是**客观可验证的事实或状态**，并且P中没有转折或否定，那么S通常被认为是说话者在P语境下的真实感知，S可视为 **TRUE**。
+                    *   如果S描述的是**纯粹的主观感受或不确定的推断**（如“他感觉会下雨”），则S的真实性是 **UNCERTAIN**。
+                *   **"怀疑S"：** S的真实性为 **UNCERTAIN**。除非背景句明确证实或证伪了怀疑的内容。
+                *   **"承认S"：** 如果是“承认（某个事实或错误）”，则S为 **TRUE**。
+                *   **"听说"：** 引导的S真实性为 **UNCERTAIN**，除非P中有其他信息证实。
+                *   **"声言/声明"：** 引导的S真实性为 **UNCERTAIN**，除非P中有其他信息证实。
 
-###  1. 误认误解类表达，一律标为 F
+3.  **比较S的真实性与结论句(H)：**
 
-若背景中出现：**以为、误以为、误把……当成……、误解、还以为、看错了、把……错当成……** 等词汇：
+    *   **如果 S 被判定为 TRUE：**
+        *   若 H **肯定或等同于 S** (或其逻辑推论) -> 输出 **T**。
+        *   若 H **否定或与 S 矛盾** -> 输出 **F**。
 
-- 说明背景表达的是**错误认知，不是真相本身**。
-- 若结论 **肯定** 这种错误认知 → 判 `F`
-- 若结论 **否定** 它，但背景没明说正确事实 → 判 `F` 或 `U`
+    *   **如果 S 被判定为 FALSE：**
+        *   若 H **肯定或等同于 S** (即声称这个虚假的事情是真的) -> 输出 **F**。
+        *   若 H **否定或与 S 矛盾** (即声称这个虚假的事情是假的，从而陈述了事实) -> 输出 **T**。
 
-**示例：**
-
-| 背景 | 结论 | 标签 |
-|-------|--------|-------|
-| 他以为敌人投降了 | 敌人确实投降了 | `F` |
-| 他们误把警察当成劫匪 | 警察确实是劫匪 | `F` |
-| 他还以为那是她的男朋友 | 那个确实是她的男朋友 | `F` |
-
----
-
-###  2. 中性表达 ≠ 事实支撑，一律标 F 或 U
-
-出现词汇如：**羡慕、以为、觉得、笔者认为、我希望、令人感到、或许、怀疑** 等主观情绪/判断/建议：
-
-- 它们不构成事实证据。
-- 若结论句使用 “确实是/确实不是” 等确定性判断 → 属于过度推断 → 判 `F`
-
-**示例：**
-
-| 背景 | 结论 | 标签 |
-|-------|--------|-------|
-| 她说她羡慕别人的丈夫体贴 | 她丈夫确实很体贴 | `F` |
-| 笔者认为这是最优选择 | 确实是最优选择 | `F` |
-
----
-
-###  3. 未见 ≠ 不存在，一律标 U
-
-背景中出现有限经验判断（**“未遇见”、“没听说”、“尚未发现”、“目前还没有”** 等）：
-
-- 不代表客观事实。
-- 若结论为 “确实不存在/没有发生” → 过度推断 → 判 `U`
-
-**示例：**
-
-| 背景 | 结论 | 标签 |
-|-------|--------|-------|
-| 我从没遇见有人能做到这点 | 确实没人能做到 | `U` |
-| 我没听说过这种情况 | 这种情况确实没发生 | `U` |
+    *   **如果 S 被判定为 UNCERTAIN：**
+        *   若 H 是关于 S 本身的真实性判断 -> 输出 **U**。
+        *   若 H 是关于说话者是否持有该观点/情感（且P中明确表达了），则可能为T，但这通常不是本任务的考察点。**主要关注S的真实性。**
 
 ---
 
-###  4. 反转型表达需取反理解
+### **二、重要注意事项与启发式规则**
 
-出现词汇如：**诬陷、污蔑、谣传、误解、假装** 等反向表达：
+1.  **严格依赖背景句(P)：** 你的判断**唯一依据**是背景句提供的信息。不要引入外部知识或个人推断。如果背景句没有明确说明或强烈暗示，则无法判断。
 
-- 表明原本判断是错的，要从反向理解。
-- 若结论错把反转认知当作真相 → 判 `F`
+2.  **关注否定词与转折词：**
+    *   P或H中的“不”、“没有”、“未”等否定词会反转判断。
+    *   P中的“但是”、“然而”、“却”、“实际上”、“后来才发现”等转折词往往引出与前述内容相反或修正的事实。
 
-**示例：**
+3.  **“U”的倾向性：** 对于主观/非事实性谓词引导的S，除非背景句有**明确的、独立的佐证信息**来证实或证伪S，否则**倾向于输出U**。仅仅是某人的“认为”、“感觉”、“声称”、“抱怨”等，不足以将其内容S判定为T或F。
 
-| 背景 | 结论 | 标签 |
-|-------|--------|-------|
-| 他被诬陷为间谍 | 他确实是间谍 | `F` |
-| 她被误解为冷漠 | 她确实冷漠 | `F` |
+4.  **聚焦核心事件：** 结论句(H)可能只涉及目标陈述(S)的一部分。确保你判断的是H所指的具体内容。
+
+5.  **区分“事件本身”与“对事件的描述/态度”：**
+    *   例如：“他后悔<ins>打了人</ins>。” -> “打了人”是事实(T)。“他是否真的后悔”可能是U（除非背景句有更多信息）。
+    *   本任务通常是判断“打了人”这个事件的真实性。
+
+6.  **考虑句式和语气：**
+    *   疑问句或反问句引导的内容，其真实性需要结合上下文判断。
+    *   “难道...不...吗？”通常暗示肯定。
+    *   “无非是”、“只不过是”等可能削弱或限定其后内容的强度。
+
+7.  **处理复杂句：** 如果S本身包含多个子句或条件，确保H与P中S的对应部分完全匹配或逻辑一致/矛盾。
+
+8.  **从样例中学习细微差别：** 不同的主观/非事实性谓词在实际语境中，其引导S为U的强度可能不同。通过分析大量样例，可以更好地把握这种细微差别。例如，虽然“哀叹”通常引导U，但在特定强上下文中（如`Nat_0001`），其引导的内容可能更接近事实。**但如果没有强上下文佐证，保守给出U。**
 
 ---
 
-## 四、补充即时检验
+### **三、输出格式**
 
-在输出判断前，请完成以下 checklist：
-1. 背景中是否明确陈述了支持/否定结论的事实？
-2. 是否包含主观判断（如“以为”、“羡慕”、“我觉得”）？
-3. 是否出现误解/误认/误判类表达？
-4. 是否存在模糊性表述（如“可能”、“未见过”、“没听说”）？
-5. 是否存在反向判断（如“假装、误解、污蔑”）？是否取反处理？
+*   **仅输出 T, F, 或 U 中的一个字母。**
 
 ---
 
-    **判断原则：**
-    1.  严格按照文本推理的步骤进行分析。
-    2.  分析背景句中的关键谓词（动词/形容词）。
-    3.  必须进行常见陷阱识别与规则应用。
-    4.  **尽可能做出 T 或 F 的判断：** 即使线索不完全充分，也要根据谓词的典型含义或背景句中最可能的暗示做出 T 或 F 的判断。
-    5.  **不要输出 R 或其他任何文字。** 你的回答 **只能是 T, F, 或 U 中的一个字母**。
-    ## 输入
-
-    背景句：{text}
-    结论句：{hypothesis}
-
-    ## 最终判断 (请仅输出 T, F, 或 U):
-    """
+**现在，请基于以上更精细的规则，重新评估所有输入并给出判断。**
+**一步步进行推理，不要输出 R 或其他任何文字。**
+""" # 提示词模板结束
 
 # --- 预测 ---
 results = []
-original_answers = {} 
-print(f"使用模型 '{OLLAMA_MODEL}' 处理 {len(data)} 条记录...")
-
+original_answers = {}
+print(f"使用模型 '{GEMINI_MODEL_NAME}' 处理 {len(data)} 条记录...")
 for item in tqdm(data, desc="Predicting"):
     d_id = item.get('d_id')
-    text = item.get('text')
-    hypothesis = item.get('hypothesis')
+    text = item.get('text') # 背景句 P
+    hypothesis = item.get('hypothesis') # 结论句 H
+    predicate_val = item.get('predicate', "N/A") # 谓词 V, 如果没有则为 N/A
 
-    # 从样例集中获取原始答案用于后续计算准确率
     ground_truth = item.get('answer')
 
     if d_id is None or text is None or hypothesis is None:
         print(f"警告：跳过缺少 'd_id', 'text', 或 'hypothesis' 的记录: {item}")
+        results.append({'d_id': d_id, 'answer': 'Error_Missing_Data'})
         continue
 
-    # 存储原始答案
     if ground_truth is not None:
-         original_answers[d_id] = ground_truth
+        original_answers[d_id] = ground_truth
 
-    # 可以选择性地在这里包含 predicate 和 type (如果需要)
-    # predicate = item.get('predicate')
-    # factivity_type = item.get('type')
-    # prompt = PROMPT_TEMPLATE.format(text=text, hypothesis=hypothesis, predicate=predicate, type=factivity_type) # 如果模板包含这些字段
+    # 构建完整的提示，将实际数据附加到指令模板后
+    full_prompt = f"""{PROMPT_TEMPLATE}
 
-    prompt = PROMPT_TEMPLATE.format(text=text, hypothesis=hypothesis)
+---
+**请根据以上规则，对以下内容进行判断：**
 
-    predicted_answer = 'Error' # 默认值以防 API 调用失败
+背景句 (P): {text}
+结论句 (H): {hypothesis}
+谓词 (V): {predicate_val}
+---
+**你的判断 (仅输出 T, F, 或 U):**
+"""
+
+    predicted_answer = 'Error' # 默认值，以防 API 调用或解析失败
     try:
-        response = client.chat(model=OLLAMA_MODEL, messages=[
-            {'role': 'user', 'content': prompt}
-        ])
-        answer_raw = response['message']['content'].strip()
+        gemini_response = model.generate_content(full_prompt)
+        
+        answer_raw = ""
+        
+        # 检查是否有即时阻塞 (prompt_feedback)
+        if gemini_response.prompt_feedback and gemini_response.prompt_feedback.block_reason:
+            block_reason_name = gemini_response.prompt_feedback.block_reason.name if hasattr(gemini_response.prompt_feedback.block_reason, 'name') else str(gemini_response.prompt_feedback.block_reason)
+            block_reason_msg = gemini_response.prompt_feedback.block_reason_message or block_reason_name
+            print(f"警告：Gemini API 请求因 prompt_feedback 被阻止 (d_id: {d_id})。原因: {block_reason_msg}")
+            # predicted_answer 保持为 'Error'
+        
+        # 检查候选答案
+        elif gemini_response.candidates:
+            candidate = gemini_response.candidates[0]
+            is_safe_content = True
 
-        # --- 更鲁棒的答案解析逻辑 ---
-        # 1. 尝试直接匹配单个大写字母 T/F/U/R
-        if answer_raw in ['T', 'F', 'U', 'R']:
-            predicted_answer = answer_raw
-        else:
-            # 2. 尝试在回答的开头或结尾查找 T/F/U/R (忽略大小写)
-            #    使用正则表达式查找，优先匹配句首或句尾的单个字母
-            match = re.search(r"^[TFUR]\b|\b[TFUR]$", answer_raw, re.IGNORECASE)
-            if match:
-                 predicted_answer = match.group(0).upper()
-            else:
-                # 3. 如果上面都找不到，可能模型没有按要求回答
-                print(f"警告：无法从模型响应中明确解析出 T/F/U/R (d_id: {d_id}): '{answer_raw}'. 标记为 Invalid。")
-                predicted_answer = 'Invalid' # 标记为无效回答
+            # 检查内容是否因安全原因被阻止
+            if candidate.finish_reason and hasattr(candidate.finish_reason, 'name') and candidate.finish_reason.name == "SAFETY":
+                is_safe_content = False
+                print(f"警告：Gemini API 内容因 SAFETY 被阻止 (d_id: {d_id}).")
+                if candidate.safety_ratings:
+                    for rating in candidate.safety_ratings:
+                        print(f"  - Category: {rating.category.name}, Probability: {rating.probability.name}")
+                # predicted_answer 保持为 'Error'
+
+            # 如果内容安全且存在，则提取文本
+            if is_safe_content and candidate.content and candidate.content.parts:
+                answer_raw = "".join(part.text for part in candidate.content.parts).strip()
+            
+            if answer_raw: # 如果成功获取到一些原始文本
+                if answer_raw in ['T', 'F', 'U', 'R']: # 直接匹配
+                    predicted_answer = answer_raw
+                else:
+                    # 尝试用正则从开头或结尾提取 T/F/U/R
+                    match = re.search(r"^[TFUR]\b|\b[TFUR]$", answer_raw, re.IGNORECASE)
+                    if match:
+                        predicted_answer = match.group(0).upper()
+                    else:
+                        print(f"警告：无法从模型响应 '{answer_raw}' 中明确解析出 T/F/U/R (d_id: {d_id}). 标记为 Invalid。")
+                        predicted_answer = 'Invalid' # 无法解析，标记为无效
+            elif is_safe_content and predicted_answer == 'Error': # 没有提取到文本，但内容是安全的
+                 print(f"警告：Gemini API 返回了空内容或无法提取文本 (d_id: {d_id}). Candidate finish_reason: {candidate.finish_reason.name if hasattr(candidate.finish_reason, 'name') else candidate.finish_reason}")
+                 # predicted_answer 保持为 'Error'
+
+        else: # Gemini API 没有返回候选答案
+            print(f"警告：Gemini API 未返回候选答案 (d_id: {d_id})。完整响应: {gemini_response}")
+            # predicted_answer 保持为 'Error'
 
     except Exception as e:
-        print(f"错误：调用 Ollama API 时出错 (d_id: {d_id}): {e}")
-        predicted_answer = 'Error' # 标记 API 调用错误
+        print(f"错误：调用 Gemini API 时发生异常 (d_id: {d_id}): {e}")
+        # predicted_answer 已经默认为 'Error'
 
     results.append({'d_id': d_id, 'answer': predicted_answer})
 
-# --- 计算准确率 ---
+# --- 计算准确率 --- (这部分代码保持不变)
 correct_count = 0
-t_f_u_prediction_count = 0 # 分母：模型做出了T/F/U预测的数量
-r_prediction_count = 0     # 模型预测为 R 的数量
-invalid_prediction_count = 0 # 模型回答无效的数量
-error_count = 0            # API调用错误数量
-missing_ground_truth = 0   # 缺少原始答案无法比对的数量
+t_f_u_prediction_count = 0 
+r_prediction_count = 0     
+invalid_prediction_count = 0 
+error_count = 0            
+missing_ground_truth = 0   
 errors_context = []
-if original_answers: # 只有当 original_answers 非空时（即处理的是样例集）才计算准确率
+if original_answers: 
     print("\n正在计算准确率（基于样例集）...")
     for result in results:
         d_id = result['d_id']
@@ -273,9 +274,9 @@ if original_answers: # 只有当 original_answers 非空时（即处理的是样
 
         if ground_truth is None:
             missing_ground_truth += 1
-            continue # 无法比较
+            continue 
 
-        if predicted_answer == 'Error':
+        if predicted_answer == 'Error' or predicted_answer == 'Error_Missing_Data': # 包含了数据缺失的错误
             error_count += 1
             continue
         elif predicted_answer == 'Invalid':
@@ -283,45 +284,38 @@ if original_answers: # 只有当 original_answers 非空时（即处理的是样
             continue
         elif predicted_answer == 'R':
             r_prediction_count +=1
-            # R 是否算对，取决于评测标准，这里我们先只统计 R 的数量
-            # 如果需要将 R 算入准确率（即模型正确地拒绝回答）
-            # if ground_truth == 'R':
-            #     correct_count += 1
-            #     t_f_u_r_prediction_count += 1 # 假设 R 也算有效预测
-            # continue
         elif predicted_answer in ['T', 'F', 'U']:
              t_f_u_prediction_count += 1
              if predicted_answer == ground_truth:
                  correct_count += 1
              else:
-                # 记录预测错误的上下文
                 errors_context.append({
                     "d_id": d_id,
-                    "text": next((item['text'] for item in data if item['d_id'] == d_id), "N/A"),
-                    "hypothesis": next((item['hypothesis'] for item in data if item['d_id'] == d_id), "N/A"),
+                    "text": next((item['text'] for item in data if item.get('d_id') == d_id), "N/A"),
+                    "hypothesis": next((item['hypothesis'] for item in data if item.get('d_id') == d_id), "N/A"),
+                    "predicate": next((item.get('predicate') for item in data if item.get('d_id') == d_id), "N/A"),
                     "predicted_answer": predicted_answer,
                     "ground_truth": ground_truth
                 })
 
     if errors_context:
         print("\n--- 预测错误的上下文 ---")
-        for error in errors_context:
-            print(f"d_id: {error['d_id']}")
-            print(f"背景句: {error['text']}")
-            print(f"结论句: {error['hypothesis']}")
-            print(f"模型预测: {error['predicted_answer']}")
-            print(f"真实答案: {error['ground_truth']}")
+        for error_item in errors_context: # Renamed 'error' to 'error_item' to avoid conflict
+            print(f"d_id: {error_item['d_id']}")
+            print(f"背景句: {error_item['text']}")
+            print(f"结论句: {error_item['hypothesis']}")
+            print(f"谓词: {error_item['predicate']}")
+            print(f"模型预测: {error_item['predicted_answer']}")
+            print(f"真实答案: {error_item['ground_truth']}")
             print("-" * 50)
            
-
-    # 计算准确率（分母为 T/F/U 的预测总数）
     accuracy = (correct_count / t_f_u_prediction_count) * 100 if t_f_u_prediction_count > 0 else 0
 
     print(f"\n--- 准确率统计 (基于样例集) ---")
     print(f"总记录数: {len(data)}")
     print(f"处理记录数: {len(results)}")
     print(f"缺少原始答案的记录数: {missing_ground_truth}")
-    print(f"API 调用错误数: {error_count}")
+    print(f"API 调用或数据错误数: {error_count}")
     print(f"模型回答无效数 (Invalid): {invalid_prediction_count}")
     print(f"模型预测为拒绝回答数 (R): {r_prediction_count}")
     print(f"模型做出 T/F/U 预测总数: {t_f_u_prediction_count}")
@@ -330,19 +324,18 @@ if original_answers: # 只有当 original_answers 非空时（即处理的是样
 else:
     print("\n未找到原始答案（可能处理的是测试集），跳过准确率计算。")
     print(f"--- 预测统计 ---")
-    error_count = sum(1 for r in results if r['answer'] == 'Error')
+    error_count = sum(1 for r in results if r['answer'] == 'Error' or r['answer'] == 'Error_Missing_Data')
     invalid_prediction_count = sum(1 for r in results if r['answer'] == 'Invalid')
     r_prediction_count = sum(1 for r in results if r['answer'] == 'R')
     t_f_u_prediction_count = sum(1 for r in results if r['answer'] in ['T', 'F', 'U'])
     print(f"总记录数: {len(data)}")
     print(f"处理记录数: {len(results)}")
-    print(f"API 调用错误数: {error_count}")
+    print(f"API 调用或数据错误数: {error_count}")
     print(f"模型回答无效数 (Invalid): {invalid_prediction_count}")
     print(f"模型预测为拒绝回答数 (R): {r_prediction_count}")
     print(f"模型做出 T/F/U 预测总数: {t_f_u_prediction_count}")
 
-
-# --- 保存结果 ---
+# --- 保存结果 --- (这部分代码保持不变)
 try:
     with open(OUTPUT_FILE_PATH, 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
@@ -351,6 +344,5 @@ except IOError as e:
     print(f"错误：无法写入输出文件 '{OUTPUT_FILE_PATH}': {e}")
 except Exception as e:
     print(f"保存文件时发生未知错误: {e}")
-
 
 print("处理完成。")
